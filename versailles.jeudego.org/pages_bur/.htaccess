@@ -1,0 +1,8 @@
+AuthName "Accès à la section réservée aux membres du bureau"
+AuthUserFile /home/web/versailles.jeudego.org/.htpasswd
+AuthGroupFile /dev/null
+AuthType Basic
+
+<LIMIT GET POST>
+require user vers_bur
+</LIMIT>

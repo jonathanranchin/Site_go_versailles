@@ -1,0 +1,293 @@
+BODY {
+	margin-right: 10px; 
+	margin-left: 10px;
+	margin-bottom: 5px; 
+	margin-top: 5px; 
+	FONT-FAMILY: verdana, arial, helvetica, sans-serif; 
+	background-color:#8cbb6e;
+}
+
+img { 
+/* règle le bug d'exploser qui ajoute des marges inutiles... ------------------------------------------------------------------------------------- */
+	display: block; 
+} 
+
+img.corps{ 
+/* encadrement des images. Pose visiblement un problème à exploser ... ------------------------------------------------------------------------------------- */
+	margin: 5px;
+	padding: 2px;
+	border-top:solid 2px #005f00;
+	border-right:solid 2px #005f00;
+	border-left:solid 1px #568b47;
+	border-bottom:solid 1px #568b47;
+	background-color:white;
+} 
+
+.prt{
+/* éléments à imprimer mais pas à afficher */
+	display:none
+}
+
+/* CSS du bandeau haut ------------------------------------------------------------------------------------- */
+#entete {
+	margin-right: 0px; 
+	margin-left: 0px;
+	margin-bottom: 10px; 
+	margin-top: 0px; 
+	background-color:black;
+}
+
+/* CSS du pavé Menu ------------------------------------------------------------------------------------- */
+#menu {
+	margin-bottom: 0px; 
+	margin-left: 0px; 
+	margin-top: 0px;
+	text-align: left;
+}
+
+#menu td.menu_bar_courante{
+	background-color:#005B00;
+	color:white;
+}
+
+#menu td.menu_bar{
+	background-color:#568b47; 
+	color:white;
+}
+
+#menu A {
+	display: block; /* Pour que le fond affiché en hover soit un rectangle */
+	width:150px;
+	font-size: 13px;
+	font-weight: bold; 
+	color: white; 
+	text-decoration: none;
+}
+
+#menu A:hover {
+	background: #008000;
+	color: #d9d8c4; 
+}
+
+/* Cette classe sert à la fois pour le titre des news et celui des blocs */
+.titre_gauche{
+	border-top:solid 1px #d0d0d0;
+	border-left:solid 2px #909090;
+	background-color:#eceada;
+	margin: 0px 0px 0px 0px; 
+	padding:5px 10px 0px 10px; 
+	font-weight: bold; 
+	color: #006000; 
+	font-size: 90%;
+}
+
+.titre_bloc{
+	margin: 0px; 
+	text-align: left;
+}
+
+/* CSS du pavé News ------------------------------------------------------------------------------------- */
+#news {
+	text-align:left;
+	FONT-SIZE: 90%; 
+	margin: 0px 0px 0px 0px; 
+	background-image:url(gauffre2.jpg);
+	border-top:solid 1px #d0d0d0;
+	border-right:solid 1px #d0d0d0;
+	border-left:solid 2px #909090;
+	border-bottom:solid 2px #909090;
+}
+
+#news .corps{
+	border:solid 1px #d0d0d0;
+	background-image:url(gauffre2.jpg);
+}
+
+#news LI {
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 0px; 
+	PADDING-TOP: 4px; 
+	PADDING-BOTTOM: 10px; 
+}
+
+#news A {
+	display : block;
+	width:120px;
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 100%; 
+	color: black; 
+	text-decoration: none;
+}
+
+#news A:hover {
+	background: #008000;
+	color: #d9d8c4; 
+	text-decoration: none;
+}
+
+.separation {
+	padding: 0px 0px 3px 0px ;  
+	margin: 0px 0px 3px 0px ; 
+	font-size:10%;
+}
+
+.lettrine {
+	float:left;
+	font-size:180%;
+	width:35px;
+	padding: 3px;  
+	margin: 3px 3px 0px 3px;  
+	text-align: center;
+	background-color:#005B00;
+	color:white
+}
+
+.lettrine_kanji {
+	float:left;
+	padding: 3px;  
+	margin: 3px 3px 0px 3px;  
+	border-top:solid 2px #005f00;
+	border-right:solid 2px #005f00;
+	border-left:solid 1px #568b47;
+	border-bottom:solid 1px #568b47;
+	background-color:white;
+}
+
+/* CSS des blocs du corps de texte ------------------------------------------------------------------------------------- */
+#corps {
+	background-color: transparent;
+	padding: 0px; 
+	margin: 0px; 
+}
+
+#corps .chiffonne {
+	padding: 0px 0px 0px 0px ;  
+	margin: 0px 0px 0px 0px ; 
+	background-image:url(chiffonne_per.gif);
+	border-top:solid 1px #d0d0d0;
+	border-right:solid 1px #d0d0d0;
+	border-left:solid 2px #909090;
+	border-bottom:solid 2px #909090;
+}
+
+#corps .gauffre {
+	background-image:url(gauffre2.jpg);
+	border-top:solid 1px #d0d0d0;
+	border-right:solid 1px #d0d0d0;
+	border-left:solid 2px #909090;
+	border-bottom:solid 2px #909090;
+}
+
+#corps .gauffre2 {
+	background-image:url(gauffre3.jpg);
+	border-top:solid 1px #d0d0d0;
+	border-right:solid 1px #d0d0d0;
+	border-left:solid 2px #909090;
+	border-bottom:solid 2px #909090;
+}
+
+#corps h1 {
+	margin: 0px 0px 0px 0px ; 
+	padding:5px 10px 0px 5px; 
+	text-align: left;
+	font-size: 95%;
+	font-style:italic;
+	color: #005f00;
+}
+
+#corps p{
+	margin: 0px 0px 0px 0px ; 
+	padding:0px 10px 0px 10px; 
+	text-align: justify;
+	FONT-SIZE: 80%;
+}
+
+#corps dd{
+	margin: 0px 0px 0px 0px ; 
+	padding:0px 10px 20px 30px; 
+	text-align: justify;
+	FONT-SIZE: 80%;
+}
+
+#corps dt{
+	margin: 0px 0px 0px 0px ; 
+	padding:0px 10px 0px 10px; 
+	text-align: justify;
+	FONT-SIZE: 80%;
+}
+
+#corps ul{
+	margin: 5px 5px 0px 25px ; 
+	padding:0px 0px 0px 0px; 
+}
+
+#corps li{
+	margin: 0px 0px 0px 0px ; 
+	padding:5px 0px 0px 0px; 
+	text-align: justify;
+	FONT-SIZE: 80%;
+}
+
+#corps table.tableau {
+	margin: 0 10px 0 10px;
+	padding: 0;
+	text-align: center;   
+	table-layout: fixed;
+}
+
+#corps th.tableau {
+	background-color:#568b47; 
+	color: #fff;
+	font-size: 75%;	
+	text-align: center;
+	font-weight: bold;
+	padding: 5px 0;
+}
+
+#corps td.tableau {
+	background-color: #dddacb;
+	color: #53553f;
+ 	font-size: 75%;
+	font-weight: normal;   
+	padding: 5px 0;
+}
+
+#corps A {
+	font-size: 100%; 
+	color: #005b00; 
+}
+
+#corps A:visited {
+	color: #2f007f; 
+}
+
+
+#corps A:hover {
+	background-color: #005b00; 
+	color: white; 
+	text-decoration: none;
+}
+
+/* Barre de fin de page ------------------------------------------------------------------------------------- */
+#bas_page {
+	font-size:8px; 
+	background-color:#005B00;
+	color:#d9d8c4;
+	width:100%;
+}
+
+/* Eviter le cadre disgrâcieux autour des pictogrammes */
+#bas_page .img {
+	color:#005B00;
+}
+
+#bas_page .txt {
+	font-size:10px; 
+	color:#d9d8c4;
+	text-decoration: none;
+}
+
+#bas_page A:hover {
+	background: #008000;
+	color: white;
+}

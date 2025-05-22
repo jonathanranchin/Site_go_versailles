@@ -1,0 +1,8 @@
+AuthName message
+AuthUserFile /home/web/versailles.jeudego.org/.htpasswd
+AuthGroupFile /dev/null
+AuthType Basic
+
+<LIMIT GET POST>
+require user vers_bur vers_mbr
+</LIMIT>
