@@ -7,13 +7,82 @@ BODY {
 	background-color:#8cbb6e;
 }
 
+h1{
+	margin:0.6em;
+	font-size: 2.2rem;
+	color: #005f00;
+	background: transparent;
+	text-shadow: 3px 2px 5px gray;
+}
+.no_prt {
+	border-radius: 35px;
+}
 img { 
-/* règle le bug d'exploser qui ajoute des marges inutiles... ------------------------------------------------------------------------------------- */
+/* rï¿½gle le bug d'exploser qui ajoute des marges inutiles... ------------------------------------------------------------------------------------- */
 	display: block; 
 } 
 
+main {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: stretch;
+	justify-content: space-evenly;
+	gap: 3px;
+}
+#flex_menu {
+	display: flex;
+	flex-flow: column nowrap;
+	gap:3px;
+	flex-grow: 1;
+}
+#flex_menu > div {
+	border-radius:35px;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	gap:2px;
+	width: 95%;
+	border: 2px solid;
+	padding: 3px;
+	margin-bottom: 0.2em;
+	background: #568b47; 
+}
+#flex_menu > div > a {
+	width: 70%;
+}
+#flex_menu > div :hover{
+	background : #005f00
+}
+#flex_menu > div > a {
+	color: white !important; 
+	text-decoration: none !important;
+}
+#flex_content {
+	display: flex;
+	flex-flow: column nowrap;
+	width: 80%;
+	flex-grow: 3;
+	flex-shrink: 3;
+}
+
+@media only screen and (max-width: 768px) {
+	main {
+		flex-flow: column nowrap;
+	}
+	#flex_menu {
+		flex-flow: row wrap;
+	}
+	#flex_content {
+		width:95%;
+	}
+	#flex_menu > div {
+		justify-content: center;
+		justify-content: space-evenly;
+	}
+}
+
 img.corps{ 
-/* encadrement des images. Pose visiblement un problème à exploser ... ------------------------------------------------------------------------------------- */
+/* encadrement des images. Pose visiblement un problï¿½me ï¿½ exploser ... ------------------------------------------------------------------------------------- */
 	margin: 5px;
 	padding: 2px;
 	border-top:solid 2px #005f00;
@@ -23,13 +92,18 @@ img.corps{
 	background-color:white;
 } 
 
+td > .no_prt {
+	border-radius: 0;
+}
 .prt{
-/* éléments à imprimer mais pas à afficher */
+/* ï¿½lï¿½ments ï¿½ imprimer mais pas ï¿½ afficher */
 	display:none
 }
 
 /* CSS du bandeau haut ------------------------------------------------------------------------------------- */
 #entete {
+	background: linear-gradient(90deg,rgba(255, 255, 255, 1) 0%, rgba(42, 46, 45, 1) 80%, rgba(0, 0, 0, 1) 100%);
+	border-radius: 35px;
 	margin-right: 0px; 
 	margin-left: 0px;
 	margin-bottom: 10px; 
@@ -37,7 +111,7 @@ img.corps{
 	background-color:black;
 }
 
-/* CSS du pavé Menu ------------------------------------------------------------------------------------- */
+/* CSS du pavï¿½ Menu ------------------------------------------------------------------------------------- */
 #menu {
 	margin-bottom: 0px; 
 	margin-left: 0px; 
@@ -56,7 +130,7 @@ img.corps{
 }
 
 #menu A {
-	display: block; /* Pour que le fond affiché en hover soit un rectangle */
+	display: block; /* Pour que le fond affichï¿½ en hover soit un rectangle */
 	width:150px;
 	font-size: 13px;
 	font-weight: bold; 
@@ -69,7 +143,7 @@ img.corps{
 	color: #d9d8c4; 
 }
 
-/* Cette classe sert à la fois pour le titre des news et celui des blocs */
+/* Cette classe sert ï¿½ la fois pour le titre des news et celui des blocs */
 .titre_gauche{
 	border-top:solid 1px #d0d0d0;
 	border-left:solid 2px #909090;
@@ -86,7 +160,7 @@ img.corps{
 	text-align: left;
 }
 
-/* CSS du pavé News ------------------------------------------------------------------------------------- */
+/* CSS du pavï¿½ News ------------------------------------------------------------------------------------- */
 #news {
 	text-align:left;
 	FONT-SIZE: 90%; 
@@ -276,7 +350,7 @@ img.corps{
 	width:100%;
 }
 
-/* Eviter le cadre disgrâcieux autour des pictogrammes */
+/* Eviter le cadre disgrï¿½cieux autour des pictogrammes */
 #bas_page .img {
 	color:#005B00;
 }
