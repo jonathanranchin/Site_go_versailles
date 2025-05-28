@@ -291,6 +291,12 @@ h2 {
 	border-bottom:solid 2px #909090;
 }
 
+.flex_column {
+	display: flex;
+	flex-flow: column nowrap !important;
+	padding: 5px 10px 0px 10px;
+}
+
 #corps h1 {
 	margin: 0px 0px 0px 0px ; 
 	padding:5px 10px 0px 5px; 
