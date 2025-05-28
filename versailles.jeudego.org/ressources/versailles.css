@@ -65,22 +65,6 @@ main {
 	flex-shrink: 3;
 }
 
-@media only screen and (max-width: 768px) {
-	main {
-		flex-flow: column nowrap;
-	}
-	#flex_menu {
-		flex-flow: row wrap;
-	}
-	#flex_content {
-		width:95%;
-	}
-	#flex_menu > div {
-		justify-content: center;
-		justify-content: space-evenly;
-	}
-}
-
 img.corps{ 
 /* encadrement des images. Pose visiblement un probl�me � exploser ... ------------------------------------------------------------------------------------- */
 	margin: 5px;
@@ -100,8 +84,40 @@ td > .no_prt {
 	display:none
 }
 
+#corps > .titre_bloc {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: space-between;
+	width:100%;
+	border:0;
+	padding-right:0;
+	border-radius: 0px 66px 6px 0px;
+	border-top: solid 1px #d0d0d0;
+    border-left: solid 2px #909090;
+    background-color: #eceada;
+    margin: 0px 0px 0px 0px;
+    font-weight: bold;
+    color: #006000;
+    font-size: 90%;
+}
+.t_b_extra > h2 {
+	display: flex;
+	align-items: center;
+}
+
+h2 {
+	padding:5px 10px 0px 10px;
+}
+.titre_droit{
+	width:30px;
+	padding-right: 0;
+}
 /* CSS du bandeau haut ------------------------------------------------------------------------------------- */
 #entete {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
 	background: linear-gradient(90deg,rgba(255, 255, 255, 1) 0%, rgba(42, 46, 45, 1) 80%, rgba(0, 0, 0, 1) 100%);
 	border-radius: 35px;
 	margin-right: 0px; 
@@ -109,6 +125,11 @@ td > .no_prt {
 	margin-bottom: 10px; 
 	margin-top: 0px; 
 	background-color:black;
+}
+#entete > div > img {
+	width:95px;
+	height:90px; 
+	border-radius:35px;
 }
 
 /* CSS du pav� Menu ------------------------------------------------------------------------------------- */
@@ -244,12 +265,22 @@ td > .no_prt {
 	border-bottom:solid 2px #909090;
 }
 
+.chiffonne > div {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
 #corps .gauffre {
 	background-image:url(gauffre2.jpg);
 	border-top:solid 1px #d0d0d0;
 	border-right:solid 1px #d0d0d0;
 	border-left:solid 2px #909090;
 	border-bottom:solid 2px #909090;
+}
+.gauffre > div,
+.gauffre2 > div {
+	display: flex;
+	flex-flow: row nowrap;
 }
 
 #corps .gauffre2 {
@@ -344,10 +375,26 @@ td > .no_prt {
 
 /* Barre de fin de page ------------------------------------------------------------------------------------- */
 #bas_page {
-	font-size:8px; 
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: baseline;
+	font-size:1em; 
 	background-color:#005B00;
 	color:#d9d8c4;
-	width:100%;
+	width:99%;
+	border-radius: 20px 0px 0px 0px;
+	padding: 0px 0px 0px 1rem;
+}
+#bas_page > div {
+	display: flex;
+	flex-flow: row nowrap;
+	text-decoration: none;
+	align-items: baseline;
+}
+#bas_page > div > a {
+	text-decoration: none;
+	color: white;
 }
 
 /* Eviter le cadre disgr�cieux autour des pictogrammes */
@@ -364,4 +411,26 @@ td > .no_prt {
 #bas_page A:hover {
 	background: #008000;
 	color: white;
+}
+
+@media only screen and (max-width: 768px) {
+	main {
+		flex-flow: column nowrap;
+	}
+	h1 {
+		font-size: 1.4rem
+	}
+	#flex_menu {
+		flex-flow: row wrap;
+	}
+	#flex_content {
+		width:95%;
+	}
+	#flex_menu > div {
+		justify-content: center;
+		justify-content: space-evenly;
+	}
+	.chiffonne > div {
+		flex-flow: column nowrap;
+	}
 }
