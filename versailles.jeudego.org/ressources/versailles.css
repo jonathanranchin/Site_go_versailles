@@ -10,9 +10,9 @@ BODY {
 h1{
 	margin:0.6em;
 	font-size: 2.2rem;
-	color: #005f00;
+	color: #228B22;
 	background: transparent;
-	text-shadow: 3px 2px 5px gray;
+	text-shadow: 3px 2px 2px white;
 }
 .no_prt {
 	border-radius: 35px;
@@ -29,12 +29,14 @@ main {
 	justify-content: space-evenly;
 	gap: 3px;
 }
-#flex_menu {
+#flex_menu,
+#submenu {
 	display: flex;
-	flex-flow: column nowrap;
+	flex-flow: column nowrap !important;
 	gap:3px;
 }
-#flex_menu > div {
+#flex_menu > div,
+#submenu > div {
 	border-radius:35px;
 	display: flex;
 	flex-flow: row nowrap;
@@ -50,7 +52,9 @@ main {
 	width: 85%;
 	border-radius:35px;
 }
-#flex_menu > div :hover
+#flex_menu > div > a:hover,
+#submenu > div > a:hover,
+#submenu > ul > li >a:hover
 {
 	background-color: #04AA6D; /* Green */
 	box-shadow: 0 0 12px 5px #04AA6D;
@@ -58,8 +62,13 @@ main {
 	-moz-transition: all 0.5s ease-out;
 	transition: all 0.5s ease-out;
 }
-  
-#flex_menu > div > a {
+#submenu > ul > li {
+	padding-top: 0.06em;
+	padding-bottom: 0.06em;
+}
+#flex_menu > div > a,
+#submenu > div > a,
+#submenu > ul > li a {
 	color: white !important; 
 	text-decoration: none !important;
 }
@@ -178,6 +187,16 @@ h2 {
 .titre_bloc{
 	margin: 0px; 
 	text-align: left;
+}
+
+.red {
+	color: #FF0000;
+}
+.green {
+	color: #008000;
+}
+.purple {
+	color: #FF00FF;
 }
 
 /* CSS du pav� News ------------------------------------------------------------------------------------- */
@@ -313,21 +332,21 @@ h2 {
 	margin: 0px 0px 0px 0px ; 
 	padding:0px 10px 0px 10px; 
 	text-align: justify;
-	FONT-SIZE: 80%;
+	FONT-SIZE: 90%;
 }
 
 #corps dd{
 	margin: 0px 0px 0px 0px ; 
 	padding:0px 10px 20px 30px; 
 	text-align: justify;
-	FONT-SIZE: 80%;
+	FONT-SIZE: 90%;
 }
 
 #corps dt{
 	margin: 0px 0px 0px 0px ; 
 	padding:0px 10px 0px 10px; 
 	text-align: justify;
-	FONT-SIZE: 80%;
+	FONT-SIZE: 90%;
 }
 
 #corps ul{
@@ -336,10 +355,11 @@ h2 {
 }
 
 #corps li{
+
 	margin: 0px 0px 0px 0px ; 
 	padding:5px 0px 0px 0px; 
 	text-align: justify;
-	FONT-SIZE: 80%;
+	font-size: 95%;
 }
 
 #corps table.tableau {
@@ -367,7 +387,7 @@ h2 {
 }
 
 #corps A {
-	font-size: 100%; 
+	font-size: 1rem; 
 	color: #005b00; 
 }
 
