@@ -33,7 +33,6 @@ main {
 	display: flex;
 	flex-flow: column nowrap;
 	gap:3px;
-	flex-grow: 1;
 }
 #flex_menu > div {
 	border-radius:35px;
@@ -48,11 +47,18 @@ main {
 	background: #568b47; 
 }
 #flex_menu > div > a {
-	width: 70%;
+	width: 85%;
+	border-radius:35px;
 }
-#flex_menu > div :hover{
-	background : #005f00
+#flex_menu > div :hover
+{
+	background-color: #04AA6D; /* Green */
+	box-shadow: 0 0 12px 5px #04AA6D;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
 }
+  
 #flex_menu > div > a {
 	color: white !important; 
 	text-decoration: none !important;
@@ -60,9 +66,7 @@ main {
 #flex_content {
 	display: flex;
 	flex-flow: column nowrap;
-	width: 80%;
-	flex-grow: 3;
-	flex-shrink: 3;
+	width: 75%;
 }
 
 img.corps{ 
@@ -78,10 +82,6 @@ img.corps{
 
 td > .no_prt {
 	border-radius: 0;
-}
-.prt{
-/* �l�ments � imprimer mais pas � afficher */
-	display:none
 }
 
 #corps > .titre_bloc {
@@ -111,7 +111,6 @@ h2 {
 }
 .titre_droit{
 	width:30px;
-	padding-right: 0;
 }
 /* CSS du bandeau haut ------------------------------------------------------------------------------------- */
 #entete {
@@ -158,12 +157,12 @@ h2 {
 	color: white; 
 	text-decoration: none;
 }
-
+/*
 #menu A:hover {
 	background: #008000;
 	color: #d9d8c4; 
 }
-
+*/
 /* Cette classe sert � la fois pour le titre des news et celui des blocs */
 .titre_gauche{
 	border-top:solid 1px #d0d0d0;
@@ -213,13 +212,13 @@ h2 {
 	color: black; 
 	text-decoration: none;
 }
-
+/*
 #news A:hover {
 	background: #008000;
 	color: #d9d8c4; 
 	text-decoration: none;
 }
-
+*/
 .separation {
 	padding: 0px 0px 3px 0px ;  
 	margin: 0px 0px 3px 0px ; 
@@ -268,6 +267,10 @@ h2 {
 .chiffonne > div {
 	display: flex;
 	flex-flow: row nowrap;
+	align-items: center;
+}
+.chiffonne > div > div {
+	width: 100%;
 }
 
 #corps .gauffre {
@@ -372,13 +375,13 @@ h2 {
 	color: #2f007f; 
 }
 
-
+/*
 #corps A:hover {
 	background-color: #005b00; 
 	color: white; 
 	text-decoration: none;
 }
-
+*/
 /* Barre de fin de page ------------------------------------------------------------------------------------- */
 #bas_page {
 	display: flex;

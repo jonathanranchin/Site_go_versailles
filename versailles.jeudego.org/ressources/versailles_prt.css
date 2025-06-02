@@ -8,12 +8,12 @@ BODY {
 }
 
 img { 
-/* règle le bug d'exploser qui ajoute des marges inutiles... ------------------------------------------------------------------------------------- */
+/* rï¿½gle le bug d'exploser qui ajoute des marges inutiles... ------------------------------------------------------------------------------------- */
 	display: block; 
 } 
 
 img.corps{ 
-/* encadrement des images. Pose visiblement un problème à exploser ... ------------------------------------------------------------------------------------- */
+/* encadrement des images. Pose visiblement un problï¿½me ï¿½ exploser ... ------------------------------------------------------------------------------------- */
 	margin: 5px;
 	padding: 2px;
 	border-top:solid 2px #707070;
@@ -31,12 +31,7 @@ img.corps{
 	margin-top: 0px; 
 	background-color:#acbb8e;
 }
-
-.no_prt {
-	display: none;
-}
-
-/* CSS du pavé Menu ------------------------------------------------------------------------------------- */
+/* CSS du pavï¿½ Menu ------------------------------------------------------------------------------------- */
 
 #menu td.menu_bar_courante{
 	background-color:#005B00;
@@ -54,7 +49,7 @@ img.corps{
 }
 
 #menu A {
-	display: block; /* Pour que le fond affiché en hover soit un rectangle */
+	display: block; /* Pour que le fond affichï¿½ en hover soit un rectangle */
 	width:200px;
 	font-size: 13px;
 	font-weight: bold; 
@@ -67,12 +62,9 @@ img.corps{
 	padding:7px 0px 7px 20px;
 }
 
-/* Ces deux classes servent à la fois pour le titre des news et celui des blocs */
+/* Ces deux classes servent ï¿½ la fois pour le titre des news et celui des blocs */
 .titre_droit{
-/* Uniquement définie pour imprimer un coin sans l'image */
-	border-top:solid 1px #d0d0d0;
-	border-right:solid 1px #d0d0d0;
-	background-color:#eceada;
+/* Uniquement dï¿½finie pour imprimer un coin sans l'image */
 	margin: 0px 0px 0px 0px; 
 	padding:5px 10px 0px 10px; 
 	font-weight: bold; 
@@ -95,7 +87,7 @@ img.corps{
 	text-align: left;
 }
 
-/* CSS du pavé News ------------------------------------------------------------------------------------- */
+/* CSS du pavï¿½ News ------------------------------------------------------------------------------------- */
 #news {
 	text-align:left;
 	FONT-SIZE: 90%; 
