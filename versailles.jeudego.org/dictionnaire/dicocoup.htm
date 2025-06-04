@@ -1,1263 +1,1026 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-<title>Go Club de Versailles - Dictionnaire / Les coups</title>
-<meta charset="UTF-8">
+   <head>
+      <title>Go Club de Versailles - Dictionnaire / Les coups</title>
+      <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta content="Go Club de Versailles - Dictionnaire / Les coups" name="description">
-<meta content="Versailles, jeu de go, go, baduk, weichi, club, dictionnaire, kanji, traduction, coups" name="keywords" >
-<meta content="index,follow" name="robots" >
-
-<link rel="stylesheet" type="text/css" media="print" href="../ressources/versailles_prt.css" />
-<style type="text/css" media="screen">@import url(../ressources/versailles.css );</style>
-</head>
-
-<body>
-<script type="text/javascript" src="../ressources/email.js"></script>
-<a name="haut_page"></a>
-<!-- ************************************************************************************************************* -->
-<header id="entete">
-	<table border="0" cellpadding="0" cellspacing="0" width="100%">
-		<tr>
-			<td align="left">
-				<h1>Go Club de Versailles</h1>
-			</td>
-			<td align="left">
-				<!-- ce logo n'appara�t qu'� l'impression -->
-				<img src="../ressources/entete_logo.gif" width="95" height="90" alt="" class="prt"/>
-			</td>
-			<td>&nbsp;</td>
-			<td width="95" align="right">
-				<img src="../ressources/entete_logo.gif" width="95" height="90" alt="" border-radius="35px"class="no_prt"/>
-			</td>
-		</tr>
-	</table>
-</header>
-<!-- fin id entete -->
-
-<!-- ************************************************************************************************************* -->
-<!-- Structure globale de la page par tableau -->
-<!-- ************************************************************************************************************* -->
-<table  border="0" cellpadding="0" cellspacing="0" width="100%" >
-	<tr>
-		<td width="200" valign="top" align="center">
-<!-- ************************************************************************************************************* -->
-<!-- pav� menu -->
-<!-- ************************************************************************************************************* -->
-			<div id="menu">
-				<table border="0" cellpadding="0" cellspacing="0" width="100%">
-<!-- ******************************** -->
-					<tr>
-<!-- astuce pour �viter que le texte ne d�gueule trop quand on agrandit la police avec firefox -->
-						<td class="menu_bar" style="font-size:10%;">&nbsp;</td>
-						<td rowspan="2" class="menu_bar">
-	<a href="../index.htm">Accueil</a>
-						</td>
-					</tr>
-					<tr>
-						<td class="menu_bar" width="38" valign="bottom"><img src="../ressources/menu_coin.gif" width="38" height="40" alt="" class="no_prt"/></td>
-					</tr>
-
-					<tr><td height="5" style="font-size:10%;">&nbsp;</td></tr>
-
-<!-- ******************************** -->
-					<tr>
-						<td class="menu_bar" style="font-size:10%;">&nbsp;</td>
-						<td rowspan="2" class="menu_bar">
-	<a href="../infos.htm">Informations pratiques</a>
-						</td>
-					</tr>
-					<tr>
-						<td class="menu_bar" width="38" valign="bottom"><img src="../ressources/menu_coin.gif" width="38" height="40" alt="" class="no_prt"/></td>
-					</tr>
-
-					<tr><td height="5" style="font-size:10%;">&nbsp;</td></tr>
-
-<!-- ******************************** -->
-					<tr>
-						<td class="menu_bar" style="font-size:10%;">&nbsp;</td>
-						<td rowspan="2" class="menu_bar">
-	<a href="../breves.htm">Br�ves <br>de goban</a>
-						</td>
-					</tr>
-					<tr>
-						<td class="menu_bar" width="38" valign="bottom"><img src="../ressources/menu_coin.gif" width="38" height="40" alt="" class="no_prt"/></td>
-					</tr>
-
-					<tr><td height="5" style="font-size:10%;">&nbsp;</td></tr>
-
-<!-- ******************************** -->
-					<tr>
-						<td class="menu_bar_courante" style="font-size:10%;">&nbsp;</td>
-						<td rowspan="2" class="menu_bar_courante">
-	<a href="dictionnaire.htm">Dictionnaire des<br>termes de go</a>
-						</td>
-					</tr>
-					<tr>
-						<td class="menu_bar_courante" width="38" valign="bottom"><img src="../ressources/menu_coin_courant.gif" width="38" height="40" alt="" class="no_prt"/></td>
-					</tr>
-
-					<tr><td height="3" style="font-size:10%;">&nbsp;</td></tr>
-					<tr>
-						<td>&nbsp;</td>
-						<td class="menu_bar" style="border-bottom:solid 2px #acbb8e;" align="center" width="38">	
-							<a href="dictionnaire.htm">Index</a>
-						</td>
-					</tr>
-					<tr>
-						<td>&nbsp;</td>
-						<td class="menu_bar_courante" style="border-bottom:solid 2px #acbb8e;" align="center" width="38">	
-							<a href="dicocoup.htm">Coups</a>
-						</td>
-					</tr>
-					<tr>
-						<td>&nbsp;</td>
-						<td class="menu_bar" style="border-bottom:solid 2px #acbb8e;" align="center" width="38">	
-							<a href="dicoform.htm">Formes</a>
-						</td>
-					</tr>
-					<tr>
-						<td>&nbsp;</td>
-						<td class="menu_bar" style="border-bottom:solid 2px #acbb8e;" align="center" width="38">	
-							<a href="dicositu.htm">Situations</a>
-						</td>
-					</tr>
-					<tr>
-						<td>&nbsp;</td>
-						<td class="menu_bar" style="border-bottom:solid 2px #acbb8e;" align="center" width="38">	
-							<a href="dicopart.htm">Partie</a>
-						</td>
-					</tr>
-					<tr>
-						<td>&nbsp;</td>
-						<td class="menu_bar" style="border-bottom:solid 2px #acbb8e;" align="center" width="38">	
-							<a href="dicomate.htm">Mat�riel</a>
-						</td>
-					</tr>
-					<tr>
-						<td>&nbsp;</td>
-						<td class="menu_bar" style="border-bottom:solid 2px #acbb8e;" align="center" width="38">	
-							<a href="dicojou.htm">Joueurs</a>
-						</td>
-					</tr>
-					<tr>
-						<td>&nbsp;</td>
-						<td class="menu_bar" style="border-bottom:solid 2px #acbb8e;" align="center" width="38">	
-							<a href="dicodive.htm">Divers</a>
-						</td>
-					</tr>
-					<tr><td height="3" style="font-size:10%;">&nbsp;</td></tr>
-					
-<!-- ******************************** -->
-					<tr>
-						<td class="menu_bar" style="font-size:10%;">&nbsp;</td>
-						<td rowspan="2" class="menu_bar">
-	<a href="../photos/index_photos.htm">Photos</a>
-						</td>
-					</tr>
-					<tr>
-						<td class="menu_bar" width="38" valign="bottom"><img src="../ressources/menu_coin.gif" width="38" height="40" alt="" class="no_prt"/></td>
-					</tr>
-
-					<tr><td height="5" style="font-size:10%;">&nbsp;</td></tr>
-
-<!-- ******************************** -->
-					<tr>
-						<td class="menu_bar" style="font-size:10%;">&nbsp;</td>
-						<td rowspan="2" class="menu_bar">
-	<a href="../liens.htm">Liens</a>
-						</td>
-					</tr>
-					<tr>
-						<td class="menu_bar" width="38" valign="bottom"><img src="../ressources/menu_coin.gif" width="38" height="40" alt="" class="no_prt"/></td>
-					</tr>
-
-					<tr><td height="5" style="font-size:10%;">&nbsp;</td></tr>
-
-<!-- ******************************** -->
-					<tr>
-						<td class="menu_bar" style="font-size:10%;">&nbsp;</td>
-						<td rowspan="2" class="menu_bar">
-	<a href="../reserve_membres.htm">Pages r�serv�es aux membres</a>
-						</td>
-					</tr>
-					<tr>
-						<td class="menu_bar" width="38" valign="bottom"><img src="../ressources/menu_coin.gif" width="38" height="40" alt="" class="no_prt"/></td>
-					</tr>
-
-				</table>
-			</div>
-
-			<br>
-		</td>
-
-<!-- ************************************************************************************************************* -->
-<!-- s�paration centrale  -->
-<!-- ************************************************************************************************************* -->
-		<td width="15">
-			&nbsp;
-		</td>
-
-<!-- ************************************************************************************************************* -->
-<!-- Section des blocs -->
-<!-- ************************************************************************************************************* -->
-		<td>
-			<div id="corps">
-<!-- **** bloc 0:index **** -->
-				<table class="titre_bloc" border="0" cellpadding="0" cellspacing="0" width="100%">
-					<tr>
-						<td class="titre_gauche">
-	Index des types de coups
-						</td>
-						<td width="27" valign="top" class="titre_droit">
-							<img class="no_prt" src="../ressources/ecorne.gif" width="27" height="33" alt="" />
-						</td>
-					</tr>
-				</table>
-				<div class="gauffre">
-
-<ul>
-	<li><a href="dicocoup.htm#coups_extension">Les coups d'extension ou de connexion</a></li>
-	<li><a href="dicocoup.htm#coups_attaque">Les coups offensifs</a></li>
-	<li><a href="dicocoup.htm#coups_defense">Les coups d�fensifs</a></li>
-	<li><a href="dicocoup.htm#coups_capture">Les coups de capture</a></li>
-	<li><a href="dicocoup.htm#_OrdreCoups">Les s�quences de coups</a></li>
-	<li><a href="dicocoup.htm#_initiative">L'initiative</a></li>
-	<li><a href="dicocoup.htm#_Influence">L'influence</a></li>
-	<li><a href="dicocoup.htm#coups_commentaires">Les commentaires</a></li>
-</ul>
-<br><br>
-
-				</div>
-
-				<div class="separation">&nbsp;</div>
-		
-<!-- **** bloc 1 **** -->
-				<table class="titre_bloc" border="0" cellpadding="0" cellspacing="0" width="100%">
-					<tr>
-						<td class="titre_gauche">
-<a href="#haut_page">
-	<img class="img" style="float:left;" src="../ressources/home.gif" width="18" height="18" alt="" />
-</a>&nbsp;
-<a name="coups_extension"></a>Les coups d'extension ou de connexion
-						</td>
-						<td width="27" valign="top" class="titre_droit">
-							<img class="no_prt" src="../ressources/ecorne.gif" width="27" height="33" alt="" />
-						</td>
-					</tr>
-				</table>
-				<div class="chiffonne">
-<br>
-<div class="lettrine_kanji">
-	<img style="float:left;" src="68d2.gif" alt="BO" width="35" height="35" />
-	<img style="float:left;" src="30c4.gif" alt="TSU" width="35" height="35" />
-	<img style="float:left;" src="30ae.gif" alt="GI" width="35" height="35" />
-</div>
-<dl>
-	<dt>
-		<strong><a name="Botsugi">Botsugi</a></strong>
-	</dt>
-	<dd>Connexion formant un mur de 3 pierres.<br><br></dd>
-	
-	<dt><strong><a name="Daidai-geima">Daidai-geima</a></strong></dt>
-	<dd>Saut de cheval tr�s allong�. (4+1)</dd>
-</dl>
-
-<div class="lettrine_kanji">
-	<img style="float:left;" src="30d5.gif" alt="FU" width="35" height="35" />
-	<img style="float:left;" src="30af.gif" alt="KU" width="35" height="35" />
-	<img style="float:left;" src="30e9.gif" alt="RA" width="35" height="35" />
-	<img style="float:left;" src="30df.gif" alt="MI" width="35" height="35" />
-</div>
-<dl>	
-	<dt>
-		<strong><a name="Fukure">Fukure</a></strong> ou <strong><a name="Fukurami">Fukurami</a></strong>
-	</dt>
-	<dd>Faire grossir un groupe vers l'ext�rieur.<br><br></dd>
-</dl>
-
-<div class="lettrine_kanji">
-	<img style="float:left;" src="30d3.gif" alt="BI" width="35" height="35" />
-	<img style="float:left;" src="30e9.gif" alt="RA" width="35" height="35" />
-	<img style="float:left;" src="30ad.gif" alt="KI" width="35" height="35" />
-</div>
-<dl>	
-	<dt>
-		<strong><a name="hiraki">Hiraki</a></strong> ou <strong><a name="-Biraki">-Biraki</a></strong>
-	</dt>
-	<dd>Extension sur la 3� ou 4� ligne<br><br>
-		<ul>
-			<li type="disc"><strong><a name="Ikken-biraki">Ikken-biraki</a></strong> Extension avec un espace</li>
-			<li><strong><a name="Niken-biraki">Niken-biraki</a></strong> Extension avec deux espaces</li>
-			<li><strong><a name="Sangen-biraki">Sangen-biraki</a></strong> Extension avec trois espaces</li>
-			<li><strong><a name="Tsume-biraki">Tsume-biraki</a></strong> Extension emp�chant l'extension des pierres adverses.</li>
-		</ul>
-	</dd>
-	
-	<dt><strong><a name="keima">Keima</a></strong></dt>
-	<dd>Coup en saut de cheval (2 positions longitudinales + 1 transversale).
-		<ul>
-			<li type="disc"><strong><a name="Keima-gake">Keima-gake</a></strong> Keima pressant un
-				groupe sur le bord.</li>
-			<li><strong><a name="Keima-no-fundoshi">Keima no fundoshi</a></strong> Keima produisant une
-				double menace.</li>
-			<li><strong><a name="Keima-tobi">Keima-tobi</a></strong> Keima vers le centre. </li>
-			<li><strong><a name="Keima-tsugi">Keima-tsugi</a></strong> Keima de connexion</li>
-			<li><strong><a name="Keima-watari">Keima-watari</a></strong> Keima sur la 2� ou 3� ligne reliant deux groupes.</li>
-		</ul>
-	</dd>
-	
-	<dt><strong><a name="Kogeima">Kogeima</a></strong></dt>
-	<dd>Coup en saut de cheval. Identique au keima (2 positions longitudinales + 1 transversale).</dd>
-	
-	<dt><strong><a name="kosumi">Kosumi</a></strong></dt>
-	<dd>Coup en diagonal.</dd>
-	
-	<dt><strong><a name="Kosumi-tsuke">Kosumi-tsuke</a></strong></dt>
-	<dd><a href="#kosumi">Kosumi</a> venant au contact (<a href="#tsuke">tsuke</a>) d'une pierre.</dd>
-	
-	<dt><strong><a name="Magari">Magari</a></strong></dt>
-	<dd>Extension faisant tourner un groupe.
-		<ul>
-			<li type="disc"><strong><a name="Magari-tsuke">Magari-tsuke</a> </strong>ou 
-			<strong><a name="Mage-tsuke">Mage-tsuke</a></strong> Magari venant au contact d'une pierre adverse</li>
-			<li type="disc"><strong><a name="Uchi-Magari">Uchi-Magari</a></strong> Extension tournant vers l'int�rieur.</li>
-		</ul>
-	</dd>
-	
-	<dt><a name="Modori"><strong>Modori</strong></a></dt>
-	<dd>Extension tournante &quot;tombant&quot; vers le bord.</dd>
-	
-	<dt><a name="Narabi"><strong>Narabi</strong></a></dt>
-	<dd>Extension au contact d'une pierre isol�e.</dd>
-	
-	<dt><a name="Nobi"><strong>Nobi</strong></a></dt>
-	<dd>Extension d'une pierre qui garde la connexion. 
-		Utilis�e souvent comme d�fense contre un tsuke ou une double coupe.
-		<ul>
-			<li type="disc"><a name="Ate-nobi"><strong>Ate-nobi</strong></a> Atari suivi par un coup d'extension</li>
-			<li type="disc"><strong><a name="Nobi-komi">Nobi-komi</a><em> </em></strong>Extension connect�e � l'int�rieur du territoire adverse.</li>
-		</ul>
-	</dd>
-  
-	<dt><a name="Sagari"><strong>Sagari</strong></a></dt>
-	<dd>Descente vers le bord.</dd>
-	
-	<dt><a name="Tachi"><strong>Tachi</strong></a></dt>
-	<dd>&quot;Se mettre debout&quot;. Extension sans intervalle d'une pierre tourn�e vers le centre.</dd>
-	
-	<dt><a name="Tobi"><b>Tobi</b></a></dt>
-	<dd>Extension d'une pierre ou &quot;saut&quot;.
-		<ul>
-			<li type="disc"><a name="Tobi-dashi"><b>Tobi-dashi</b></a> Tobi permettant de faire sortir un groupe vers le centre.</li>
-			<li><a name="Tobi-komi"><b>Tobi-komi</b></a> Tobi � l'int�rieur de la sph�re d'influence de l'adversaire.</li>
-			<li><a name="Tobi-magari"><b>Tobi-magari</b></a> Tobi � angle droit.</li>
-			<li><a name="Tobi-tobi"><strong>Tobi-tobi</strong></a> : Tobi faisant r�ponse � un autretobi.</li>
-			<li><b><a name="Tobi-tsuke">Tobi-tsuke</a> </b>: Tobi venant au contact d'un pierre adverse.</li>
-			<li><strong><a name="Ikken-tobi">Ikken-tobi</a> </strong>Tobi � un intervalle.</li>
-			<li><a name="Niken-tobi"><strong>Niken-tobi</strong></a> Tobi � 2 intervalles.</li>
-			<li><a name="Sangen-tobi"><strong>Sangen-tobi</strong></a> Tobi � 3 intervalles.</li>
-			<li><strong><a name="Chikiri-tobi">Chikiri-tobi</a> </strong>
-				<div class="lettrine_kanji">
-					<img style="float:left;" src="30c1.gif" alt="CHI" width="35" height="35" />
-					<img style="float:left;" src="30ad.gif" alt="KI" width="35" height="35" />
-					<img style="float:left;" src="30ea.gif" alt="RI" width="35" height="35" />
-					<img style="float:left;" src="30c8.gif" alt="TO" width="35" height="35" />
-					<img style="float:left;" src="30d3.gif" alt="BI" width="35" height="35" />
-				</div><br><br><br><br>
-				Saut en diagonale.</li>
-			<li><strong><a name="Hazama-tobi">Hazama-tobi</a> </strong>Saut en diagonale d'une intersection.</li>
-			<li><strong>Keima-tobi</strong> Saut de cheval vers le centre. </li>
-		</ul>
-	</dd>
-	
-	<dt><strong><a name="Tsugi">Tsugi</a> </strong>ou <a name="Tsunagi"><strong>Tsunagi</strong></a></dt>
-	<dd>Connexion physique de 2 pierres. voir <em>kake-tsugi, keima-tsugi, hane-tsugi</em>
-		<ul>
-			<li type="disc"><strong><a name="Kata-tsugi">Kata-tsugi</a> </strong>Connexion solide<em>. </em>voir <em>kake-tsugi </em>et <em>keima-tsugi</em></li>
-			<li><strong><a name="Kake-tsugi">Kake-tsugi</a> </strong>Connexion incompl�te ou suspendue qui promet de faire un oeil mais qui est encore vuln�rable. (Exemple : 3 pierres entourant un trou).</li>
-			<li><strong><a name="Tsugi-tsugi">Tsugi-tsugi</a> </strong>Connexion en r�ponse � une connexion.</li>
-			<li><strong><a name="Rappa-tsugi">Rappa-tsugi</a> </strong>Connexion ouverte.</li>
-			<li><a name="Moto-tsugi"><strong>Moto-tsugi</strong></a><em> </em>Connexion � la base d'un groupe.</li>
-			<li><a name="Pin-tsugi"><strong>Pin-tsugi</strong></a> Connexion solide d'un tobi</li>
-		</ul>
-	</dd>
-	
-	<dt><a name="Odokoro"><strong>Odokoro</strong></a></dt>
-	<dd>Espace o� doit �tre trouv� un coup &quot;large&quot;.</dd>
-	
-	<dt><strong><a name="Ogeima">Ogeima</a> <p class="red">da fei</p></strong></dt>
-	<dd>Saut de cheval allong� (3+1)</dd>
-	
-	<dt><strong><a name="Saru-suberi">Saru-suberi</a> <p class="red">xiao fei diao</p></strong></dt>
-	<dd>La glissade du singe. Coup de r�duction du territoire adverse utilisant un keima sur la ligne du bord.</dd>
-	
-	<dt><strong><a name="Ozaru-Suberi">Ozaru-suberi</a> <p class="red">da fei tiao</p></strong></dt>
-	<dd>Grande glissade du singe. Ce coup de r�duction du territoire adverse utilise un ogeima sur la ligne de bord</dd>
-	
-	<dt><a name="Watari"><strong>Watari</strong></a></dt>
-	<dd>Connexion par dessous. Voir <a href="#Keima-watari">Keima watari</a></dd>
-</dl>
-				</div>
-
-
-				<div class="separation">&nbsp;</div>
-
-<!-- **** bloc 2**** -->
-				<table class="titre_bloc" border="0" cellpadding="0" cellspacing="0" width="100%">
-					<tr>
-						<td class="titre_gauche">
-<a href="#haut_page">
-	<img class="img" style="float:left;" src="../ressources/home.gif" width="18" height="18" alt="" />
-</a>&nbsp;
-<a name="coups_attaque"></a>Les coups offensifs
-						</td>
-						<td width="27" valign="top" class="titre_droit">
-							<img class="no_prt" src="../ressources/ecorne.gif" width="27" height="33" alt="" />
-						</td>
-					</tr>
-				</table>
-				<div class="gauffre2">
-<br>
-<div class="lettrine_kanji">
-	<img style="float:left;" src="30a2.gif" alt="A" width="35" height="35" />
-	<img style="float:left;" src="30b4.gif" alt="GO" width="35" height="35" />
-</div>
-<div class="lettrine_kanji">
-	<img style="float:left;" src="984e.gif" alt="AGO" width="35" height="35" />
-</div>
-<dl>
-	<dt>
-		<strong><a name="Ago">Ago</a></strong>
-	</dt>
-	<dd>La &quot;m�choire&quot;. Pierre plac�e au point vital d'une forme diagonale.<br><br></dd>
-</dl>
-
-<div class="lettrine_kanji">
-	<img style="float:left;" src="30a2.gif" alt="A" width="35" height="35" />
-	<img style="float:left;" src="30aa.gif" alt="O" width="35" height="35" />
-	<img style="float:left;" src="308b.gif" alt="RU" width="35" height="35" />
-</div>
-<div class="lettrine_kanji">
-	<img style="float:left;" src="717d.gif" alt="AO" width="35" height="35" />
-	<img style="float:left;" src="308b.gif" alt="RU" width="35" height="35" />
-</div>
-<dl>	
-	<dt>
-		<strong><a name="Aoru">Aoru</a> </strong>
-	</dt>
-	<dd>Coup qui accroit la pression sur un groupe.<br><br></dd>
-</dl>
-
-<div class="lettrine_kanji">
-	<img style="float:left;" src="30a2.gif" alt="A" width="35" height="35" />
-	<img style="float:left;" src="30c6.gif" alt="TE" width="35" height="35" />
-	<img style="float:left;" src="8fbc.gif" alt="KO" width="35" height="35" />
-	<img style="float:left;" src="307f.gif" alt="MI" width="35" height="35" />
-</div>
-<div class="lettrine_kanji">
-	<img style="float:left;" src="5f53.gif" alt="A" width="35" height="35" />
-	<img style="float:left;" src="3066.gif" alt="TE" width="35" height="35" />
-	<img style="float:left;" src="8fbc.gif" alt="KO" width="35" height="35" />
-	<img style="float:left;" src="307f.gif" alt="MI" width="35" height="35" />
-</div>
-<dl>	
-	<dt>
-		<strong><a name="Atekomi">Ate-komi</a> </strong>
-	</dt>
-	<dd>Demi-coupe. La pierre est pos�e au contact de 2 pierres en diagonale d'o� une menace de coupe.</dd>
-</dl>
-
-<div class="lettrine_kanji">
-	<img style="float:left;" src="30dc.gif" alt="BO" width="35" height="35" />
-	<img style="float:left;" src="30a6.gif" alt="O" width="35" height="35" />
-	<img style="float:left;" src="30b7.gif" alt="SHI" width="35" height="35" />
-</div>
-<div class="lettrine_kanji">
-	<img style="float:left;" src="5e3d.gif" alt="BO" width="35" height="35" />
-	<img style="float:left;" src="5b50.gif" alt="SHI" width="35" height="35" />
-</div>
-<dl>
-	<dt>
-		<b><a name="Boshi">B�shi</a></b> ou <a name="Kabuseru"><strong>Kabuseru</strong></a>
-	</dt>
-	<dd>Le &quot;chapeau&quot;. (Kabuseru = &quot;couvrir&quot;). Coup recouvrant une pierre � distance. </dd>
-</dl>
-
-<div class="lettrine_kanji">
-	<img style="float:left;" src="5c80.gif" alt="DE" width="35" height="35" />
-</div>	
-<dl>
-	<dt>
-		<a name="De"><strong>De</strong></a>
-	</dt>
-	<dd>Coup d'extension gardant la connexion et poussant au travers d'une forme adverse.</dd>
-</dl>
-
-<div class="lettrine_kanji">
-	<img style="float:left;" src="5c80.gif" alt="DE" width="35" height="35" />
-	<img style="float:left;" src="5207.gif" alt="GI" width="35" height="35" />
-	<img style="float:left;" src="308a.gif" alt="RI" width="35" height="35" />
-</div>
-<dl>
-	<dt>
-		<a name="De-giri"><strong>De-giri</strong></a>	
-	</dt>
-	<dd>S�quence de 2 coups commen�ant par l'intrusion dans une formation suivie d'une coupe.</dd>
-</dl>
-
-<div class="lettrine_kanji">
-	<img style="float:left;" src="30a8.gif" alt="E" width="35" height="35" />
-	<img style="float:left;" src="30b0.gif" alt="GU" width="35" height="35" />
-	<img style="float:left;" src="30ea.gif" alt="RI" width="35" height="35" />
-</div>
-<dl>	
-	<dt>
-		<a name="Eguri"><strong>Eguri</strong></a>
-	</dt>
-	<dd>Coup jou� au point vital d'une forme adverse privant cette derni�re de base de vie.</dd>
-</dl>
-
-<div class="lettrine_kanji">
-	<img style="float:left;" src="5c01.gif" alt="FU" width="35" height="35" />
-	<img style="float:left;" src="9396.gif" height="35" width="35" alt="" />
-</div>
-<dl>	
-	<dt>
-		<a name="Fusa"><strong>Fusa</strong></a>
-	</dt>
-	<dd>Coup jou� pour emp�cher un groupe de s'�chapper vers le centre.<br><br></dd>
-	
-	<dt><a name="Gomoku-nakade"><strong>Gomoku nakade</strong></a></dt>
-	<dd>Coup emp�chant la formation de 2 yeux dans un oeil de 5 libert�s.</dd>
-</dl>
-
-<div class="lettrine_kanji">
-	<img style="float:left;" src="3060.gif" alt="DA" width="35" height="35" />
-	<img style="float:left;" src="307e.gif" alt="MA" width="35" height="35" />
-	<img style="float:left;" src="3057.gif" alt="SHI" width="35" height="35" />
-	<img style="float:left;" src="624b.gif" alt="TE" width="35" height="35" />  
-</div>
-<dl>	
-	<dt>
-		<a name="Inchiki-te"><strong>Inchiki-te</strong></a> ou <strong><a name="Gomakashi-te">Gomakashi-te</a> 
-		<p class="purple">Trick move, Trick play</p></strong>
-		<strong><a name="Hamete">Hamete</a> </strong>ou <a name="Damashi-te"><strong>Damashi-te</strong></a>	
-	</dt>
-	<dd>Pi�ge tendu pour lequel la mauvaise r�ponse est celle qui semble la plus naturelle.</dd>
-</dl>
-
-<div class="lettrine_kanji">
-	<img style="float:left;" src="30d0.gif" alt="BA" width="35" height="35" />
-	<img style="float:left;" src="30cd.gif" alt="NE" width="35" height="35" />
-</div>
-<dl>	
-	<dt>
-		<strong><a name="hane">Hane</a> </strong>ou <strong><a name="-Bane">-Bane</a></strong>
-		<strong> <p class="red">ban</p></strong>
-	</dt>
-	<dd>Coup diagonal au contact d'une pierre <br><br>
-		<ul>
-			<li type="disc"><a name="Hane-dashi"><b>Hane-dashi</b></a>: Hane jou� vers l'ext�rieur</li>
-			<li><a name="Nidan-bane"><strong>Ni-dan-bane</strong></a> 
-				<p class="red"><strong>lian ban </strong></p>: double hane.</li>
-			<li><a name="Sandan-bane"><strong>San-dan-bane</strong></a>: triple hane.</li>
-			<li><a name="Hane-kaeshi"><strong>Hane-kaeshi</strong></a>: Hane jou� en r�ponse � un autre Hane.</li>
-			<li><a name="Hane-komi"><strong>Hane-komi</strong></a>: Hane jou� entre 2 pierres.</li>
-			<li><a name="Shita-hane"><strong>Shita-hane</strong></a>: Hane par dessous.</li>
-			<li><a name="Hane-tsugi"><strong>Hane-tsugi</strong></a>: Hane suivi d'une connexion</li>
-			<li><strong><a name="Hane-tsuki">Hane-tsuki</a></strong>: Hane d'attaque au ventre</li>
-			<li><a name="Hane-goroshi"><strong>Hane-goroshi</strong></a>: 
-				&quot;Hane qui apporte la mort&quot; � un groupe de pierres.</li>
-		</ul>
-		<br>
-	</dd>
-	
-	<dt><a name="Hana-tsuke"><strong>Hana-tsuke</strong></a></dt>
-	<dd>Contact sur le nez</dd>
-	
-	<dt><a name="Harazuke"><strong>Hara-tsuke</strong></a></dt>
-	<dd>Attaque au ventre. </dd>
-</dl>
-
-<div class="lettrine_kanji">
-	<img style="float:left;" src="30d0.gif" alt="BA" width="35" height="35" />
-	<img style="float:left;" src="305b.gif" alt="SA" width="35" height="35" />
-	<img style="float:left;" src="307f.gif" alt="MI" width="35" height="35" />
-</div>
-<dl>	
-	<dt>
-		<strong><a name="hasami">Hasami</a> </strong>ou <strong><a name="-Basami">-Basami</a></strong>	
-	</dt>
-	<dd>Pince.<br><br>
-		<ul>
-			<li type="disc"><a name="Hasami-kaeshi"><strong>Hasami-kaeshi</strong></a> Pince jou�e en r�ponse � une autre pince.</li>
-			<li><strong><a name="Hasami-tsuke">Hasami-tsuke</a> <p class="red">jia </p><p class="purple">clamp</p></strong> Pince avec contact des deux c�t�s.</li>
-			<li type="disc"><a name="Ikken-basami"><b>Ikken-basami</b></a> pince d'un espace (sur la troisi�me ligne) </li>
-			<li type="disc"><a name="Ikken-Taka-basami"><b>Ikken-taka-basami</b></a> pince d'un espace (sur la quatri�me ligne) </li>
-			<li><a name="Niken-basami"><b>Niken-basami</b></a> pince de deux espaces (sur la troisi�me ligne)</li>
-			<li type="disc"><strong><a name="Niken-taka-basami">Niken-taka-basami</a> </strong>pince haute de deux espaces (sur la quatri�me ligne)</li>
-			<li><a name="Sangen-basami"><b>Sangen-basami</b></a> <strong><p class="red">san jian jia</p></strong> pince de trois espaces (sur la troisi�me ligne)</li>
-			<li><strong><a name="Sangen-taka-basami">Sangen-taka-basami</a> </strong>pince haute de trois espaces (sur la quatri�me ligne)</li>
-		</ul><br>
-	</dd>
-	
-	<dt><a name="Hazama"><strong>Hazama</strong></a></dt>
-	<dd>Coup jou� pour couper une diagonale de connexion potentielle.
-		Voir <a href="#Hazama-tobi">Hazama-Tobi</a></dd>
-		
-	<dt><strong><a name="Hashiru">Hashiru</a> </strong>ou <a name="Suberi"><strong>Suberi</strong></a></dt>
-	<dd>Glissade sous un groupe ennemi avec un keima ou un ogeima sur la 2� ou 3� ligne</dd>
-	
-	<dt><strong><a name="Hori-komi">Hori-komi</a> <p class="purple">throw-in</p></strong></dt>
-	<dd>Coup de sacrifice servant � diminuer les libert�s ou le nombre d'yeux d'un groupe.</dd>
-	
-	<dt><strong><a name="Karami">Karami</a> </strong>ou <a name="-Garami"><strong>-Garami</strong></a></dt>
-	<dd>Attaque simultan�e de deux groupes ayant pour but de les s�parer.
-		<ul>
-			<li type="disc"><strong><a name="Sanpo-garami">Sanpo-garami</a> </strong>Attaque simultan�e de trois groupes.</li>
-		</ul>
-	</dd>	
-  
-	<dt><a name="Kakae"><strong>Kakae</strong></a></dt>
-	<dd>Litt�ralement &quot;�treindre&quot;. Coup assurant la capture d'une pierre.</dd>
-	
-	<dt><a name="Kake"><strong>Kake</strong></a></dt>
-	<dd>Coup de pression (repoussant l'adversaire sur le bord).</dd>
-</dl>
-
-<div class="lettrine_kanji">
-	<img style="float:left;" src="30ab.gif" width="35" height="35" alt="" />
-	<img style="float:left;" src="30ab.gif" width="35" height="35" alt="" />
-	<img style="float:left;" src="30ea.gif" width="35" height="35" alt="" />
-</div>
-<div class="lettrine_kanji">
-	<img style="float:left;" src="30ac.gif" width="35" height="35" alt="" />
-	<img style="float:left;" src="30ab.gif" width="35" height="35" alt="" />
-	<img style="float:left;" src="30ea.gif" width="35" height="35" alt="" />
-</div>
-<dl>
-	<dt>
-		<strong><a name="kakari">Kakari</a> </strong>ou<strong> -<a name="Gakari">Gakari</a> </strong>
-	</dt>
-	<dd>Coup d'approche d'un coin.<br><br>
-		<ul>
-			<li type="disc"><strong><a name="Ogeima-gakari">Ogeima-gakari</a> </strong>Approche d'un coin avec une pierre formant un Ogeima avec la pierre adverse</li>
-			<li><a name="Ryo-gakari"><strong>Ryo-gakari</strong></a><em> </em><strong><p class="red">shuang gua jiao</p></strong><em> </em>Double approche d'un coin.</li>
-			<li><a name="Sode-gakari"><strong>Sode-gakari</strong></a> ou <a name="Suso-gakari"><strong>Suso-gakari</strong></a> Kakari &quot;avec une id�e derri�re la t�te&quot;. Approche sur la deuxi�me ligne d'un hoshi de coin.</li>
-			<li><a name="Niken-taka-gakari"><strong>Niken-taka-gakari</strong></a> Double approche haute.</li>
-		</ul>
-	</dd>
-	
-	<dt><a name="Kata-tsuki"><strong>Kata-tsuki</strong></a></dt>
-	<dd>Contact � l'�paule. Coup de contact en diagonale d'une pierre adverse.</dd>
-	
-	<dt><a name="Keshi"><strong>Keshi</strong></a></dt>
-	<dd>Coup d'�rosion</dd>
-	
-	<dt><a name="Kento"><strong>Kento</strong></a></dt>
-	<dd>Litt�rallement, une devinette. 
-		Estimation du meilleur coup lorsqu'un joueur ne peut pas analyser compl�tement la situation.</dd>
-</dl>
-
-<div class="lettrine_kanji">
-	<img style="float:left;" src="5207.gif" width="35" height="35" alt="" />
-	<img style="float:left;" src="308a.gif" width="35" height="35" alt="" /> 
-</div>
-<dl>
-	<dt>
-		<a name="Kiri"><strong>Kiri</strong></a> ou <strong>-<a name="Giri">Giri</a><p class="red">duan</p></strong>
-	</dt>
-	<dd>Coupe. Coup s�parant un groupe en deux.<br><br>
-		<ul>
-			<li type="disc"><strong><a name="Kiri-chigai">Kiri-chigae</a> <p class="purple">Cross-cut</p></strong>. Double coupe.</li>
-			<li><a name="Kiri-kaeshi"><strong>Kiri-kaeshi</strong></a> Coupe jou�e en r�ponse � une autre coupe.</li>
-			<li><strong><a name="Kiri-toru">Kiri-toru</a> </strong>Coupe assurant une capture</li>
-			<li><strong><a name="Kiri-nobi">Kiri-nobi</a> </strong>Coupe suivie d'une extension. </li>
-		</ul>
-	</dd>
-	
-	<dt><a name="Ko-date"><strong>Ko-date</strong></a></dt>
-	<dd>Menace de ko</dd>
-	
-	<dt><a name="-Komi"><strong>-Komi</strong></a></dt>
-	<dd>Suffixe indiquant une id�e de p�n�tration. Voir <a href="#Hori-komi">hori-komi</a>, wari-komi</dd>
-	
-	<dt><a name="Kozai"><strong>Kozai</strong></a></dt>
-	<dd>Menaces de ko</dd>
-	
-	<dt><a name="Kyusho"><strong>Kyusho</strong></a></dt>
-	<dd>Le point vital.</dd>
-	
-	<dt><a name="Motare"><strong>Motare</strong></a></dt>
-	<dd>Attaque en appui. Consiste � appliquer une pression sur un groupe afin de se renforcer afin d'attaquer un autre groupe.</dd>
-	
-	<dt><strong><a name="Nozoki">Nozoki</a> <p class="red">chi </p><p class="purple">Peep</p></strong></dt>
-	<dd>Coup jou� en face d'un trou entre 2 pierres et constituant une menace de coupe.</dd>
-	
-	<dt><a name="Oki"><strong>Oki</strong></a></dt>
-	<dd>Coup de placement jou� au point vital d'une forme adverse.</dd>
-	
-	<dt><a name="Oshi"><strong>Oshi</strong></a></dt>
-	<dd>Coup poussant.</dd>
-	
-	<dt><strong><a name="Sanmoku-nakade">Sanmoku-nakade</a> <p class="red">zhi san</p></strong></dt>
-	<dd>Coup plac� dans un espace de 3 libert�s pour emp�cher la cr�ation d'autres yeux.</dd>
-	
-	<dt><a name="Sashikomi"><strong>Sashi-komi</strong></a></dt>
-	<dd>Coup de p�n�tration s'ins�rant entre 3 pierres ennemies. Il s'ensuit g�n�ralement une menace de coupe.</dd>
-	
-	<dt><a name="Shibori"><strong>Shibori</strong></a></dt>
-	<dd>Pression effectu� sur un groupe afin de l'alourdir et d'utiliser au maximum des pierres de sacrifice.
-		&quot;Essorage&quot;</dd>
-	
-	<dt><a name="Shobute"><strong>Shobute</strong></a></dt>
-	<dd>Variation tr�s risqu�e pour les deux joueurs et � l'issue impr�visible. 
-		Souvent lanc�e pour rattraper un trop gros retard.</dd>
-	
-	<dt><a name="Tane-ishi"><strong>Tane-ishi</strong></a></dt>
-	<dd>Pierres de pivot.</dd>
-	
-	<dt><strong><a name="tsuke">Tsuke</a> <p class="red">peng </p><p class="purple">Attatch</p></strong></dt>
-	<dd>Coup venant au contact d'une pierre adverse et n'ayant aucun contact avec une pierre amie.
-		<ul>
-			<li type="disc"><b><a name="Tsuki-atari">Tsuke-atari</a><strong> </strong></b>ou 
-				<a name="Butsukari"><strong>Butsukari</strong></a>
-				<div class="lettrine_kanji">
-					<img style="float:left;" src="30d6.gif" alt="BU" width="35" height="35" />
-					<img style="float:left;" src="30c3.gif" alt="TSU" width="35" height="35" />
-					<img style="float:left;" src="30ab.gif" alt="KA" width="35" height="35" />
-					<img style="float:left;" src="30ea.gif" alt="RI" width="35" height="35" />
-				</div>
-				Coup d'extension connect� &quot;heurtant de la t�te&quot; un groupe adverse.<br><br><br><br><br>
-			</li>
-			<li type="disc"><strong><a name="Tsuki-dashi">Tsuke-dashi</a></strong> :<strong> </strong>Coup poussant entre 2 pierres adverses.</li>
-			<li type="disc"><b><a name="Tsuke-giri">Tsuke-giri</a></b> :<b><strong> </strong></b>Coup de contact suivi par une coupe.</li>
-			<li><strong><a name="Tsuke-hiki">Tsuke-hiki</a></strong> :<strong> </strong>Coup de contact suivi par un coup de retrait.</li>
-			<li><a name="Tsuke-kaeshi"><b>Tsuke-kaeshi</b></a> : Coup de contact qui vient en r�ponse � un autre coup de contact.</li>
-			<li><a name="Tsuke-koshi"><b>Tsuke-koshi</b></a> : Coup de contact coupant une formation en saut de cheval.</li>
-			<li><a name="Tsuke-nobi"><b>Tsuke-nobi</b></a> : Coup de contact suivi par une extension connect�e (Nobi). Nom donn� � un <a href="#joseki">joseki</a>.</li>
-			<li><strong><a name="Tsuki-nuki">Tsuke-nuki</a> </strong>: Coup de contact et de p�n�tration de la position adverse.</li>
-			<li><strong><a name="Tsuke-osae">Tsuke-osae</a></strong> :<strong> </strong>Coup de contact qui bloque le passage par le bord.</li>
-			<li><strong><a name="Tsuke-sagari">Tsuke-sagari</a> </strong>: Coup de contact suivi par un coup de descente vers le bord.</li>
-			<li type="disc"><a name="Shita-tsuke"><strong>Shita-tsuke</strong></a> :<strong> </strong>Coup de contact par dessous.</li>
-			<li type="disc"><a name="Uchi-tsuke"><strong>Uchi-tsuke</strong></a> : Coup de contact par l'int�rieur.</li>
-			<li type="disc"><a name="Yoko-tsuke"><strong>Yoko-tsuke</strong></a> : Coup de contact sur le c�t�</li>
-		</ul>
-	</dd>
-	
-	<dt><a name="Tsume"><strong>Tsume</strong></a></dt>
-	<dd>Restriction de l'espace autour d'une formation adverse pour pr�venir d'une extension.</dd>
-	
-	<dt><a name="Uchikaki"><strong>Uchikaki</strong></a></dt>
-	<dd>Coup de sacrifice jou� pour rendre un oeil faux ou pour r�duire le nombre de libert�</dd>
-	
-	<dt><a name="Uchikomi"><strong>Uchikomi</strong></a></dt>
-	<dd>Invasion</dd>
-	
-	<dt><a name="Warikomi"><strong>Wari-komi</strong></a></dt>
-	<dd>Coup plac� entre de deux pierres adverses.</dd>
-	
-	<dt><a name="Wariuchi"><strong>Wariuchi</strong></a></dt>
-	<dd>Coup d'invasion qui s�pare deux positions adverses en ayant des possibilit�s d'extension de chaque c�t�.</dd>
-	
-	<dt><a name="Yosu-mi"><strong>Yosu-mi</strong></a> ou <strong><a name="Yosu-miru">Yosu miru</a> <p class="red">shi ying shou </p><p class="purple">probe, probing move</p></strong></dt>
-	<dd>Esquisse d'attaque jou�e pour voir la r�ponse de l'adversaire et en d�duire sa strat�gie. Certains joueurs appellent cel� &quot;poser une question&quot;.</dd>
-</dl>
-
-				</div>
-
-				<div class="separation">&nbsp;</div>
-
-<!-- **** bloc 3**** -->
-				<table class="titre_bloc" border="0" cellpadding="0" cellspacing="0" width="100%">
-					<tr>
-						<td class="titre_gauche">
-<a href="#haut_page">
-	<img class="img" style="float:left;" src="../ressources/home.gif" width="18" height="18" alt="" />
-</a>&nbsp;
-<a name="coups_defense"></a>Les coups d�fensifs
-						</td>
-						<td width="27" valign="top" class="titre_droit">
-							<img class="no_prt" src="../ressources/ecorne.gif" width="27" height="33" alt="" />
-						</td>
-					</tr>
-				</table>
-				
-				<div class="chiffonne">
-
-<dl>
-	<dt><a name="Hai"><strong>Hai</strong></a></dt>
-	<dd>Coup de reptation sur la 1� ou 2� ligne.</dd>
-	
-	<dt><a name="Hiki"><strong>Hiki</strong></a></dt>
-	<dd>Coup de retraite ajoutant une pierre � une pierre menac�e pour rendre le groupe connectable.</dd>
-	
-	<dt><a name="Ishi-no-shita"><strong>Ishi-no-shita</strong></a></dt>
-	<dd>&quot;Jeu sous les pierres&quot;. Technique impliquant le sacrifice d'au moins quatre pierres pour faire un second oeil dans un groupe menac�.</dd>
-	
-	<dt><a name="Osae"><strong>Osae</strong></a></dt>
-	<dd>Coup de blocage pour emp�cher une extension sur le bord
-		<ul>
-			<li type="disc"><strong><a name="Nidan-osae">Nidan osae</a> </strong>2 coups de blocages successifs.</li>
-		</ul>
-	</dd>
-	
-	<dt><a name="Semedori"><strong>Semedori</strong></a></dt>
-	<dd>Coup de capture d'un groupe que l'adversaire oblige � jouer.</dd>
-	
-	<dt><a name="Shicho-atari"><strong>Shicho-atari</strong></a></dt>
-	<dd>Briseur de shicho.Pierre jou�e dans le chemin d'un shicho potentiel et le rendant perdant pour l'attaquant.</dd>
-	
-	<dt><a name="Shinogi"><strong>Shinogi</strong></a></dt>
-	<dd>S�quence de survie d'un groupe dans l'encerclement (souvent dans un moyo adverse)</dd>
-	
-	<dt><a name="Te-ire"><strong>Te-ire</strong></a></dt>
-	<dd>Coup ajout� � l'int�rieur de son propre territoire pour d�fendre une faiblesse.</dd>
-	
-	<dt><strong><a name="Tetchu">Tetchu</a> <p class="red">yu zhu </p><p class="purple">iron pillar</p></strong></dt>
-	<dd>Coup de formation d'un groupe de 2 pierres pr�s du bord et perpendiculaires � celui-ci. 
-	Cette formation a souvent pour but d'emp�cher le passage.</dd>
-</dl>				
-				</div>
-
-				<div class="separation">&nbsp;</div>
-
-<!-- **** bloc 4 **** -->
-				<table class="titre_bloc" border="0" cellpadding="0" cellspacing="0" width="100%">
-					<tr>
-						<td class="titre_gauche">
-<a href="#haut_page">
-	<img class="img" style="float:left;" src="../ressources/home.gif" width="18" height="18" alt="" />
-</a>&nbsp;
-<a name="coups_capture"></a>Les coups de capture
-						</td>
-						<td width="27" valign="top" class="titre_droit">
-							<img class="no_prt" src="../ressources/ecorne.gif" width="27" height="33" alt="" />
-						</td>
-					</tr>
-				</table>
-				
-				<div class="gauffre">
-<br>
-
-<div class="lettrine_kanji">
-	<img style="float:left;" src="30c1.gif" alt="CHI" width="35" height="35" />
-	<img style="float:left;" src="30ae.gif" alt="GI" width="35" height="35" />
-	<img style="float:left;" src="30ea.gif" alt="RI" width="35" height="35" />
-</div>
-<dl>
-	<dt>
-		<a name="Chigiri"><strong>Chigiri</strong></a>
-	</dt>
-	<dd>Capture d'une extr�mit� d'un groupe.</dd>
-</dl>
-
-<div class="lettrine_kanji">
-	<img style="float:left;" src="30b0.gif" width="35" height="35" alt="" />
-	<img style="float:left;" src="30bf.gif" width="35" height="35" alt="" />
-</div>
-<div class="lettrine_kanji">
-	<img style="float:left;" src="4e0b.gif" width="35" height="35" alt="" />
-	<img style="float:left;" src="99c4.gif" width="35" height="35" alt="" />
-</div>
-<dl>	
-	<dt>
-		<strong><a name="Geta">Geta</a> </strong>
-	</dt>
-	<dd>Nom du &quot;sabot&quot; traditionnel japonais. Capture d'une pierre ou d'un groupe par une formation laissant des espaces mais ne permettant pas l'�vasion.</dd>
-	
-	<dt><a name="Guru-guru-mawashi"><strong>Guru guru mawashi</strong></a></dt>
-	<dd>S�rie de shicho conduisant � la capture. </dd>
-	
-	<dt><a name="Itte-make"><strong>Itte-make</strong></a></dt>
-	<dd>Perdre un <a href="#Semeai">semeai</a> � une libert� pr�s.</dd>
-	
-	<dt><a name="Me-ari-me-nashi"><strong>Me-ari me-nashi</strong></a></dt>
-	<dd><a href="#Semeai">Semeai</a> o� un des groupes poss�de un oeil.</dd>
-	
-	<dt><a name="Nuki"><strong>Nuki</strong></a></dt>
-	<dd>Capture.</dd>
-	
-	<dt><strong><a name="shicho">Shicho</a> <p class="purple">Ladder</p></strong></dt>
-	<dd>S�quence de capture d'un groupe en ne lui laissant � chaque tour qu'une seule libert�. Donne souvent une forme en escalier
-		<ul>
-			<li type="disc"><strong><a name="Yurumi-shisho">Yurumi shisho</a> </strong>Shicho perdant pour les pierres attaqu�es.</li>
-		</ul>
-	</dd>
-	
-	<dt><strong><a name="Semeai">Semeai</a> <p class="red">dui sha</p></strong></dt>
-	<dd>Course de capture entre 2 groupes n'ayant pas de base de vie.</dd>
-</dl>
-
-<div class="lettrine_kanji">
-	<img style="float:left;" src="30d0.gif" alt="BA" width="35" height="35" />
-	<img style="float:left;" src="30bf.gif" alt="TA" width="35" height="35" />
-	<img style="float:left;" src="30d0.gif" alt="BA" width="35" height="35" />
-	<img style="float:left;" src="30bf.gif" alt="TA" width="35" height="35" />
-</div>
-<dl>
-	<dt>
-		<a name="Oiotoshi"><strong>Oiotoshi</strong></a> ou <a name="Bata-bata"><strong>Bata-bata</strong></a> ou <a name="Ton-ton"><strong>Ton-ton</strong></a></dt>
-	<dd>Litt�rallement &quot;Jeu de voleur&quot;. Technique de capture o�, par une s�rie de
-	    sacrifice, le groupe adverse se retrouve en dame-zumari, m�me s'il se connecte.</dd>
-		
-	<dt><strong><a name="Seki-to">Seki-to</a> <p class="purple">stone tower</p></strong></dt>
-	<dd>&quot;L'�treinte de la pagode&quot;. Tesuji de sacrifice de 2 pierres sur les premi�re et deuxi�me lignes.</dd>
-	
-	<dt><strong><a name="Utte-gae">Utte-gae</a> </strong>ou <strong><a name="Utte-gaeshi">Utte-gaeshi</a>
-    </strong><p class="purple"><b>Snap-back</b></p></dt>
-	<dd>Reprise imm�diate d'un groupe adverse apr�s que celui-ci se soit mis en dame-zumari lors d'une capture.</dd>
-	
-	<dt><a name="Yotsume-goroshi"><strong>Yotsume-goroshi</strong></a></dt>
-	<dd>Capture d'une pierre en 4 coups. La forme r�sultante est un <a href="dicoform.htm#ponnuki">ponnuki</a>.</dd>
-	
-</dl>
-				</div>
-
-				<div class="separation">&nbsp;</div>
-
-<!-- **** bloc 5 **** -->
-				<table class="titre_bloc" border="0" cellpadding="0" cellspacing="0" width="100%">
-					<tr>
-						<td class="titre_gauche">
-<a href="#haut_page">
-	<img class="img" style="float:left;" src="../ressources/home.gif" width="18" height="18" alt="" />
-</a>&nbsp;
-<a name="_OrdreCoups"></a>Les s�quences de coups
-
-						</td>
-						<td width="27" valign="top" class="titre_droit">
-							<img class="no_prt" src="../ressources/ecorne.gif" width="27" height="33" alt="" />
-						</td>
-					</tr>
-				</table>
-				
-				<div class="chiffonne">
-<dl>
-    <dt><a name="Ippon-Michi"><strong>Ippon-Michi</strong></a></dt>
-    <dd>S�quence de coups obligatoire.</dd>
-	
-    <dt><a name="Tejun"><strong>Tejun</strong></a></dt>
-    <dd>Ordre <u>correct</u> des coups pour aboutir au r�sultat souhait�.</dd>
-</dl>
-
-				</div>
-
-				<div class="separation">&nbsp;</div>
-				
-<!-- **** bloc 6 **** -->
-				<table class="titre_bloc" border="0" cellpadding="0" cellspacing="0" width="100%">
-					<tr>
-						<td class="titre_gauche">
-<a href="#haut_page">
-	<img class="img" style="float:left;" src="../ressources/home.gif" width="18" height="18" alt="" />
-</a>&nbsp;
-<a name="_initiative"></a>L'initiative
-
-						</td>
-						<td width="27" valign="top" class="titre_droit">
-							<img class="no_prt" src="../ressources/ecorne.gif" width="27" height="33" alt="" />
-						</td>
-					</tr>
-				</table>
-				
-				<div class="gauffre2">
-<dl>
-	<dt><strong><a name="gote">Gote</a><p class="red">hou shou </p></strong>&quot;Main basse&quot;.</dt>
-	<dd>Dernier coup d'une s�quence. Celui qui le joue n'a donc plus l'initiative.</dd>
-	
-	<dt><a name="Gote-no-sente"><strong>Gote no sente</strong></a></dt>
-	<dd>Coup gote mais cr�ant un coup sente. </dd>
-	
-	<dt><a name="Kata-sente"><strong>Kata-sente</strong></a></dt>
-	<dd>Position o� le coup � jouer est sente pour un seul joueur et gote pour l'autre.</dd>
-	
-	<dt><a name="Kiku"><strong>Kiku</strong></a></dt>
-	<dd>Etre Sente. Garder l'initiative.</dd>
-	
-	<dt><strong><a name="Ryo-gote">Ryo-gote</a> <p class="red">shuang fang hou shou</p></strong></dt>
-	<dd>Position o� le coup � jouer est gote pour les deux joueurs.</dd>
-	
-	<dt><strong><a name="Ryo-sente">Ryo-sente</a> <p class="red">shuang fan xian shou</p></strong></dt>
-	<dd>Position o� le coup � jouer est sente pour les deux joueurs.</dd>
-	
-	<dt><strong><a name="sente">Sente</a> <p class="red">xian shou </p></strong>&quot;Premier coup&quot;.</dt>
-	<dd>Qualifie un coup ou une s�quence de coups laissant l'initiative � celui qui la d�bute.</dd>
-	
-	<dt><a name="Sente-Gote"><strong>Sente-Gote</strong></a></dt>
-	<dd>Coup de fin de partie qui est sente pour un joueur et gote pour l'autre</dd>
-</dl>
-
-				</div>
-
-				<div class="separation">&nbsp;</div>
-
-<!-- **** bloc 7 **** -->
-				<table class="titre_bloc" border="0" cellpadding="0" cellspacing="0" width="100%">
-					<tr>
-						<td class="titre_gauche">
-<a href="#haut_page">
-	<img class="img" style="float:left;" src="../ressources/home.gif" width="18" height="18" alt="" />
-</a>&nbsp;
-<a name="_Influence"></a>L'influence
-
-						</td>
-						<td width="27" valign="top" class="titre_droit">
-							<img class="no_prt" src="../ressources/ecorne.gif" width="27" height="33" alt="" />
-						</td>
-					</tr>
-				</table>
-				
-				<div class="chiffonne">
-<br>
-<div class="lettrine_kanji">
-	<img style="float:left;" src="5916.gif" width="35" height="35" alt="" />
-	<img style="float:left;" src="52e2.gif" width="35" height="35" alt="" />
-</div>
-
-<dl>
-	<dt>
-		<strong><a name="Gaisei">Gaisei</a></strong>
-	</dt>
-	<dd>Influence vers l'ext�rieur.</dd>
-
-</dl>
-
-				</div>
-
-				<div class="separation">&nbsp;</div>
-
-<!-- **** bloc 8 **** -->
-				<table class="titre_bloc" border="0" cellpadding="0" cellspacing="0" width="100%">
-					<tr>
-						<td class="titre_gauche">
-<a href="#haut_page">
-	<img class="img" style="float:left;" src="../ressources/home.gif" width="18" height="18" alt="" />
-</a>&nbsp;
-<a name="coups_commentaires"></a>Les commentaires
-
-						</td>
-						<td width="27" valign="top" class="titre_droit">
-							<img class="no_prt" src="../ressources/ecorne.gif" width="27" height="33" alt="" />
-						</td>
-					</tr>
-				</table>
-				
-				<div class="gauffre">
-<br>
-<div class="lettrine_kanji">
-	<img style="float:left;" src="5460.gif" alt="AJI" width="35" height="35" />
-	<img style="float:left;" src="6d88.gif" alt="KE" width="35" height="35" />
-	<img style="float:left;" src="3057.gif" alt="SHI" width="35" height="35" />
-</div>
-<dl>
-	<dt>
-		<a name="Aji-keshi"><b>Aji-keshi</b></a>
-	</dt>
-	<dd>Mauvais coup neutralisant l'<a href="dicositu.htm#aji">aji</a> d'une situation. </dd>
-</dl>
-
-<div class="lettrine_kanji">
-	<img style="float:left;" src="60aa.gif" width="35" height="35" alt="" />
-	<img style="float:left;" src="624b.gif" width="35" height="35" alt="" />
-</div>
-<dl>
-	<dt>
-		<strong><a name="Akushu">Akushu</a></strong>
-	</dt>
-	<dd>Mauvais coup</dd>
-</dl>
-
-<div class="lettrine_kanji">
-	<img style="float:left;" src="7518.gif" alt="AMA" width="35" height="35" />
-	<img style="float:left;" src="3044.gif" alt="I" width="35" height="35" />
-</div>
-<dl>	
-	<dt>
-		<a name="Amai"><strong>Amai</strong></a>
-	</dt>
-	<dd>Insuffisant.</dd>
-</dl>
-
-<div class="lettrine_kanji">
-	<img style="float:left;" src="4f59.gif" alt="AMA" width="35" height="35" />
-	<img style="float:left;" src="308a.gif" alt="RI" width="35" height="35" />
-	<img style="float:left;" src="5f62.gif" alt="GATACHI" width="35" height="35" />
-</div>
-<dl>	
-	<dt>
-		<a name="Amari-gatachi"><strong>Amari-gatachi</strong></a>
-	</dt>
-	<dd>Attaque semblant bonne mais ne r�ussissant � rien.</dd>
-</dl>
-
-<div class="lettrine_kanji">
-	<img style="float:left;" src="539a.gif" alt="ATSU" width="35" height="35" />
-	<img style="float:left;" src="3044.gif" alt="I" width="35" height="35" />
-</div>
-<dl>
-	<dt>
-		<a name="Atsui"><strong>Atsui</strong></a>
-	</dt>
-	<dd>Solide. Utilis� pour qualifier une forme, une influence ou une avance territoriale.</dd>
-</dl>
-
-<div class="lettrine_kanji">
-	<img style="float:left;" src="30c0.gif" alt="DA" width="35" height="35" />
-	<img style="float:left;" src="30e1.gif" alt="ME" width="35" height="35" />
-	<img style="float:left;" src="30c5.gif" alt="ZU" width="35" height="35" />
-	<img style="float:left;" src="30de.gif" alt="MA" width="35" height="35" />
-	<img style="float:left;" src="30ea.gif" alt="RI" width="35" height="35" />
-</div>
-<div class="lettrine_kanji">
-	<img style="float:left;" src="99c4.gif" width="35" height="35" alt="" />
-	<img style="float:left;" src="76ee.gif" width="35" height="35" alt="" />
-	<img style="float:left;" src="30c5.gif" alt="ZU" width="35" height="35" />
-	<img style="float:left;" src="30de.gif" alt="MA" width="35" height="35" />
-	<img style="float:left;" src="30ea.gif" alt="RI" width="35" height="35" />
-</div>
-<dl>	
-	<dt>
-		<strong><a name="Dame-zumari">Dame-zumari</a></strong>
-	</dt>
-	<dd>Coup enlevant des libert�s � un groupe ami.</dd>
-	
-	<dt><a name="Hamari"><strong>Hamari</strong></a></dt>
-	<dd>Coup tombant dans un pi�ge</dd>
-	
-	<dt><a name="Hebo"><strong>Hebo</strong></a> ou <a name="Heta"><strong>Heta</strong></a></dt>
-	<dd>Faible. Utilis� pour qualifier un joueur ou un coup.</dd>
-	
-	<dt><a name="Honte"><strong>Honte</strong></a></dt>
-	<dd>Coup correct et calme, bien que peu spectaculaire. Contraire de <a href="#Uso-te">Uso-te</a></dd>
-	
-	<dt><a name="Imosuji"><strong>Imosuji</strong></a></dt>
-	<dd>Tesuji rat�</dd>
-	
-	<dt><a name="Ji-Dori-Go"><strong>Ji Dori Go</strong></a></dt>
-	<dd>Style de jeu orient� vers le territoire.</dd>
-
-	<dt><a name="Ji-ni-amai"><strong>Ji ni amai</strong></a></dt>
-	<dd>&quot;prise en territoire insuffisante&quot;.</dd>
-
-	<dt><a name="joseki"><strong>Joseki</strong></a></dt>
-	<dd>S�quence �quitable et plus particuli�rement pour les s�quences de d�but de partie.</dd>
-
-	<dt><a name="Karai"><strong>Karai</strong></a></dt>
-	<dd>Coup clair, dont les objectifs sont �vidents.</dd>
-
-	<dt><strong><a name="Kikashi">Kikashi</a> <p class="purple">Forcing move</p></strong></dt>
-	<dd>Coup for�ant la r�ponse (souvent unique) de l'adversaire.</dd>
-
-	<dt><a name="Kimari-te"><strong>Kimari-te</strong></a></dt>
-	<dd>Le seul coup possible.</dd>
-
-	<dt><a name="Kimete"><strong>Kimete</strong></a></dt>
-	<dd>Le coup d�cisif d'une partie.</dd>
-
-	<dt><a name="Kyuba"><strong>Kyuba</strong></a></dt>
-	<dd>Coup urgent.</dd>
-
-	<dt><strong><a name="miai">Miai</a> <p class="red">jian he</p></strong></dt>
-	<dd>Qualificatif de deux coups �quivalents. Lorsque l'un des deux est jou�, l'autre sera jou� en r�ponse.</dd>
-
-	<dt><a name="Mochi-komi"><strong>Mochi-komi</strong></a></dt>
-	<dd>Invasion rat�e au point que les pierres d'invasion sont perdues sans compensation.</dd>
-
-	<dt><a name="Mu-ko"><strong>Mu-ko</strong></a></dt>
-	<dd>Fausse menace de ko</dd>
-
-	<dt><a name="Myoshu"><strong>Myoshu</strong></a></dt>
-	<dd>Coup spectaculaire.</dd>
-
-	<dt><a name="Nurui"><strong>Nurui</strong></a></dt>
-	<dd>Coup vague, qui n'a pas d'objectif clair.</dd>
-
-	<dt><strong><a name="Poka">Poka</a> <p class="red">sui shou</p></strong></dt>
-	<dd>Une gaffe</dd>
-
-	<dt><a name="Keisei-fume"><strong>Keisei fume</strong></a></dt>
-	<dd>Situation dans laquelle il n'est pas �vident de savoir qui a l'avantage.</dd>
-
-	<dt><a name="Saite-deru"><strong>Saite deru</strong></a></dt>
-	<dd>'D�chirer' les positions de l'adversaire.</dd>
-
-	<dt><strong><a name="Seikai">Seikai</a> <p class="red">zheng jie</p></strong></dt>
-	<dd>R�ponse correcte (� un probl�me).</dd>
-
-	<dt><a name="Suso-aki"><strong>Suso-aki</strong></a></dt>
-	<dd>&quot;Chemise ouverte&quot; . Ouvert sur le c�t�.</dd>
-
-	<dt><a name="Sute-ishi"><strong>Sute ishi</strong></a></dt>
-	<dd>Pierre de sacrifice.</dd>
-
-	<dt><a name="Tani-ga-fukai"><strong>Tani ga fukai</strong></a></dt>
-	<dd>Territoire immense.</dd>
-
-	<dt><a name="Te-dokoro"><strong>Te-dokoro</strong></a></dt>
-	<dd>Utilis� pour un coup d�licat dans un combat pour lequel les deux joueurs doivent analyser les diff�rentes options qui leur sont ouvertes.</dd>
-
-	<dt><a name="Tedomari"><strong>Te-domari</strong></a></dt>
-	<dd>Signifie litt�ralement &quot;dernier coup du jeu&quot; mais est souvent utilis� pour d�signer le dernier coup important d'une phase de jeu comme le fuseki ou le yose.</dd>
-
-	<dt><strong><a name="tenuki">Te-nuki</a> <p class="red">tuo xian</p></strong></dt>
-	<dd>Coup ignorant la derni�re pierre de l'adversaire pour jouer ailleurs.</dd>
-
-	<dt><a name="Te-okure"><strong>Te-okure</strong></a></dt>
-	<dd>Coup inutile.</dd>
-
-	<dt><strong><a name="tesuji">Te-suji </a><p class="red">shou jin </p><p class="purple">strong move</p></strong></dt>
-	<dd>Coup brillant tirant le meilleur parti d'une position.</dd>
-
-	<dt><a name="Uso-te"><strong>Uso-te</strong></a></dt>
-	<dd>Coup incorrect ou qui ne fonctionne pas. Contraire de <a href="#Honte">Honte</a></dd>
-
-	<dt><a name="Warui"><strong>Warui</strong></a></dt>
-	<dd>Coup faible.</dd>
-	
-	<dt><a name="Zaru-go"><strong>Zaru go</strong></a></dt>
-	<dd>Go mal jou�.</dd>
-
-	<dt><a name="Zoku-suji"><strong>Zoku-suji</strong></a></dt>
-	<dd>Style de jeu ou coup grossier.</dd>
-</dl>
-
-				</div>
-				
- 			</div>
-		</td>
-	</tr>
-</table>
-
-<div class="separation"><br><br><br></div>
-
-<!-- Bas de page  -->
-<!-- ************************************************************************************************************* -->
-<div id="bas_page">
-	<table border="0" cellpadding="0" cellspacing="0" width="100%">
-		<tr>
-			<td width="12" align="left">
-				<img src="../ressources/coin_vert.gif" width="12" height="22" alt="" />
-			</td>
-			<td align="left">
-				<a href="http://validator.w3.org/check?uri=referer" class="txt">W3C XHTML 1.0</a>
-				<span class="txt">/</span>
-				<a href="http://jigsaw.w3.org/css-validator/check/referer" class="txt">W3C CSS</a>
-			</td>
-			<td width="100" align="left" class="txt">
-				WS - 04/12/2006
-			</td>
-			<td width="36" align="right">
-				<a href="#" onclick="mail_webmestre('');"><img src="../ressources/mail.jpg" class="img" width="36" height="18" alt="" /></a>
-			</td>
-			<td width="18" align="right">
-				<a href="#haut_page"><img class="img" src="../ressources/home.gif" width="18" height="18" alt="" /></a>
-			</td>
-		</tr>
-	</table>
-</div>
-
-</body>
+      <meta content="Go Club de Versailles - Dictionnaire / Les coups" name="description">
+      <meta content="Versailles, jeu de go, go, baduk, weichi, club, dictionnaire, kanji, traduction, coups" name="keywords" >
+      <meta content="index,follow" name="robots" >
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../ressources/versailles_prt.css">
+      <link rel="stylesheet" href="../ressources/versailles.css">
+   </head>
+   <body>
+      <script src="../ressources/email.js"></script>
+      <a id="haut_page"></a>
+      <header id="entete">
+         <div>
+            <h1>Dictionnaire des coups du Gô</h1>
+         </div>
+         <div>
+            <img src="../ressources/entete_logo.gif"  alt="Logo pierre noire" class="no_prt">
+         </div>
+      </header>
+      <main>
+         <div id="flex_menu">
+            <div><img src="../ressources/menu_coin.gif" alt="logo_menu" class="no_prt"><a href="../index.html">Accueil</a></div>
+            <div><img src="../ressources/menu_coin.gif" alt="logo_menu" class="no_prt"><a href="../infos.htm">Informations pratiques</a></div>
+            <div><img src="../ressources/menu_coin.gif" alt="logo_menu" class="no_prt"><a href="../breves.htm">Brèves <br>de goban</a></div>
+            <div id="submenu">
+               <div>
+                  <img src="../ressources/menu_coin.gif" alt="logo_menu" class="no_prt"><a href="dictionnaire.htm">Dictionnaire des<br>termes de go</a>
+               </div>
+               <ul>
+                  <li><a href="dictionnaire.htm"> Index</a></li>
+                  <li><a href="dicocoup.htm">Coups</a></li>
+                  <li><a href="dicoform.htm">Formes</a></li>
+                  <li><a href="dicositu.htm">Situations</a></li>
+                  <li><a href="dicopart.htm">Partie</a></li>
+                  <li><a href="dicomate.htm">Matériel</a></li>
+                  <li><a href="dicojou.htm">Joueurs</a></li>
+                  <li><a href="dicodive.htm">Divers</a></li>
+               </ul>
+            </div>
+            <div><img src="../ressources/menu_coin.gif" alt="logo_menu" class="no_prt"><a href="../photos/index_photos.htm">Photos</a></div>
+            <div><img src="../ressources/menu_coin.gif" alt="logo_menu" class="no_prt"><a href="../liens.htm">Liens</a></div>
+            <div><img src="../ressources/menu_coin.gif" alt="logo_menu" class="no_prt"><a href="../reserve_membres.htm">Pages réservées<br> aux membres</a></div>
+            <div>
+               <p>News : Attention, <br> les date des séances  <br> du club  sont susceptible <br> d'évoluer !</p>
+            </div>
+         </div>
+         <div id="flex_content">
+            <div id="corps">
+               <div class="titre_bloc">
+                  <h2>
+                     Index des types de coups	
+                  </h2>
+                  <div class="titre_droit">
+                     <img class="no_prt" src="../ressources/ecorne.gif" alt="petit marque page">
+                  </div>
+               </div>
+               <div class="gauffre">
+                  <ul>
+                     <li><a href="dicocoup.htm#coups_extension">Les coups d'extension ou de connexion</a></li>
+                     <li><a href="dicocoup.htm#coups_attaque">Les coups offensifs</a></li>
+                     <li><a href="dicocoup.htm#coups_defense">Les coups défensifs</a></li>
+                     <li><a href="dicocoup.htm#coups_capture">Les coups de capture</a></li>
+                     <li><a href="dicocoup.htm#_OrdreCoups">Les séquences de coups</a></li>
+                     <li><a href="dicocoup.htm#_initiative">L'initiative</a></li>
+                     <li><a href="dicocoup.htm#_Influence">L'influence</a></li>
+                     <li><a href="dicocoup.htm#coups_commentaires">Les commentaires</a></li>
+                  </ul>
+                  <br>
+               </div>
+               <div class="separation">&nbsp;</div>
+               <div class="titre_bloc t_b_extra">
+                  <h2 id="coups_extension">
+                     <a href="#haut_page">
+                     <img class="img" style="float:left;" src="../ressources/home.gif" alt="Flèche vers le haut">
+                     </a>
+                     &nbsp;
+                     Les coups d'extension ou de connexion
+                  </h2>
+                  <img class="no_prt" src="../ressources/ecorne.gif" alt="" >
+               </div>
+               <div class="chiffonne">
+                  <br>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="68d2.gif" alt="BO" >
+                     <img style="float:left;" src="30c4.gif" alt="TSU" >
+                     <img style="float:left;" src="30ae.gif" alt="GI" >
+                  </div>
+                  <dl>
+                     <dt>
+                        <strong><a id="Botsugi">Botsugi</a></strong>
+                     </dt>
+                     <dd>Connexion formant un mur de 3 pierres.<br><br></dd>
+                     <dt><strong><a id="Daidai-geima">Daidai-geima</a></strong></dt>
+                     <dd>Saut de cheval très allongé. (4+1)</dd>
+                  </dl>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="30d5.gif" alt="FU" >
+                     <img style="float:left;" src="30af.gif" alt="KU" >
+                     <img style="float:left;" src="30e9.gif" alt="RA" >
+                     <img style="float:left;" src="30df.gif" alt="MI" >
+                  </div>
+                  <dl>
+                     <dt>
+                        <strong><a id="Fukure">Fukure</a></strong> ou <strong><a id="Fukurami">Fukurami</a></strong>
+                     </dt>
+                     <dd>Faire grossir un groupe vers l'extérieur.<br><br></dd>
+                  </dl>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="30d3.gif" alt="BI" >
+                     <img style="float:left;" src="30e9.gif" alt="RA" >
+                     <img style="float:left;" src="30ad.gif" alt="KI" >
+                  </div>
+                  <dl>
+                     <dt>
+                        <strong><a id="hiraki">Hiraki</a></strong> ou <strong><a id="-Biraki">-Biraki</a></strong>
+                     </dt>
+                     <dd>
+                        Extension sur la 3ième ou 4ième ligne<br><br>
+                        <ul>
+                           <li><strong><a id="Ikken-biraki">Ikken-biraki</a></strong> Extension avec un espace</li>
+                           <li><strong><a id="Niken-biraki">Niken-biraki</a></strong> Extension avec deux espaces</li>
+                           <li><strong><a id="Sangen-biraki">Sangen-biraki</a></strong> Extension avec trois espaces</li>
+                           <li><strong><a id="Tsume-biraki">Tsume-biraki</a></strong> Extension empêchant l'extension des pierres adverses.</li>
+                        </ul>
+                     </dd>
+                     <dt><strong><a id="keima">Keima</a></strong></dt>
+                     <dd>
+                        Coup en saut de cheval (2 positions longitudinales + 1 transversale).
+                        <ul>
+                           <li><strong><a id="Keima-gake">Keima-gake</a></strong> Keima pressant un
+                              groupe sur le bord.
+                           </li>
+                           <li><strong><a id="Keima-no-fundoshi">Keima no fundoshi</a></strong> Keima produisant une
+                              double menace.
+                           </li>
+                           <li><strong><a id="Keima-tobi">Keima-tobi</a></strong> Keima vers le centre. </li>
+                           <li><strong><a id="Keima-tsugi">Keima-tsugi</a></strong> Keima de connexion</li>
+                           <li><strong><a id="Keima-watari">Keima-watari</a></strong> Keima sur la 2ième ou 3ième ligne reliant deux groupes.</li>
+                        </ul>
+                     </dd>
+                     <dt><strong><a id="Kogeima">Kogeima</a></strong></dt>
+                     <dd>Coup en saut de cheval. Identique au keima (2 positions longitudinales + 1 transversale).</dd>
+                     <dt><strong><a id="kosumi">Kosumi</a></strong></dt>
+                     <dd>Coup en diagonal.</dd>
+                     <dt><strong><a id="Kosumi-tsuke">Kosumi-tsuke</a></strong></dt>
+                     <dd><a href="#kosumi">Kosumi</a> venant au contact (<a href="#tsuke">tsuke</a>) d'une pierre.</dd>
+                     <dt><strong><a id="Magari">Magari</a></strong></dt>
+                     <dd>
+                        Extension faisant tourner un groupe.
+                        <ul>
+                           <li><strong><a id="Magari-tsuke">Magari-tsuke</a> </strong>ou 
+                              <strong><a id="Mage-tsuke">Mage-tsuke</a></strong> Magari venant au contact d'une pierre adverse
+                           </li>
+                           <li><strong><a id="Uchi-Magari">Uchi-Magari</a></strong> Extension tournant vers l'intérieur.</li>
+                        </ul>
+                     </dd>
+                     <dt><a id="Modori"><strong>Modori</strong></a></dt>
+                     <dd>Extension tournante &quot;tombant&quot; vers le bord.</dd>
+                     <dt><a id="Narabi"><strong>Narabi</strong></a></dt>
+                     <dd>Extension au contact d'une pierre isolée.</dd>
+                     <dt><a id="Nobi"><strong>Nobi</strong></a></dt>
+                     <dd>
+                        Extension d'une pierre qui garde la connexion. 
+                        Utilisée souvent comme défense contre un tsuke ou une double coupe.
+                        <ul>
+                           <li><a id="Ate-nobi"><strong>Ate-nobi</strong></a> Atari suivi par un coup d'extension</li>
+                           <li><strong><a id="Nobi-komi">Nobi-komi</a><em> </em></strong>Extension connectée à l'intérieur du territoire adverse.</li>
+                        </ul>
+                     </dd>
+                     <dt><a id="Sagari"><strong>Sagari</strong></a></dt>
+                     <dd>Descente vers le bord.</dd>
+                     <dt><a id="Tachi"><strong>Tachi</strong></a></dt>
+                     <dd>&quot;Se mettre debout&quot;. Extension sans intervalle d'une pierre tournée vers le centre.</dd>
+                     <dt><a id="Tobi"><b>Tobi</b></a></dt>
+                     <dd>
+                        Extension d'une pierre ou &quot;saut&quot;.
+                        <ul>
+                           <li><a id="Tobi-dashi"><b>Tobi-dashi</b></a> Tobi permettant de faire sortir un groupe vers le centre.</li>
+                           <li><a id="Tobi-komi"><b>Tobi-komi</b></a> Tobi à l'intérieur de la sphère d'influence de l'adversaire.</li>
+                           <li><a id="Tobi-magari"><b>Tobi-magari</b></a> Tobi à angle droit.</li>
+                           <li><a id="Tobi-tobi"><strong>Tobi-tobi</strong></a> : Tobi faisant réponse à un autretobi.</li>
+                           <li><b><a id="Tobi-tsuke">Tobi-tsuke</a> </b>: Tobi venant au contact d'un pierre adverse.</li>
+                           <li><strong><a id="Ikken-tobi">Ikken-tobi</a> </strong>Tobi à un intervalle.</li>
+                           <li><a id="Niken-tobi"><strong>Niken-tobi</strong></a> Tobi à 2 intervalles.</li>
+                           <li><a id="Sangen-tobi"><strong>Sangen-tobi</strong></a> Tobi à 3 intervalles.</li>
+                           <li>
+                              <strong><a id="Chikiri-tobi">Chikiri-tobi</a> </strong>
+                              <div class="lettrine_kanji">
+                                 <img style="float:left;" src="30c1.gif" alt="CHI" >
+                                 <img style="float:left;" src="30ad.gif" alt="KI" >
+                                 <img style="float:left;" src="30ea.gif" alt="RI" >
+                                 <img style="float:left;" src="30c8.gif" alt="TO" >
+                                 <img style="float:left;" src="30d3.gif" alt="BI" >
+                              </div>
+                              <br><br><br><br>
+                              Saut en diagonale.
+                           </li>
+                           <li><strong><a id="Hazama-tobi">Hazama-tobi</a> </strong>Saut en diagonale d'une intersection.</li>
+                           <li><strong>Keima-tobi</strong> Saut de cheval vers le centre. </li>
+                        </ul>
+                     </dd>
+                     <dt><strong><a id="Tsugi">Tsugi</a> </strong>ou <a id="Tsunagi"><strong>Tsunagi</strong></a></dt>
+                     <dd>
+                        Connexion physique de 2 pierres. voir <em>kake-tsugi, keima-tsugi, hane-tsugi</em>
+                        <ul>
+                           <li><strong><a id="Kata-tsugi">Kata-tsugi</a> </strong>Connexion solide<em>. </em>voir <em>kake-tsugi </em>et <em>keima-tsugi</em></li>
+                           <li><strong><a id="Kake-tsugi">Kake-tsugi</a> </strong>Connexion incomplète ou suspendue qui promet de faire un oeil mais qui est encore vulnérable. (Exemple : 3 pierres entourant un trou).</li>
+                           <li><strong><a id="Tsugi-tsugi">Tsugi-tsugi</a> </strong>Connexion en réponse à une connexion.</li>
+                           <li><strong><a id="Rappa-tsugi">Rappa-tsugi</a> </strong>Connexion ouverte.</li>
+                           <li><a id="Moto-tsugi"><strong>Moto-tsugi</strong></a><em> </em>Connexion à la base d'un groupe.</li>
+                           <li><a id="Pin-tsugi"><strong>Pin-tsugi</strong></a> Connexion solide d'un tobi</li>
+                        </ul>
+                     </dd>
+                     <dt><a id="Odokoro"><strong>Odokoro</strong></a></dt>
+                     <dd>Espace où doit être trouvé un coup &quot;large&quot;.</dd>
+                     <dt>
+                        <a id="Ogeima">Ogeima</a> 
+                        <p class="red">da fei</p>
+                     </dt>
+                     <dd>Saut de cheval allongé (3+1)</dd>
+                     <dt>
+                        <a id="Saru-suberi">Saru-suberi</a> 
+                        <p class="red">xiao fei diao</p>
+                     </dt>
+                     <dd>La glissade du singe. Coup de réduction du territoire adverse utilisant un keima sur la ligne du bord.</dd>
+                     <dt>
+                        <a id="Ozaru-Suberi">Ozaru-suberi</a> 
+                        <p class="red">da fei tiao</p>
+                     </dt>
+                     <dd>Grande glissade du singe. Ce coup de réduction du territoire adverse utilise un ogeima sur la ligne de bord</dd>
+                     <dt><a id="Watari"><strong>Watari</strong></a></dt>
+                     <dd>Connexion par dessous. Voir <a href="#Keima-watari">Keima watari</a></dd>
+                  </dl>
+               </div>
+               <div class="separation">&nbsp;</div>
+               <!-- **** bloc 2**** -->
+               <div class="titre_bloc t_b_extra">
+                  <h2 id="coups_attaque">
+                     <a href="#haut_page">
+                     <img class="img" style="float:left;" src="../ressources/home.gif" alt="Flèche vers le haut">
+                     </a>
+                     &nbsp;
+                     Les coups offensifs
+                  </h2>
+                  <img class="no_prt" src="../ressources/ecorne.gif" alt="" >
+               </div>
+               <div class="gauffre2">
+                  <br>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="30a2.gif" alt="A" >
+                     <img style="float:left;" src="30b4.gif" alt="GO" >
+                  </div>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="984e.gif" alt="AGO" >
+                  </div>
+                  <dl>
+                     <dt>
+                        <strong><a id="Ago">Ago</a></strong>
+                     </dt>
+                     <dd>La &quot;mâchoire&quot;. Pierre placée au point vital d'une forme diagonale.<br><br></dd>
+                  </dl>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="30a2.gif" alt="A" >
+                     <img style="float:left;" src="30aa.gif" alt="O" >
+                     <img style="float:left;" src="308b.gif" alt="RU" >
+                  </div>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="717d.gif" alt="AO" >
+                     <img style="float:left;" src="308b.gif" alt="RU" >
+                  </div>
+                  <dl>
+                     <dt>
+                        <strong><a id="Aoru">Aoru</a> </strong>
+                     </dt>
+                     <dd>Coup qui accroit la pression sur un groupe.<br><br></dd>
+                  </dl>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="30a2.gif" alt="A" >
+                     <img style="float:left;" src="30c6.gif" alt="TE" >
+                     <img style="float:left;" src="8fbc.gif" alt="KO" >
+                     <img style="float:left;" src="307f.gif" alt="MI" >
+                  </div>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="5f53.gif" alt="A" >
+                     <img style="float:left;" src="3066.gif" alt="TE" >
+                     <img style="float:left;" src="8fbc.gif" alt="KO" >
+                     <img style="float:left;" src="307f.gif" alt="MI" >
+                  </div>
+                  <dl>
+                     <dt>
+                        <strong><a id="Atekomi">Ate-komi</a> </strong>
+                     </dt>
+                     <dd>Demi-coupe. La pierre est posée au contact de 2 pierres en diagonale d'où une menace de coupe.</dd>
+                  </dl>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="30dc.gif" alt="BO" >
+                     <img style="float:left;" src="30a6.gif" alt="O" >
+                     <img style="float:left;" src="30b7.gif" alt="SHI" >
+                  </div>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="5e3d.gif" alt="BO" >
+                     <img style="float:left;" src="5b50.gif" alt="SHI" >
+                  </div>
+                  <dl>
+                     <dt>
+                        <b><a id="Boshi">Bôshi</a></b> ou <a id="Kabuseru"><strong>Kabuseru</strong></a>
+                     </dt>
+                     <dd>Le &quot;chapeau&quot;. (Kabuseru = &quot;couvrir&quot;). Coup recouvrant une pierre à distance. </dd>
+                  </dl>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="5c80.gif" alt="DE" >
+                  </div>
+                  <dl>
+                     <dt>
+                        <a id="De"><strong>De</strong></a>
+                     </dt>
+                     <dd>Coup d'extension gardant la connexion et poussant au travers d'une forme adverse.</dd>
+                  </dl>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="5c80.gif" alt="DE" >
+                     <img style="float:left;" src="5207.gif" alt="GI" >
+                     <img style="float:left;" src="308a.gif" alt="RI" >
+                  </div>
+                  <dl>
+                     <dt>
+                        <a id="De-giri"><strong>De-giri</strong></a>	
+                     </dt>
+                     <dd>Séquence de 2 coups commençant par l'intrusion dans une formation suivie d'une coupe.</dd>
+                  </dl>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="30a8.gif" alt="E" >
+                     <img style="float:left;" src="30b0.gif" alt="GU" >
+                     <img style="float:left;" src="30ea.gif" alt="RI" >
+                  </div>
+                  <dl>
+                     <dt>
+                        <a id="Eguri"><strong>Eguri</strong></a>
+                     </dt>
+                     <dd>Coup joué au point vital d'une forme adverse privant cette dernière de base de vie.</dd>
+                  </dl>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="5c01.gif" alt="FU" >
+                     <img style="float:left;" src="9396.gif" alt="" >
+                  </div>
+                  <dl>
+                     <dt>
+                        <a id="Fusa"><strong>Fusa</strong></a>
+                     </dt>
+                     <dd>Coup joué pour empêcher un groupe de s'échapper vers le centre.<br><br></dd>
+                     <dt><a id="Gomoku-nakade"><strong>Gomoku nakade</strong></a></dt>
+                     <dd>Coup empêchant la formation de 2 yeux dans un oeil de 5 libertés.</dd>
+                  </dl>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="3060.gif" alt="DA" >
+                     <img style="float:left;" src="307e.gif" alt="MA" >
+                     <img style="float:left;" src="3057.gif" alt="SHI" >
+                     <img style="float:left;" src="624b.gif" alt="TE" >  
+                  </div>
+                  <dl>
+                     <dt>
+                        <a id="Inchiki-te"><strong>Inchiki-te</strong></a> ou 
+                        <a id="Gomakashi-te">Gomakashi-te</a> 
+                        <p class="purple">Trick move, Trick play</p>
+                        <strong><a id="Hamete">Hamete</a> </strong>ou <a id="Damashi-te"><strong>Damashi-te</strong></a>	
+                     </dt>
+                     <dd>Piège tendu pour lequel la mauvaise réponse est celle qui semble la plus naturelle.</dd>
+                  </dl>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="30d0.gif" alt="BA" >
+                     <img style="float:left;" src="30cd.gif" alt="NE" >
+                  </div>
+                  <dl>
+                     <dt>
+                        <strong><a id="hane">Hane</a> </strong>ou <strong><a id="-Bane">-Bane</a></strong>
+                        <p class="red">ban</p>
+                     </dt>
+                     <dd>
+                        Coup diagonal au contact d'une pierre <br><br>
+                        <ul>
+                           <li><a id="Hane-dashi"><b>Hane-dashi</b></a>: Hane joué vers l'extérieur</li>
+                           <li>
+                              <a id="Nidan-bane"><strong>Ni-dan-bane</strong></a> 
+                              <p class="red"><strong>lian ban </strong></p>
+                              : double hane.
+                           </li>
+                           <li><a id="Sandan-bane"><strong>San-dan-bane</strong></a>: triple hane.</li>
+                           <li><a id="Hane-kaeshi"><strong>Hane-kaeshi</strong></a>: Hane joué en réponse à un autre Hane.</li>
+                           <li><a id="Hane-komi"><strong>Hane-komi</strong></a>: Hane joué entre 2 pierres.</li>
+                           <li><a id="Shita-hane"><strong>Shita-hane</strong></a>: Hane par dessous.</li>
+                           <li><a id="Hane-tsugi"><strong>Hane-tsugi</strong></a>: Hane suivi d'une connexion</li>
+                           <li><strong><a id="Hane-tsuki">Hane-tsuki</a></strong>: Hane d'attaque au ventre</li>
+                           <li><a id="Hane-goroshi"><strong>Hane-goroshi</strong></a>: 
+                              &quot;Hane qui apporte la mort&quot; à un groupe de pierres.
+                           </li>
+                        </ul>
+                        <br>
+                     </dd>
+                     <dt><a id="Hana-tsuke"><strong>Hana-tsuke</strong></a></dt>
+                     <dd>Contact sur le nez</dd>
+                     <dt><a id="Harazuke"><strong>Hara-tsuke</strong></a></dt>
+                     <dd>Attaque au ventre. </dd>
+                  </dl>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="30d0.gif" alt="BA" >
+                     <img style="float:left;" src="305b.gif" alt="SA" >
+                     <img style="float:left;" src="307f.gif" alt="MI" >
+                  </div>
+                  <dl>
+                     <dt>
+                        <strong><a id="hasami">Hasami</a> </strong>ou <strong><a id="-Basami">-Basami</a></strong>	
+                     </dt>
+                     <dd>
+                        Pince.<br><br>
+                        <ul>
+                           <li><a id="Hasami-kaeshi"><strong>Hasami-kaeshi</strong></a> Pince jouée en réponse à une autre pince.</li>
+                           <li>
+                              <a id="Hasami-tsuke">Hasami-tsuke</a> 
+                              <p class="red">jia </p>
+                              <p class="purple">clamp</p>
+                              Pince avec contact des deux côtés.
+                           </li>
+                           <li><a id="Ikken-basami"><b>Ikken-basami</b></a> pince d'un espace (sur la troisième ligne) </li>
+                           <li><a id="Ikken-Taka-basami"><b>Ikken-taka-basami</b></a> pince d'un espace (sur la quatrième ligne) </li>
+                           <li><a id="Niken-basami"><b>Niken-basami</b></a> pince de deux espaces (sur la troisième ligne)</li>
+                           <li><strong><a id="Niken-taka-basami">Niken-taka-basami</a> </strong>pince haute de deux espaces (sur la quatrième ligne)</li>
+                           <li>
+                              <a id="Sangen-basami"><b>Sangen-basami</b></a> 
+                              <p class="red">san jian jia</p>
+                              pince de trois espaces (sur la troisième ligne)
+                           </li>
+                           <li><strong><a id="Sangen-taka-basami">Sangen-taka-basami</a> </strong>pince haute de trois espaces (sur la quatrième ligne)</li>
+                        </ul>
+                        <br>
+                     </dd>
+                     <dt><a id="Hazama"><strong>Hazama</strong></a></dt>
+                     <dd>Coup joué pour couper une diagonale de connexion potentielle.
+                        Voir <a href="#Hazama-tobi">Hazama-Tobi</a>
+                     </dd>
+                     <dt><strong><a id="Hashiru">Hashiru</a> </strong>ou <a id="Suberi"><strong>Suberi</strong></a></dt>
+                     <dd>Glissade sous un groupe ennemi avec un keima ou un ogeima sur la 2ième ou 3ième ligne</dd>
+                     <dt>
+                        <a id="Hori-komi">Hori-komi</a> 
+                        <p class="purple">throw-in</p>
+                     </dt>
+                     <dd>Coup de sacrifice servant à diminuer les libertés ou le nombre d'yeux d'un groupe.</dd>
+                     <dt><strong><a id="Karami">Karami</a> </strong>ou <a id="-Garami"><strong>-Garami</strong></a></dt>
+                     <dd>
+                        Attaque simultanée de deux groupes ayant pour but de les séparer.
+                        <ul>
+                           <li><strong><a id="Sanpo-garami">Sanpo-garami</a> </strong>Attaque simultanée de trois groupes.</li>
+                        </ul>
+                     </dd>
+                     <dt><a id="Kakae"><strong>Kakae</strong></a></dt>
+                     <dd>Littéralement &quot;étreindre&quot;. Coup assurant la capture d'une pierre.</dd>
+                     <dt><a id="Kake"><strong>Kake</strong></a></dt>
+                     <dd>Coup de pression (repoussant l'adversaire sur le bord).</dd>
+                  </dl>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="30ab.gif" alt="Ka" >
+                     <img style="float:left;" src="30ab.gif" alt="Ka" >
+                     <img style="float:left;" src="30ea.gif" alt="RI" >
+                  </div>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="30ac.gif" alt="Ga" >
+                     <img style="float:left;" src="30ab.gif" alt="Ka" >
+                     <img style="float:left;" src="30ea.gif" alt="RI" >
+                  </div>
+                  <dl>
+                     <dt>
+                        <strong><a id="kakari">Kakari</a> </strong>ou<strong> -<a id="Gakari">Gakari</a> </strong>
+                     </dt>
+                     <dd>
+                        Coup d'approche d'un coin.<br><br>
+                        <ul>
+                           <li><strong><a id="Ogeima-gakari">Ogeima-gakari</a> </strong>Approche d'un coin avec une pierre formant un Ogeima avec la pierre adverse</li>
+                           <li>
+                              <a id="Ryo-gakari"><strong>Ryo-gakari</strong></a><em> </em>
+                              <p class="red">shuang gua jiao</p>
+                              <em> </em>Double approche d'un coin.
+                           </li>
+                           <li><a id="Sode-gakari"><strong>Sode-gakari</strong></a> ou <a id="Suso-gakari"><strong>Suso-gakari</strong></a> Kakari &quot;avec une idée derrière la tête&quot;. Approche sur la deuxième ligne d'un hoshi de coin.</li>
+                           <li><a id="Niken-taka-gakari"><strong>Niken-taka-gakari</strong></a> Double approche haute.</li>
+                        </ul>
+                     </dd>
+                     <dt><a id="Kata-tsuki"><strong>Kata-tsuki</strong></a></dt>
+                     <dd>Contact à l'épaule. Coup de contact en diagonale d'une pierre adverse.</dd>
+                     <dt><a id="Keshi"><strong>Keshi</strong></a></dt>
+                     <dd>Coup d'érosion</dd>
+                     <dt><a id="Kento"><strong>Kento</strong></a></dt>
+                     <dd>Littérallement, une devinette. 
+                        Estimation du meilleur coup lorsqu'un joueur ne peut pas analyser complètement la situation.
+                     </dd>
+                  </dl>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="5207.gif" alt="Ki" >
+                     <img style="float:left;" src="308a.gif" alt="RI" > 
+                  </div>
+                  <dl>
+                     <dt>
+                        <a id="Kiri"><strong>Kiri</strong></a> ou 
+                        -<a id="Giri">Giri</a>
+                        <p class="red">duan</p>
+                     </dt>
+                     <dd>
+                        Coupe. Coup séparant un groupe en deux.<br><br>
+                        <ul>
+                           <li>
+                              <a id="Kiri-chigai">Kiri-chigae</a> 
+                              <p class="purple">Cross-cut</p>
+                              . Double coupe.
+                           </li>
+                           <li><a id="Kiri-kaeshi"><strong>Kiri-kaeshi</strong></a> Coupe jouée en réponse à une autre coupe.</li>
+                           <li><strong><a id="Kiri-toru">Kiri-toru</a> </strong>Coupe assurant une capture</li>
+                           <li><strong><a id="Kiri-nobi">Kiri-nobi</a> </strong>Coupe suivie d'une extension. </li>
+                        </ul>
+                     </dd>
+                     <dt><a id="Ko-date"><strong>Ko-date</strong></a></dt>
+                     <dd>Menace de ko</dd>
+                     <dt><a id="-Komi"><strong>-Komi</strong></a></dt>
+                     <dd>Suffixe indiquant une idée de pénétration. Voir <a href="#Hori-komi">hori-komi</a>, wari-komi</dd>
+                     <dt><a id="Kozai"><strong>Kozai</strong></a></dt>
+                     <dd>Menaces de ko</dd>
+                     <dt><a id="Kyusho"><strong>Kyusho</strong></a></dt>
+                     <dd>Le point vital.</dd>
+                     <dt><a id="Motare"><strong>Motare</strong></a></dt>
+                     <dd>Attaque en appui. Consiste à appliquer une pression sur un groupe afin de se renforcer afin d'attaquer un autre groupe.</dd>
+                     <dt>
+                        <a id="Nozoki">Nozoki</a> 
+                        <p class="red">chi </p>
+                        <p class="purple">Peep</p>
+                     </dt>
+                     <dd>Coup joué en face d'un trou entre 2 pierres et constituant une menace de coupe.</dd>
+                     <dt><a id="Oki"><strong>Oki</strong></a></dt>
+                     <dd>Coup de placement joué au point vital d'une forme adverse.</dd>
+                     <dt><a id="Oshi"><strong>Oshi</strong></a></dt>
+                     <dd>Coup poussant.</dd>
+                     <dt>
+                        <a id="Sanmoku-nakade">Sanmoku-nakade</a> 
+                        <p class="red">zhi san</p>
+                     </dt>
+                     <dd>Coup placé dans un espace de 3 libertés pour empêcher la création d'autres yeux.</dd>
+                     <dt><a id="Sashikomi"><strong>Sashi-komi</strong></a></dt>
+                     <dd>Coup de pénétration s'insérant entre 3 pierres ennemies. Il s'ensuit généralement une menace de coupe.</dd>
+                     <dt><a id="Shibori"><strong>Shibori</strong></a></dt>
+                     <dd>Pression effectué sur un groupe afin de l'alourdir et d'utiliser au maximum des pierres de sacrifice.
+                        &quot;Essorage&quot;
+                     </dd>
+                     <dt><a id="Shobute"><strong>Shobute</strong></a></dt>
+                     <dd>Variation très risquée pour les deux joueurs et à l'issue imprévisible. 
+                        Souvent lancée pour rattraper un trop gros retard.
+                     </dd>
+                     <dt><a id="Tane-ishi"><strong>Tane-ishi</strong></a></dt>
+                     <dd>Pierres de pivot.</dd>
+                     <dt>
+                        <a id="tsuke">Tsuke</a> 
+                        <p class="red">peng </p>
+                     </dt>
+                     <dd>
+                        Coup venant au contact d'une pierre adverse et n'ayant aucun contact avec une pierre amie.
+                        <ul>
+                           <li>
+                              <b><a id="Tsuki-atari">Tsuke-atari</a><strong> </strong></b>ou 
+                              <a id="Butsukari"><strong>Butsukari</strong></a>
+                              <div class="lettrine_kanji">
+                                 <img style="float:left;" src="30d6.gif" alt="BU" >
+                                 <img style="float:left;" src="30c3.gif" alt="TSU" >
+                                 <img style="float:left;" src="30ab.gif" alt="KA" >
+                                 <img style="float:left;" src="30ea.gif" alt="RI" >
+                              </div>
+                              Coup d'extension connecté &quot;heurtant de la tête&quot; un groupe adverse.<br><br><br><br><br>
+                           </li>
+                           <li><strong><a id="Tsuki-dashi">Tsuke-dashi</a></strong> :<strong> </strong>Coup poussant entre 2 pierres adverses.</li>
+                           <li><b><a id="Tsuke-giri">Tsuke-giri</a></b> :<b><strong> </strong></b>Coup de contact suivi par une coupe.</li>
+                           <li><strong><a id="Tsuke-hiki">Tsuke-hiki</a></strong> :<strong> </strong>Coup de contact suivi par un coup de retrait.</li>
+                           <li><a id="Tsuke-kaeshi"><b>Tsuke-kaeshi</b></a> : Coup de contact qui vient en réponse à un autre coup de contact.</li>
+                           <li><a id="Tsuke-koshi"><b>Tsuke-koshi</b></a> : Coup de contact coupant une formation en saut de cheval.</li>
+                           <li><a id="Tsuke-nobi"><b>Tsuke-nobi</b></a> : Coup de contact suivi par une extension connectée (Nobi). Nom donné à un <a href="#joseki">joseki</a>.</li>
+                           <li><strong><a id="Tsuki-nuki">Tsuke-nuki</a> </strong>: Coup de contact et de pénétration de la position adverse.</li>
+                           <li><strong><a id="Tsuke-osae">Tsuke-osae</a></strong> :<strong> </strong>Coup de contact qui bloque le passage par le bord.</li>
+                           <li><strong><a id="Tsuke-sagari">Tsuke-sagari</a> </strong>: Coup de contact suivi par un coup de descente vers le bord.</li>
+                           <li><a id="Shita-tsuke"><strong>Shita-tsuke</strong></a> :<strong> </strong>Coup de contact par dessous.</li>
+                           <li><a id="Uchi-tsuke"><strong>Uchi-tsuke</strong></a> : Coup de contact par l'intérieur.</li>
+                           <li><a id="Yoko-tsuke"><strong>Yoko-tsuke</strong></a> : Coup de contact sur le côté</li>
+                        </ul>
+                     </dd>
+                     <dt><a id="Tsume"><strong>Tsume</strong></a></dt>
+                     <dd>Restriction de l'espace autour d'une formation adverse pour prévenir d'une extension.</dd>
+                     <dt><a id="Uchikaki"><strong>Uchikaki</strong></a></dt>
+                     <dd>Coup de sacrifice joué pour rendre un oeil faux ou pour réduire le nombre de liberté</dd>
+                     <dt><a id="Uchikomi"><strong>Uchikomi</strong></a></dt>
+                     <dd>Invasion</dd>
+                     <dt><a id="Warikomi"><strong>Wari-komi</strong></a></dt>
+                     <dd>Coup placé entre de deux pierres adverses.</dd>
+                     <dt><a id="Wariuchi"><strong>Wariuchi</strong></a></dt>
+                     <dd>Coup d'invasion qui sépare deux positions adverses en ayant des possibilités d'extension de chaque côté.</dd>
+                     <dt>
+                        <a id="Yosu-mi"><strong>Yosu-mi</strong></a> ou 
+                        <a id="Yosu-miru">Yosu miru</a> 
+                        <p class="red">shi ying shou </p>
+                        <p class="purple">probe, probing move</p>
+                     </dt>
+                     <dd>Esquisse d'attaque jouée pour voir la réponse de l'adversaire et en déduire sa stratégie. Certains joueurs appellent celà &quot;poser une question&quot;.</dd>
+                  </dl>
+               </div>
+               <div class="separation">&nbsp;</div>
+               <div class="titre_bloc t_b_extra">
+                  <h2 id="coups_defense">
+                     <a href="#haut_page">
+                     <img class="img" style="float:left;" src="../ressources/home.gif" alt="Flèche vers le haut">
+                     </a>
+                     &nbsp;
+                     Les coups défensifs
+                  </h2>
+                  <img class="no_prt" src="../ressources/ecorne.gif" alt="" >
+               </div>
+               <div class="chiffonne">
+                  <dl>
+                     <dt><a id="Hai"><strong>Hai</strong></a></dt>
+                     <dd>Coup de reptation sur la 1ière ou 2nde ligne.</dd>
+                     <dt><a id="Hiki"><strong>Hiki</strong></a></dt>
+                     <dd>Coup de retraite ajoutant une pierre à une pierre menacée pour rendre le groupe connectable.</dd>
+                     <dt><a id="Ishi-no-shita"><strong>Ishi-no-shita</strong></a></dt>
+                     <dd>&quot;Jeu sous les pierres&quot;. Technique impliquant le sacrifice d'au moins quatre pierres pour faire un second oeil dans un groupe menacé.</dd>
+                     <dt><a id="Osae"><strong>Osae</strong></a></dt>
+                     <dd>
+                        Coup de blocage pour empêcher une extension sur le bord
+                        <ul>
+                           <li><strong><a id="Nidan-osae">Nidan osae</a> </strong>2 coups de blocages successifs.</li>
+                        </ul>
+                     </dd>
+                     <dt><a id="Semedori"><strong>Semedori</strong></a></dt>
+                     <dd>Coup de capture d'un groupe que l'adversaire oblige à jouer.</dd>
+                     <dt><a id="Shicho-atari"><strong>Shicho-atari</strong></a></dt>
+                     <dd>Briseur de shicho.Pierre jouée dans le chemin d'un shicho potentiel et le rendant perdant pour l'attaquant.</dd>
+                     <dt><a id="Shinogi"><strong>Shinogi</strong></a></dt>
+                     <dd>Séquence de survie d'un groupe dans l'encerclement (souvent dans un moyo adverse)</dd>
+                     <dt><a id="Te-ire"><strong>Te-ire</strong></a></dt>
+                     <dd>Coup ajouté à l'intérieur de son propre territoire pour défendre une faiblesse.</dd>
+                     <dt>
+                        <a id="Tetchu">Tetchu</a> 
+                        <p class="red">yu zhu </p>
+                        <p class="purple">iron pillar</p>
+                     </dt>
+                     <dd>Coup de formation d'un groupe de 2 pierres près du bord et perpendiculaires à celui-ci. 
+                        Cette formation a souvent pour but d'empêcher le passage.
+                     </dd>
+                  </dl>
+               </div>
+               <div class="separation">&nbsp;</div>
+               <div class="titre_bloc t_b_extra">
+                  <h2 id="coups_capture">
+                     <a href="#haut_page">
+                     <img class="img" style="float:left;" src="../ressources/home.gif" alt="Flèche vers le haut">
+                     </a>
+                     &nbsp;
+                     Les coups de capture
+                  </h2>
+                  <img class="no_prt" src="../ressources/ecorne.gif" alt="" >
+               </div>
+               <div class="gauffre">
+                  <br>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="30c1.gif" alt="CHI" >
+                     <img style="float:left;" src="30ae.gif" alt="GI" >
+                     <img style="float:left;" src="30ea.gif" alt="RI" >
+                  </div>
+                  <dl>
+                     <dt>
+                        <a id="Chigiri"><strong>Chigiri</strong></a>
+                     </dt>
+                     <dd>Capture d'une extrémité d'un groupe.</dd>
+                  </dl>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="30b0.gif" alt="GE" >
+                     <img style="float:left;" src="30bf.gif" alt="TA" >
+                  </div>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="4e0b.gif" alt="GE" >
+                     <img style="float:left;" src="99c4.gif" alt="TA" >
+                  </div>
+                  <dl>
+                     <dt>
+                        <strong><a id="Geta">Geta</a> </strong>
+                     </dt>
+                     <dd>Nom du &quot;sabot&quot; traditionnel japonais. Capture d'une pierre ou d'un groupe par une formation laissant des espaces mais ne permettant pas l'évasion.</dd>
+                     <dt><a id="Guru-guru-mawashi"><strong>Guru guru mawashi</strong></a></dt>
+                     <dd>Série de shicho conduisant à la capture. </dd>
+                     <dt><a id="Itte-make"><strong>Itte-make</strong></a></dt>
+                     <dd>Perdre un <a href="#Semeai">semeai</a> à une liberté près.</dd>
+                     <dt><a id="Me-ari-me-nashi"><strong>Me-ari me-nashi</strong></a></dt>
+                     <dd><a href="#Semeai">Semeai</a> où un des groupes possède un oeil.</dd>
+                     <dt><a id="Nuki"><strong>Nuki</strong></a></dt>
+                     <dd>Capture.</dd>
+                     <dt>
+                        <a id="shicho">Shicho</a> 
+                        <p class="purple">Ladder</p>
+                     </dt>
+                     <dd>
+                        Séquence de capture d'un groupe en ne lui laissant à chaque tour qu'une seule liberté. Donne souvent une forme en escalier
+                        <ul>
+                           <li><strong><a id="Yurumi-shisho">Yurumi shisho</a> </strong>Shicho perdant pour les pierres attaquées.</li>
+                        </ul>
+                     </dd>
+                     <dt>
+                        <a id="Semeai">Semeai</a> 
+                        <p class="red">dui sha</p>
+                     </dt>
+                     <dd>Course de capture entre 2 groupes n'ayant pas de base de vie.</dd>
+                  </dl>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="30d0.gif" alt="BA" >
+                     <img style="float:left;" src="30bf.gif" alt="TA" >
+                     <img style="float:left;" src="30d0.gif" alt="BA" >
+                     <img style="float:left;" src="30bf.gif" alt="TA" >
+                  </div>
+                  <dl>
+                     <dt>
+                        <a id="Oiotoshi"><strong>Oiotoshi</strong></a> ou <a id="Bata-bata"><strong>Bata-bata</strong></a> ou <a id="Ton-ton"><strong>Ton-ton</strong></a>
+                     </dt>
+                     <dd>Littérallement &quot;Jeu de voleur&quot;. Technique de capture où, par une série de sacrifice, le groupe adverse se retrouve en dame-zumari, même s'il se connecte.
+                     </dd>
+                     <dt>
+                        <a id="Seki-to">Seki-to</a> 
+                        <p class="purple">stone tower</p>
+                     </dt>
+                     <dd>&quot;L'étreinte de la pagode&quot;. Tesuji de sacrifice de 2 pierres sur les première et deuxième lignes.</dd>
+                     <dt>
+                        <strong><a id="Utte-gae">Utte-gae</a> </strong>ou <strong><a id="Utte-gaeshi">Utte-gaeshi</a>
+                        </strong>
+                        <p class="purple"><b>Snap-back</b></p>
+                     </dt>
+                     <dd>Reprise immédiate d'un groupe adverse après que celui-ci se soit mis en dame-zumari lors d'une capture.</dd>
+                     <dt><a id="Yotsume-goroshi"><strong>Yotsume-goroshi</strong></a></dt>
+                     <dd>Capture d'une pierre en 4 coups. La forme résultante est un <a href="dicoform.htm#ponnuki">ponnuki</a>.</dd>
+                  </dl>
+               </div>
+               <div class="separation">&nbsp;</div>
+               <!-- **** bloc 5 **** -->
+               <div class="titre_bloc t_b_extra">
+                  <h2 id="_OrdreCoups">
+                     <a href="#haut_page">
+                     <img class="img" style="float:left;" src="../ressources/home.gif" alt="Flèche vers le haut">
+                     </a>
+                     &nbsp;
+                     Les séquence de coups
+                  </h2>
+                  <img class="no_prt" src="../ressources/ecorne.gif" alt="" >
+               </div>
+               <div class="chiffonne">
+                  <dl>
+                     <dt><a id="Ippon-Michi"><strong>Ippon-Michi</strong></a></dt>
+                     <dd>Séquence de coups obligatoire.</dd>
+                     <dt><a id="Tejun"><strong>Tejun</strong></a></dt>
+                     <dd>Ordre <u>correct</u> des coups pour aboutir au résultat souhaité.</dd>
+                  </dl>
+               </div>
+               <div class="separation">&nbsp;</div>
+               <div class="titre_bloc t_b_extra">
+                  <h2 id="_initiative">
+                     <a href="#haut_page">
+                     <img class="img" style="float:left;" src="../ressources/home.gif" alt="Flèche vers le haut">
+                     </a>
+                     &nbsp;
+                     L'initiative
+                  </h2>
+                  <img class="no_prt" src="../ressources/ecorne.gif" alt="" >
+               </div>
+               <div class="gauffre2">
+                  <dl>
+                     <dt>
+                        <a id="gote">Gote</a>
+                        <p class="red">hou shou </p>
+                        &quot;Main basse&quot;.
+                     </dt>
+                     <dd>Dernier coup d'une séquence. Celui qui le joue n'a donc plus l'initiative.</dd>
+                     <dt><a id="Gote-no-sente"><strong>Gote no sente</strong></a></dt>
+                     <dd>Coup gote mais créant un coup sente. </dd>
+                     <dt><a id="Kata-sente"><strong>Kata-sente</strong></a></dt>
+                     <dd>Position où le coup à jouer est sente pour un seul joueur et gote pour l'autre.</dd>
+                     <dt><a id="Kiku"><strong>Kiku</strong></a></dt>
+                     <dd>Etre Sente. Garder l'initiative.</dd>
+                     <dt>
+                        <a id="Ryo-gote">Ryo-gote</a> 
+                        <p class="red">shuang fang hou shou</p>
+                     </dt>
+                     <dd>Position où le coup à jouer est gote pour les deux joueurs.</dd>
+                     <dt>
+                        <a id="Ryo-sente">Ryo-sente</a> 
+                        <p class="red">Shuang fan xian shou</p>
+                     </dt>
+                     <dd>Position où le coup à jouer est sente pour les deux joueurs.</dd>
+                     <dt>
+                        <a id="sente">Sente</a> 
+                        <p class="red">xian shou </p>
+                        &quot;Premier coup&quot;.
+                     </dt>
+                     <dd>Qualifie un coup ou une séquence de coups laissant l'initiative à celui qui la débute.</dd>
+                     <dt><a id="Sente-Gote"><strong>Sente-Gote</strong></a></dt>
+                     <dd>Coup de fin de partie qui est sente pour un joueur et gote pour l'autre</dd>
+                  </dl>
+               </div>
+               <div class="separation">&nbsp;</div>
+               <div class="titre_bloc t_b_extra">
+                  <h2 id="_Influence">
+                     <a href="#haut_page">
+                     <img class="img" style="float:left;" src="../ressources/home.gif" alt="Flèche vers le haut">
+                     </a>
+                     &nbsp;
+                     L'influence
+                  </h2>
+                  <img class="no_prt" src="../ressources/ecorne.gif" alt="" >
+               </div>
+               <div class="chiffonne">
+                  <br>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="5916.gif" alt="Gai" >
+                     <img style="float:left;" src="52e2.gif" alt="Sei" >
+                  </div>
+                  <dl>
+                     <dt>
+                        <strong><a id="Gaisei">Gaisei</a></strong>
+                     </dt>
+                     <dd>Influence vers l'extérieur.</dd>
+                  </dl>
+               </div>
+               <div class="separation">&nbsp;</div>
+               <div class="titre_bloc t_b_extra">
+                  <h2 id="coups_commentaires">
+                     <a href="#haut_page">
+                     <img class="img" style="float:left;" src="../ressources/home.gif" alt="Flèche vers le haut">
+                     </a>
+                     &nbsp;
+                     Les commentaires
+                  </h2>
+                  <img class="no_prt" src="../ressources/ecorne.gif" alt="" >
+               </div>
+               <div class="gauffre">
+                  <br>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="5460.gif" alt="AJI" >
+                     <img style="float:left;" src="6d88.gif" alt="KE" >
+                     <img style="float:left;" src="3057.gif" alt="SHI" >
+                  </div>
+                  <dl>
+                     <dt>
+                        <a id="Aji-keshi"><b>Aji-keshi</b></a>
+                     </dt>
+                     <dd>Mauvais coup neutralisant l'<a href="dicositu.htm#aji">aji</a> d'une situation. </dd>
+                  </dl>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="60aa.gif" alt="Aku" >
+                     <img style="float:left;" src="624b.gif" alt="Shu" >
+                  </div>
+                  <dl>
+                     <dt>
+                        <strong><a id="Akushu">Akushu</a></strong>
+                     </dt>
+                     <dd>Mauvais coup</dd>
+                  </dl>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="7518.gif" alt="AMA" >
+                     <img style="float:left;" src="3044.gif" alt="I" >
+                  </div>
+                  <dl>
+                     <dt>
+                        <a id="Amai"><strong>Amai</strong></a>
+                     </dt>
+                     <dd>Insuffisant.</dd>
+                  </dl>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="4f59.gif" alt="AMA" >
+                     <img style="float:left;" src="308a.gif" alt="RI" >
+                     <img style="float:left;" src="5f62.gif" alt="GATACHI" >
+                  </div>
+                  <dl>
+                     <dt>
+                        <a id="Amari-gatachi"><strong>Amari-gatachi</strong></a>
+                     </dt>
+                     <dd>Attaque semblant bonne mais ne réussissant à rien.</dd>
+                  </dl>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="539a.gif" alt="ATSU" >
+                     <img style="float:left;" src="3044.gif" alt="I" >
+                  </div>
+                  <dl>
+                     <dt>
+                        <a id="Atsui"><strong>Atsui</strong></a>
+                     </dt>
+                     <dd>Solide. Utilisé pour qualifier une forme, une influence ou une avance territoriale.</dd>
+                  </dl>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="30c0.gif" alt="DA" >
+                     <img style="float:left;" src="30e1.gif" alt="ME" >
+                     <img style="float:left;" src="30c5.gif" alt="ZU" >
+                     <img style="float:left;" src="30de.gif" alt="MA" >
+                     <img style="float:left;" src="30ea.gif" alt="RI" >
+                  </div>
+                  <div class="lettrine_kanji">
+                     <img style="float:left;" src="99c4.gif" alt="Da" >
+                     <img style="float:left;" src="76ee.gif" alt="Me" >
+                     <img style="float:left;" src="30c5.gif" alt="ZU" >
+                     <img style="float:left;" src="30de.gif" alt="MA" >
+                     <img style="float:left;" src="30ea.gif" alt="RI" >
+                  </div>
+                  <dl>
+                     <dt>
+                        <strong><a id="Dame-zumari">Dame-zumari</a></strong>
+                     </dt>
+                     <dd>Coup enlevant des libertés à un groupe ami.</dd>
+                     <dt><a id="Hamari"><strong>Hamari</strong></a></dt>
+                     <dd>Coup tombant dans un piège</dd>
+                     <dt><a id="Hebo"><strong>Hebo</strong></a> ou <a id="Heta"><strong>Heta</strong></a></dt>
+                     <dd>Faible. Utilisé pour qualifier un joueur ou un coup.</dd>
+                     <dt><a id="Honte"><strong>Honte</strong></a></dt>
+                     <dd>Coup correct et calme, bien que peu spectaculaire. Contraire de <a href="#Uso-te">Uso-te</a></dd>
+                     <dt><a id="Imosuji"><strong>Imosuji</strong></a></dt>
+                     <dd>Tesuji raté</dd>
+                     <dt><a id="Ji-Dori-Go"><strong>Ji Dori Go</strong></a></dt>
+                     <dd>Style de jeu orienté vers le territoire.</dd>
+                     <dt><a id="Ji-ni-amai"><strong>Ji ni amai</strong></a></dt>
+                     <dd>&quot;prise en territoire insuffisante&quot;.</dd>
+                     <dt><a id="joseki"><strong>Joseki</strong></a></dt>
+                     <dd>Séquence équitable et plus particuliérement pour les séquences de début de partie.</dd>
+                     <dt><a id="Karai"><strong>Karai</strong></a></dt>
+                     <dd>Coup clair, dont les objectifs sont évidents.</dd>
+                     <dt>
+                        <a id="Kikashi">Kikashi</a> 
+                        <p class="purple">Forcing move</p>
+                     </dt>
+                     <dd>Coup forçant la réponse (souvent unique) de l'adversaire.</dd>
+                     <dt><a id="Kimari-te"><strong>Kimari-te</strong></a></dt>
+                     <dd>Le seul coup possible.</dd>
+                     <dt><a id="Kimete"><strong>Kimete</strong></a></dt>
+                     <dd>Le coup décisif d'une partie.</dd>
+                     <dt><a id="Kyuba"><strong>Kyuba</strong></a></dt>
+                     <dd>Coup urgent.</dd>
+                     <dt>
+                        <a id="miai">Miai</a> 
+                        <p class="red">Jian he</p>
+                     </dt>
+                     <dd>Qualificatif de deux coups équivalents. Lorsque l'un des deux est joué, l'autre sera joué en réponse.</dd>
+                     <dt><a id="Mochi-komi"><strong>Mochi-komi</strong></a></dt>
+                     <dd>Invasion ratée au point que les pierres d'invasion sont perdues sans compensation.</dd>
+                     <dt><a id="Mu-ko"><strong>Mu-ko</strong></a></dt>
+                     <dd>Fausse menace de ko</dd>
+                     <dt><a id="Myoshu"><strong>Myoshu</strong></a></dt>
+                     <dd>Coup spectaculaire.</dd>
+                     <dt><a id="Nurui"><strong>Nurui</strong></a></dt>
+                     <dd>Coup vague, qui n'a pas d'objectif clair.</dd>
+                     <dt>
+                        <a id="Poka">Poka</a> 
+                        <p class="red">sui shou</p>
+                     </dt>
+                     <dd>Une gaffe</dd>
+                     <dt><a id="Keisei-fume"><strong>Keisei fume</strong></a></dt>
+                     <dd>Situation dans laquelle il n'est pas évident de savoir qui a l'avantage.</dd>
+                     <dt><a id="Saite-deru"><strong>Saite deru</strong></a></dt>
+                     <dd>'Déchirer' les positions de l'adversaire.</dd>
+                     <dt>
+                        <a id="Seikai">Seikai</a> 
+                        <p class="red">zheng jie</p>
+                     </dt>
+                     <dd>Réponse correcte (à un problème).</dd>
+                     <dt><a id="Suso-aki"><strong>Suso-aki</strong></a></dt>
+                     <dd>&quot;Chemise ouverte&quot; . Ouvert sur le côté.</dd>
+                     <dt><a id="Sute-ishi"><strong>Sute ishi</strong></a></dt>
+                     <dd>Pierre de sacrifice.</dd>
+                     <dt><a id="Tani-ga-fukai"><strong>Tani ga fukai</strong></a></dt>
+                     <dd>Territoire immense.</dd>
+                     <dt><a id="Te-dokoro"><strong>Te-dokoro</strong></a></dt>
+                     <dd>Utilisé pour un coup délicat dans un combat pour lequel les deux joueurs doivent analyser les différentes options qui leur sont ouvertes.</dd>
+                     <dt><a id="Tedomari"><strong>Te-domari</strong></a></dt>
+                     <dd>Signifie littéralement &quot;dernier coup du jeu&quot; mais est souvent utilisé pour désigner le dernier coup important d'une phase de jeu comme le fuseki ou le yose.</dd>
+                     <dt>
+                        <a id="tenuki">Te-nuki</a> 
+                        <p class="red">tuo xian</p>
+                     </dt>
+                     <dd>Coup ignorant la dernière pierre de l'adversaire pour jouer ailleurs.</dd>
+                     <dt><a id="Te-okure"><strong>Te-okure</strong></a></dt>
+                     <dd>Coup inutile.</dd>
+                     <dt>
+                        <a id="tesuji">Te-suji </a>
+                        <p class="red">shou jin </p>
+                        <p class="purple">strong move</p>
+                     </dt>
+                     <dd>Coup brillant tirant le meilleur parti d'une position.</dd>
+                     <dt><a id="Uso-te"><strong>Uso-te</strong></a></dt>
+                     <dd>Coup incorrect ou qui ne fonctionne pas. Contraire de <a href="#Honte">Honte</a></dd>
+                     <dt><a id="Warui"><strong>Warui</strong></a></dt>
+                     <dd>Coup faible.</dd>
+                     <dt><a id="Zaru-go"><strong>Zaru go</strong></a></dt>
+                     <dd>Go mal joué.</dd>
+                     <dt><a id="Zoku-suji"><strong>Zoku-suji</strong></a></dt>
+                     <dd>Style de jeu ou coup grossier.</dd>
+                  </dl>
+               </div>
+            </div>
+         </div>
+      </main>
+      <div class="separation"><br><br><br></div>
+      <footer id="bas_page">
+         <div>
+            <a href="http://validator.w3.org/check?uri=referer">W3C HTML 5</a>
+            <span>/</span>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">W3C CSS </a>
+            <span>/</span>
+            <p>
+               WS - 28/05/2025
+            </p>
+         </div>
+         <div>
+            <div>
+               <a href="#" onclick="mail_webmestre('');"><img src="../ressources/mail.jpg" class="img" alt="lettre"></a>
+            </div>
+            <div>
+               <a href="#haut_page"><img src="../ressources/home.gif" class="img" alt="flèche menu"></a>
+            </div>
+         </div>
+      </footer>
+   </body>
 </html>
