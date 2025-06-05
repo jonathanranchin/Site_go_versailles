@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-		<title>Go Club de Versailles - Dictionnaire / Les joueurs</title>
+		<title>Go Club de Versailles - Dictionnaire / Les joueurs / Les Rangs</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta content="Go Club de Versailles - Dictionnaire / Les joueurs" name="description">
@@ -13,592 +13,390 @@
 	</head>
 	<body>
 		<script src="../ressources/email.js"></script>
-		<a name="haut_page"></a>
+		<a id="haut_page"></a>
 		<header id="entete">
-			<table border="0" cellpadding="0" cellspacing="0" width="100%">
-				<tr>
-					<td align="left">
-						<h1>Go Club de Versailles</h1>
-					</td>
-					<td align="left">
-						<!-- ce logo n'appara�t qu'� l'impression -->
-						<img src="ressources/entete_logo.gif" width="95" height="90" alt="" class="prt">
-					</td>
-					<td>&nbsp;</td>
-					<td width="95" align="right">
-						<img src="../ressources/entete_logo.gif" width="95" height="90" alt="" border-radius="35px"class="no_prt">
-					</td>
-				</tr>
-			</table>
+			<div>
+				<h1>Les rangs et joueurs</h1>
+			</div>
+			<div>
+				<img src="../ressources/entete_logo.gif"  alt="Logo pierre noire" class="no_prt">
+			</div>
 		</header>
-		<!-- fin id entete -->
-		<!-- Structure globale de la page par tableau -->
-		<table  border="0" cellpadding="0" cellspacing="0" width="100%" >
-			<tr>
-				<td width="200" valign="top" align="center">
-		
-					<!-- pav� menu -->
-		
-					<div id="menu">
-						<table border="0" cellpadding="0" cellspacing="0" width="100%">
-							<!-- ******************************** -->
-							<tr>
-								<!-- astuce pour �viter que le texte ne d�gueule trop quand on agrandit la police avec firefox -->
-								<td class="menu_bar" style="font-size:10%;">&nbsp;</td>
-								<td rowspan="2" class="menu_bar">
-									<a href="../index.html">Accueil</a>
-								</td>
-							</tr>
-							<tr>
-								<td class="menu_bar" width="38" valign="bottom"><img src="../ressources/menu_coin.gif" width="38" height="40" alt="" class="no_prt"></td>
-							</tr>
-							<tr>
-								<td height="5" style="font-size:10%;">&nbsp;</td>
-							</tr>
-							<!-- ******************************** -->
-							<tr>
-								<td class="menu_bar" style="font-size:10%;">&nbsp;</td>
-								<td rowspan="2" class="menu_bar">
-									<a href="../infos.htm">Informations pratiques</a>
-								</td>
-							</tr>
-							<tr>
-								<td class="menu_bar" width="38" valign="bottom"><img src="../ressources/menu_coin.gif" width="38" height="40" alt="" class="no_prt"></td>
-							</tr>
-							<tr>
-								<td height="5" style="font-size:10%;">&nbsp;</td>
-							</tr>
-							<!-- ******************************** -->
-							<tr>
-								<td class="menu_bar" style="font-size:10%;">&nbsp;</td>
-								<td rowspan="2" class="menu_bar">
-									<a href="../breves.htm">Br�ves <br>de goban</a>
-								</td>
-							</tr>
-							<tr>
-								<td class="menu_bar" width="38" valign="bottom"><img src="../ressources/menu_coin.gif" width="38" height="40" alt="" class="no_prt"></td>
-							</tr>
-							<tr>
-								<td height="5" style="font-size:10%;">&nbsp;</td>
-							</tr>
-							<!-- ******************************** -->
-							<tr>
-								<td class="menu_bar_courante" style="font-size:10%;">&nbsp;</td>
-								<td rowspan="2" class="menu_bar_courante">
-									<a href="dictionnaire.htm">Dictionnaire des<br>termes de go</a>
-								</td>
-							</tr>
-							<tr>
-								<td class="menu_bar_courante" width="38" valign="bottom"><img src="../ressources/menu_coin_courant.gif" width="38" height="40" alt="" class="no_prt"></td>
-							</tr>
-							<tr>
-								<td height="3" style="font-size:10%;">&nbsp;</td>
-							</tr>
-							<tr>
-								<td>&nbsp;</td>
-								<td class="menu_bar" style="border-bottom:solid 2px #acbb8e;" align="center" width="38">	
-									<a href="dictionnaire.htm"> Index</a>
-								</td>
-							</tr>
-							<tr>
-								<td>&nbsp;</td>
-								<td class="menu_bar" style="border-bottom:solid 2px #acbb8e;" align="center" width="38">	
-									<a href="dicocoup.htm">Coups</a>
-								</td>
-							</tr>
-							<tr>
-								<td>&nbsp;</td>
-								<td class="menu_bar" style="border-bottom:solid 2px #acbb8e;" align="center" width="38">	
-									<a href="dicoform.htm">Formes</a>
-								</td>
-							</tr>
-							<tr>
-								<td>&nbsp;</td>
-								<td class="menu_bar" style="border-bottom:solid 2px #acbb8e;" align="center" width="38">	
-									<a href="dicositu.htm">Situations</a>
-								</td>
-							</tr>
-							<tr>
-								<td>&nbsp;</td>
-								<td class="menu_bar" style="border-bottom:solid 2px #acbb8e;" align="center" width="38">	
-									<a href="dicopart.htm">Partie</a>
-								</td>
-							</tr>
-							<tr>
-								<td>&nbsp;</td>
-								<td class="menu_bar" style="border-bottom:solid 2px #acbb8e;" align="center" width="38">	
-									<a href="dicomate.htm">Mat�riel</a>
-								</td>
-							</tr>
-							<tr>
-								<td>&nbsp;</td>
-								<td class="menu_bar_courante" style="border-bottom:solid 2px #acbb8e;" align="center" width="38">	
-									<a href="dicojou.htm">Joueurs</a>
-								</td>
-							</tr>
-							<tr>
-								<td>&nbsp;</td>
-								<td class="menu_bar" style="border-bottom:solid 2px #acbb8e;" align="center" width="38">	
-									<a href="dicodive.htm">Divers</a>
-								</td>
-							</tr>
-							<tr>
-								<td height="3" style="font-size:10%;">&nbsp;</td>
-							</tr>
-							<!-- ******************************** -->
-							<tr>
-								<td class="menu_bar" style="font-size:10%;">&nbsp;</td>
-								<td rowspan="2" class="menu_bar">
-									<a href="../photos/index_photos.htm">Photos</a>
-								</td>
-							</tr>
-							<tr>
-								<td class="menu_bar" width="38" valign="bottom"><img src="../ressources/menu_coin.gif" width="38" height="40" alt="" class="no_prt"></td>
-							</tr>
-							<tr>
-								<td height="5" style="font-size:10%;">&nbsp;</td>
-							</tr>
-							<!-- ******************************** -->
-							<tr>
-								<td class="menu_bar" style="font-size:10%;">&nbsp;</td>
-								<td rowspan="2" class="menu_bar">
-									<a href="../liens.htm">Liens</a>
-								</td>
-							</tr>
-							<tr>
-								<td class="menu_bar" width="38" valign="bottom"><img src="../ressources/menu_coin.gif" width="38" height="40" alt="" class="no_prt"></td>
-							</tr>
-							<tr>
-								<td height="5" style="font-size:10%;">&nbsp;</td>
-							</tr>
-							<!-- ******************************** -->
-							<tr>
-								<td class="menu_bar" style="font-size:10%;">&nbsp;</td>
-								<td rowspan="2" class="menu_bar">
-									<a href="../reserve_membres.htm">Pages r�serv�es aux membres</a>
-								</td>
-							</tr>
-							<tr>
-								<td class="menu_bar" width="38" valign="bottom"><img src="../ressources/menu_coin.gif" width="38" height="40" alt="" class="no_prt"></td>
-							</tr>
-						</table>
+		<main>
+			<div id="flex_menu">
+				<div><img src="../ressources/menu_coin.gif" alt="logo_menu" class="no_prt"><a href="../index.html">Accueil</a></div>
+				<div><img src="../ressources/menu_coin.gif" alt="logo_menu" class="no_prt"><a href="../infos.htm">Informations pratiques</a></div>
+				<div><img src="../ressources/menu_coin.gif" alt="logo_menu" class="no_prt"><a href="../breves.htm">Brèves <br>de goban</a></div>
+				<div id="submenu">
+					<div>
+						<img src="../ressources/menu_coin.gif" alt="logo_menu" class="no_prt"><a href="dictionnaire.htm">Dictionnaire des<br>termes de go</a>
 					</div>
-					<br>
-				</td>
-	
-				<!-- s�paration centrale  -->
-	
-				<td width="15">
-					&nbsp;
-				</td>
-	
-				<!-- Section des blocs -->
-	
-				<td>
-					<div id="corps">
-						<!-- **** bloc 0:index **** -->
-						<table class="titre_bloc" border="0" cellpadding="0" cellspacing="0" width="100%">
-							<tr>
-								<td class="titre_gauche">
-									Index des termes concernant les joueurs
-								</td>
-								<td width="27" valign="top" class="titre_droit">
-									<img class="no_prt" src="../ressources/ecorne.gif" width="27" height="33" alt="" >
-								</td>
-							</tr>
-						</table>
-						<div class="gauffre">
-							<ul>
-								<li><a href="#_institutions">Les institutions</a></li>
-								<li><a href="#_grades">Les grades</a></li>
-								<li><a href="#_titres">Les titres</a></li>
-								<li><a href="#_rencontres">Les rencontres</a></li>
-								<li><a href="#_handicap">Les handicaps</a></li>
-								<li><a href="#_philosophie">La philosophie</a></li>
-								<li><a href="#_variations">Les variantes de jeu</a></li>
-								<li><a href="#_problemes">Les probl�mes</a></li>
-							</ul>
-							<br><br>
-						</div>
-						<div class="separation">&nbsp;</div>
-						<!-- **** bloc 1 **** -->
-						<table class="titre_bloc" border="0" cellpadding="0" cellspacing="0" width="100%">
-							<tr>
-								<td class="titre_gauche">
-									<a href="#haut_page">
-									<img class="img" style="float:left;" src="../ressources/home.gif" width="18" height="18" alt="" >
-									</a>&nbsp;
-									<a name="_institutions">Les institutions</a>
-								</td>
-								<td width="27" valign="top" class="titre_droit">
-									<img class="no_prt" src="../ressources/ecorne.gif" width="27" height="33" alt="" >
-								</td>
-							</tr>
-						</table>
-						<div class="chiffonne">
-							<dl>
-								<dt><a name="Nihon-ki-in"><strong>Nihon ki-in</strong></a></dt>
-								<dd>Principale association de Go japonaise, �tablie � Tokyo.</dd>
-								<dt><a name="Kansai-ki-in"><strong>Kansai ki-in</strong></a></dt>
-								<dd>Une des deux grandes association japonaise de Go, �tablie � Osaka, dans le district de
-									Kansai.
-								</dd>
-							</dl>
-						</div>
-						<div class="separation">&nbsp;</div>
-						<!-- **** bloc 2**** -->
-						<table class="titre_bloc" border="0" cellpadding="0" cellspacing="0" width="100%">
-							<tr>
-								<td class="titre_gauche">
-									<a href="#haut_page">
-									<img class="img" style="float:left;" src="../ressources/home.gif" width="18" height="18" alt="" >
-									</a>&nbsp;
-									<a name="_grades">Les grades</a>
-								</td>
-								<td width="27" valign="top" class="titre_droit">
-									<img class="no_prt" src="../ressources/ecorne.gif" width="27" height="33" alt="" >
-								</td>
-							</tr>
-						</table>
-						<div class="gauffre2">
-							<dl>
-								<dt><a name="kyu"><strong>Kyu</strong></a></dt>
-								<dd>Rang des d�butants. Echelle d�croissante.</dd>
-							</dl>
-							<div class="lettrine_kanji">
-								<img style="float:left;" src="6bb5.gif" alt="DAN" width="35" height="35" >
-							</div>
-							<dl>
-								<dt>
-									<a name="dan"><strong>Dan</strong></a>
-								</dt>
-								<dd>Rang des joueurs avanc�s. On distingue les joueurs amateurs (classement de 1-Dan �
-									7-Dan avec une pierre de handicap entre chaque Dan) et les professionnels (classement
-									1-Dan pro � 9-Dan pro avec 1/3 pierre de handicap entre chaque Dan). Un 1-Dan Pro jouant
-									� �galit� avec un 6-Dan amateur.
-								</dd>
-								<dt><a name="Menjo"><strong>Menjo</strong></a></dt>
-								<dd>Dipl�me certifiant le rang d'un joueur.</dd>
-								<dt><a name="Ikkyu"><strong>Ikkyu</strong></a></dt>
-								<dd>Joueur 1-Kyu</dd>
-								<dt><a name="Insei"><strong>Insei</strong></a></dt>
-								<dd>Apprenti professionnel.</dd>
-								<dt><a name="Kishi"><strong>Kishi</strong></a></dt>
-								<dd>Joueur professionnel</dd>
-								<dt><a name="Shodan"><strong>Shodan</strong></a></dt>
-								<dd>Joueur 1-Dan</dd>
-								<dt><a name="Nidan"><strong>Ni-dan</strong></a></dt>
-								<dd>Joueur 2-Dan</dd>
-								<dt>
-									<strong>
-										<a name="Sandan">San-dan</a>&nbsp;&nbsp; 
-										<p class="red">san duan</p>
-									</strong>
-								</dt>
-								<dd>Joueur 3-Dan.</dd>
-								<dt><a name="Jozu"><strong>Jozu</strong></a></dt>
-								<dd>&quot;Habile&quot;. A l'�re Edo, joueur de niveau 7-Dan</dd>
-								<dt><a name="Jun-Meijin"><strong>Jun-Meijin</strong></a></dt>
-								<dd>&quot;Quasi Meijin&quot;. A l'�re Edo, joueur de niveau 8-Dan.</dd>
-							</dl>
-						</div>
-						<div class="separation">&nbsp;</div>
-						<!-- **** bloc 3**** -->
-						<table class="titre_bloc" border="0" cellpadding="0" cellspacing="0" width="100%">
-							<tr>
-								<td class="titre_gauche">
-									<a href="#haut_page">
-									<img class="img" style="float:left;" src="../ressources/home.gif" width="18" height="18" alt="" >
-									</a>&nbsp;
-									<a name="_titres">Les titres</a>
-								</td>
-								<td width="27" valign="top" class="titre_droit">
-									<img class="no_prt" src="../ressources/ecorne.gif" width="27" height="33" alt="" >
-								</td>
-							</tr>
-						</table>
-						<div class="chiffonne">
-							<dl>
-								<dt><a name="Kisei"><strong>Kisei</strong></a></dt>
-								<dd>1� titre par ordre d'importance. Litt�rallement &quot;Saint de Go&quot; d'apr�s les
-									quatre &quot;saints de go&quot; de la p�riode classique : Honinbo Sansa, Honinbo Dosaku,
-									Honinbo Jowa, Honinbo Shusaku.
-								</dd>
-								<dt><a name="Meijin"><strong>Meijin</strong></a></dt>
-								<dd>2� titre par ordre d'importance.<br>
-									A l'�re Edo, titre d�cern� au plus fort joueur du jour.
-								</dd>
-								<dt><a name="Honinbo"><strong>Honinbo</strong></a></dt>
-								<dd>3� titre par ordre d'importance. Ecole fond�e par Honinbo Sansa (1559-1623).</dd>
-								<dt><a name="Judan"><strong>Ju-dan</strong></a></dt>
-								<dd>4� titre par ordre d'importance. Litt�ralement &quot;10�me Dan&quot;.</dd>
-								<dt><a name="Tengen"><strong>Tengen</strong></a></dt>
-								<dd>5� titre par ordre d'importance.</dd>
-								<dt><a name="Oza"><strong>Oza</strong></a></dt>
-								<dd>6� titre par ordre d'importance.</dd>
-								<dt><a name="Gosei"><strong>Gosei</strong></a></dt>
-								<dd>7� titre par ordre d'importance. D'apr�s le nom d'un des 4 &quot;saints de Go&quot;.</dd>
-								<dt><a name="Godokoro"><strong>Godokoro</strong></a></dt>
-								<dd>Sous le gouvernement Tokugawa, titre donn� � vie � l'instructeur officiel du Shogun.
-									Le Godokoro avait seul le droit de d�cerner brevets et dipl�mes.
-								</dd>
-							</dl>
-						</div>
-						<div class="separation">&nbsp;</div>
-						<!-- **** bloc 4 **** -->
-						<table class="titre_bloc" border="0" cellpadding="0" cellspacing="0" width="100%">
-							<tr>
-								<td class="titre_gauche">
-									<a href="#haut_page">
-									<img class="img" style="float:left;" src="../ressources/home.gif" width="18" height="18" alt="" >
-									</a>&nbsp;
-									<a name="_rencontres">Les rencontres</a>
-								</td>
-								<td width="27" valign="top" class="titre_droit">
-									<img class="no_prt" src="../ressources/ecorne.gif" width="27" height="33" alt="" >
-								</td>
-							</tr>
-						</table>
-						<div class="gauffre">
-							<br>
-							<div class="lettrine_kanji">
-								<img style="float:left;" src="756a.gif" alt="BAN" width="35" height="35" >
-								<img style="float:left;" src="7881.gif" alt="GO" width="35" height="35" >
-							</div>
-							<dl>
-								<dt>
-									<strong>-<a name="Bango">Bango</a></strong>
-								</dt>
-								<dd>Match constitu� de plusieurs parties. Exemple : <a href="#Ju-bango">Ju-bango</a>.<br><br></dd>
-							</dl>
-							<div class="lettrine_kanji">
-								<img style="float:left;" src="6311.gif" width="35" height="35" alt="" >
-								<img style="float:left;" src="6226.gif" width="35" height="35" alt="" >
-								<img style="float:left;" src="8005.gif" width="35" height="35" alt="" >
-							</div>
-							<dl>
-								<dt>
-									<a name="Chosensha"><strong>Chosensha</strong></a>
-								</dt>
-								<dd>D�signe le challenger dans une rencontre pour un titre.<br><br></dd>
-							</dl>
-							<div class="lettrine_kanji">
-								<img style="float:left;" src="6311.gif" width="35" height="35" alt="" >
-								<img style="float:left;" src="6226.gif" width="35" height="35" alt="" >
-								<img style="float:left;" src="624b.gif" width="35" height="35" alt="" >
-								<img style="float:left;" src="5408.gif" width="35" height="35" alt="" >
-							</div>
-							<dl>
-								<dt>
-									<a name="Chosen-teai"><strong>Chosen teai</strong></a>
-								</dt>
-								<dd>Championnat pour un titre.<br><br></dd>
-								<dt><a name="Goban-shobu"><strong>Goban-shobu</strong></a></dt>
-								<dd>Rencontre en 5 parties maximum o� la victoire va au meilleur des 5.</dd>
-								<dt><a name="Ju-bango"><strong>Ju-bango</strong></a></dt>
-								<dd>Rencontre en 10 parties.</dd>
-								<dt><a name="Kado-ban"><strong>Kado-ban</strong></a></dt>
-								<dd>&quot;Jeu d'angle&quot;. Jeu d�cisif dans un match ou bien qui conduit � un changement
-									de handicap.
-								</dd>
-								<dt><a name="Kuro-ban"><strong>Kuro-ban</strong></a></dt>
-								<dd>Noir joue.</dd>
-								<dt><a name="Nanaban-shobu"><strong>Nanaban shobu</strong></a></dt>
-								<dd>Rencontre en 7 parties maximum o� la victoire va au meilleur des 7.</dd>
-								<dt><a name="Saban-shobu"><strong>Saban-shobu</strong></a></dt>
-								<dd>Rencontre en 3 parties maximum o� la victoire va au meilleur des 3.</dd>
-								<dt><a name="Shimbun-go"><strong>Shimbun go</strong></a></dt>
-								<dd>Nom g�n�rique donn� � un tournoi sponsoris� par les journaux japonais.</dd>
-								<dt><a name="Shiro-ban"><strong>Shiro-ban</strong></a></dt>
-								<dd>Blanc joue.</dd>
-								<dt><a name="Shitate"><strong>Shitate</strong></a></dt>
-								<dd>D�signe le joueur le plus faible ou le moins bien class�. Contraire de <a href="#Uwate">Uwate</a>.</dd>
-								<dt><a name="Sogo"><strong>Sogo</strong></a></dt>
-								<dd>&quot;concours de go&quot;. Pendant la p�riode Edo, match de d�fi.</dd>
-								<dt><a name="Uwate"><strong>Uwate</strong></a></dt>
-								<dd>D�signe le joueur le plus fort ou le mieux class�. Contraire de <a href="#Shitate">Shitate</a>.</dd>
-							</dl>
-						</div>
-						<div class="separation">&nbsp;</div>
-						<!-- **** bloc 5 **** -->
-						<table class="titre_bloc" border="0" cellpadding="0" cellspacing="0" width="100%">
-							<tr>
-								<td class="titre_gauche">
-									<a href="#haut_page">
-									<img class="img" style="float:left;" src="../ressources/home.gif" width="18" height="18" alt="" >
-									</a>&nbsp;
-									<a name="_handicap">Les handicaps</a>
-								</td>
-								<td width="27" valign="top" class="titre_droit">
-									<img class="no_prt" src="../ressources/ecorne.gif" width="27" height="33" alt="" >
-								</td>
-							</tr>
-						</table>
-						<div class="chiffonne">
-							<dl>
-								<dt><a name="Gyaku-komi"><strong>Gyaku komi</strong></a></dt>
-								<dd>Komi donn� � Noir par Blanc</dd>
-								<dt><a name="Josen"><strong>Josen</strong></a></dt>
-								<dd>Handicap constituant � jouer avec noir dans toutes les parties.</dd>
-								<dt>
-									<strong>
-										<a name="komi">Komi</a> 
-										<p class="red">tie mu</p>
-									</strong>
-								</dt>
-								<dd>Compensation accord�e � blanc dans un jeu � �galit� pour le d�dommager de jouer en
-									second. Habituellement 5 points et demi.
-								</dd>
-								<dt><a name="Kyushi-kyoku"><strong>Kyushi kyoku</strong></a></dt>
-								<dd>Partie � neuf pierres de handicap.</dd>
-								<dt><a name="Oki-go"><strong>Oki-go</strong></a></dt>
-								<dd>Go � handicap.</dd>
-								<dt><a name="Oki-ishi"><strong>Oki-ishi</strong></a></dt>
-								<dd>Pierres de handicap.</dd>
-								<dt>
-									<strong>
-										<a name="Sei-moku">Sei-moku</a>&nbsp; 
-										<p class="red">rang jiu zi</p>
-									</strong>
-								</dt>
-								<dd>Handicap de 9 pierres.</dd>
-								<dt><a name="Sei-moku-furin"><strong>Sei-moku-furin</strong></a></dt>
-								<dd>Partie � 13 pierres de handicap.</dd>
-								<dt>
-									<strong>
-										<a name="Sen-ai-sen">Sen-ai-sen</a>&nbsp; 
-										<p class="red">xian xiang xian</p>
-									</strong>
-								</dt>
-								<dd>Handicap pour 1 dan de diff�rence dans un match de professionnel en 3 manches. Le
-									joueur le plus faible prend noir, puis blanc, et enfin noir. A l'�poque Edo, l'ordre
-									�tait noir-noir-blanc
-								</dd>
-								<dt><a name="Senban"><strong>Sen-ban</strong></a></dt>
-								<dd>Handicap pour 2 dans de diff�rence dans un match de professionnel. Le joueur le plus
-									faible prend toujours noir.
-								</dd>
-								<dt><strong><a name="Sen-ni">Sen-ni</a> </strong></dt>
-								<dd>Handicap pour 3 dans de diff�rence dans un match de professionnel. Le joueur le plus
-									faible prend alternativement noir � �galit� puis noir avec 2 pierres de handicap.
-								</dd>
-								<dt><a name="Tagai-sen"><strong>Tagai-sen</strong></a></dt>
-								<dd>Partie � �galit�.Les deux joueurs alternent entre blanc et noir. Blanc a le <a href="#komi">Komi</a>.</dd>
-							</dl>
-						</div>
-						<div class="separation">&nbsp;</div>
-						<!-- **** bloc 6 **** -->
-						<table class="titre_bloc" border="0" cellpadding="0" cellspacing="0" width="100%">
-							<tr>
-								<td class="titre_gauche">
-									<a href="#haut_page">
-									<img class="img" style="float:left;" src="../ressources/home.gif" width="18" height="18" alt="" >
-									</a>&nbsp;
-									<a name="_philosophie">La philosophie</a>
-								</td>
-								<td width="27" valign="top" class="titre_droit">
-									<img class="no_prt" src="../ressources/ecorne.gif" width="27" height="33" alt="" >
-								</td>
-							</tr>
-						</table>
-						<div class="gauffre2">
-							<dl>
-								<dt><a name="Kakugen"><strong>Kakugen</strong></a></dt>
-								<dd>Un proverbe de Go.</dd>
-								<dt><a name="Kiai"><strong>Kiai</strong></a></dt>
-								<dd>L'esprit de combat</dd>
-								<dt><a name="Kido"><strong>Kido</strong></a></dt>
-								<dd>La Voie du Go. Expression pour la philosophie du Go.</dd>
-							</dl>
-						</div>
-						<div class="separation">&nbsp;</div>
-						<!-- **** bloc 7 **** -->
-						<table class="titre_bloc" border="0" cellpadding="0" cellspacing="0" width="100%">
-							<tr>
-								<td class="titre_gauche">
-									<a href="#haut_page">
-									<img class="img" style="float:left;" src="../ressources/home.gif" width="18" height="18" alt="" >
-									</a>&nbsp;
-									<a name="_variations">Les variantes de jeu</a>
-								</td>
-								<td width="27" valign="top" class="titre_droit">
-									<img class="no_prt" src="../ressources/ecorne.gif" width="27" height="33" alt="" >
-								</td>
-							</tr>
-						</table>
-						<div class="chiffonne">
-							<dl>
-								<dt><a name="Haya-go"><strong>Haya-go</strong></a></dt>
-								<dd>Go �clair. Les parties sont jou�es rapidement en donnant une minute ou moins par coup.</dd>
-								<dt><a name="Mekura-go"><strong>Mekura-go</strong></a></dt>
-								<dd>Go aveugle. Les deux joueurs utilisent des pierres de m�me couleur. C'est un arbitre
-									(qui suit la partie avec 2 couleurs) qui signale les ataris et les coups ill�gaux.
-								</dd>
-								<dt>
-									<strong>
-										<a name="Rengo">Rengo</a>&nbsp; 
-										<p class="red">lian qi</p>
-									</strong>
-								</dt>
-								<dd>Go en �quipe. Deux joueurs (de pr�f�rence de niveaux diff�rents) dans chaque �quipe
-									jouent � tour de r�le sans avoir le droit de se consulter.
-								</dd>
-								<dt><a name="Shido-go"><strong>Shido-go</strong></a> </dt>
-								<dd>Partie didactique.</dd>
-							</dl>
-						</div>
-						<div class="separation">&nbsp;</div>
-						<!-- **** bloc 8 **** -->
-						<table class="titre_bloc" border="0" cellpadding="0" cellspacing="0" width="100%">
-							<tr>
-								<td class="titre_gauche">
-									<a href="#haut_page">
-									<img class="img" style="float:left;" src="../ressources/home.gif" width="18" height="18" alt="" >
-									</a>&nbsp;
-									<a name="_problemes">Les probl�mes</a>
-								</td>
-								<td width="27" valign="top" class="titre_droit">
-									<img class="no_prt" src="../ressources/ecorne.gif" width="27" height="33" alt="" >
-								</td>
-							</tr>
-						</table>
-						<div class="gauffre">
-							<dl>
-								<dt><strong><a name="Tsume-go">Tsume-go</a> </strong>
-									ou <a name="Shikatsu"><strong>Shikatsu</strong></a>
-								</dt>
-								<dd>Nom donn� aux probl�mes de vie et de mort des groupes.</dd>
-								<dt><a name="Tsugi-no-itte"><strong>Tsugi-no-itte</strong></a></dt>
-								<dd>&quot;Le coup suivant&quot;. Nom donn� aux probl�mes du type 'quel est le meilleur
-									coup'.
-								</dd>
-							</dl>
+					<ul>
+						<li><a href="dictionnaire.htm"> Index</a></li>
+						<li><a href="dicocoup.htm">Coups</a></li>
+						<li><a href="dicoform.htm">Formes</a></li>
+						<li><a href="dicositu.htm">Situations</a></li>
+						<li><a href="dicopart.htm">Partie</a></li>
+						<li><a href="dicomate.htm">Matériel</a></li>
+						<li><a href="dicojou.htm">Joueurs</a></li>
+						<li><a href="dicodive.htm">Divers</a></li>
+					</ul>
+				</div>
+				<div><img src="../ressources/menu_coin.gif" alt="logo_menu" class="no_prt"><a href="../photos/index_photos.htm">Photos</a></div>
+				<div><img src="../ressources/menu_coin.gif" alt="logo_menu" class="no_prt"><a href="../liens.htm">Liens</a></div>
+				<div><img src="../ressources/menu_coin.gif" alt="logo_menu" class="no_prt"><a href="../reserve_membres.htm">Pages réservées<br> aux membres</a></div>
+				<div>
+					<p>News : Attention, <br> les date des séances  <br> du club  sont susceptible <br> d'évoluer !</p>
+				</div>
+			</div>
+			<div id="flex_content">
+				<div id="corps">
+					<div class="titre_bloc">
+						<h2>
+							Index des termes concernant les joueurs
+						</h2>
+						<div class="titre_droit">
+							<img class="no_prt" src="../ressources/ecorne.gif" alt="petit marque page">
 						</div>
 					</div>
-				</td>
-			</tr>
-		</table>
+					<div class="gauffre">
+						<ul>
+							<li><a href="#_institutions">Les institutions</a></li>
+							<li><a href="#_grades">Les grades</a></li>
+							<li><a href="#_titres">Les titres</a></li>
+							<li><a href="#_rencontres">Les rencontres</a></li>
+							<li><a href="#_handicap">Les handicaps</a></li>
+							<li><a href="#_philosophie">La philosophie</a></li>
+							<li><a href="#_variations">Les variantes de jeu</a></li>
+							<li><a href="#_problemes">Les problèmes</a></li>
+						</ul>
+						<br><br>
+					</div>
+					<div class="separation">&nbsp;</div>
+					<div class="titre_bloc t_b_extra">
+						<h2 id="_institutions">
+						   <a href="#haut_page">
+						   <img class="img" style="float:left;" src="../ressources/home.gif" alt="Flèche vers le haut">
+						   </a>
+						   &nbsp;
+						   Les institutions
+						</h2>
+						<img class="no_prt" src="../ressources/ecorne.gif" alt="Marque page" >
+					 </div>
+					<div class="chiffonne">
+						<dl>
+							<dt><a id="Nihon-ki-in"><strong>Nihon ki-in</strong></a></dt>
+							<dd>Principale association de Go japonaise, établie à Tokyo.</dd>
+							<dt><a id="Kansai-ki-in"><strong>Kansai ki-in</strong></a></dt>
+							<dd>Une des deux grandes association japonaise de Go, établie à Osaka, dans le district de Kansai.
+							</dd>
+						</dl>
+					</div>
+					<div class="separation">&nbsp;</div>
+					<div class="titre_bloc t_b_extra">
+						<h2 id="_grades">
+						   <a href="#haut_page">
+						   <img class="img" style="float:left;" src="../ressources/home.gif" alt="Flèche vers le haut">
+						   </a>
+						   &nbsp;
+						   Les grades
+						</h2>
+						<img class="no_prt" src="../ressources/ecorne.gif" alt="Marque page" >
+					 </div>
+					<div class="gauffre2">
+						<dl>
+							<dt><a id="kyu"><strong>Kyu</strong></a></dt>
+							<dd>Rang des débutants. Echelle décroissante.</dd>
+						</dl>
+						<div class="lettrine_kanji">
+							<img style="float:left;" src="6bb5.gif" alt="DAN">
+						</div>
+						<dl>
+							<dt>
+								<a id="dan"><strong>Dan</strong></a>
+							</dt>
+							<dd>Rang des joueurs avancés. On distingue les joueurs amateurs (classement de 1-Dan à 7-Dan avec une pierre de handicap entre chaque Dan) et les professionnels (classement 1-Dan pro à 9-Dan pro avec 1/3 pierre de handicap entre chaque Dan). Un 1-Dan Pro jouant à égalité avec un 6-Dan amateur.
+							</dd>
+							<dt><a id="Menjo"><strong>Menjo</strong></a></dt>
+							<dd>Diplôme certifiant le rang d'un joueur.</dd>
+							<dt><a id="Ikkyu"><strong>Ikkyu</strong></a></dt>
+							<dd>Joueur 1-Kyu</dd>
+							<dt><a id="Insei"><strong>Insei</strong></a></dt>
+							<dd>Apprenti professionnel.</dd>
+							<dt><a id="Kishi"><strong>Kishi</strong></a></dt>
+							<dd>Joueur professionnel</dd>
+							<dt><a id="Shodan"><strong>Shodan</strong></a></dt>
+							<dd>Joueur 1-Dan</dd>
+							<dt><a id="Nidan"><strong>Ni-dan</strong></a></dt>
+							<dd>Joueur 2-Dan</dd>
+							<dt>
+								<strong>
+									<a id="Sandan">San-dan</a>&nbsp;&nbsp; 
+								</strong>
+									<p class="red">san duan</p>
+							</dt>
+							<dd>Joueur 3-Dan.</dd>
+							<dt><a id="Jozu"><strong>Jozu</strong></a></dt>
+							<dd>&quot;Habile&quot;. A l'ère Edo, joueur de niveau 7-Dan</dd>
+							<dt><a id="Jun-Meijin"><strong>Jun-Meijin</strong></a></dt>
+							<dd>&quot;Quasi Meijin&quot;. A l'ère Edo, joueur de niveau 8-Dan.</dd>
+						</dl>
+					</div>
+					<div class="separation">&nbsp;</div>
+					<div class="titre_bloc t_b_extra">
+						<h2 id="_titres">
+						   <a href="#haut_page">
+						   <img class="img" style="float:left;" src="../ressources/home.gif" alt="Flèche vers le haut">
+						   </a>
+						   &nbsp;
+						   Les Titres
+						</h2>
+						<img class="no_prt" src="../ressources/ecorne.gif" alt="Marque page" >
+					 </div>
+					<div class="chiffonne">
+						<dl>
+							<dt><a id="Kisei"><strong>Kisei</strong></a></dt>
+							<dd>1ier titre par ordre d'importance. Littérallement &quot;Saint de Go&quot; d'après les quatre &quot;saints de go&quot; de la période classique : Honinbo Sansa, Honinbo Dosaku, Honinbo Jowa, Honinbo Shusaku.
+							</dd>
+							<dt><a id="Meijin"><strong>Meijin</strong></a></dt>
+							<dd>2nd titre par ordre d'importance.<br>
+								A l'ère Edo, titre décerné au plus fort joueur du jour.
+							</dd>
+							<dt><a id="Honinbo"><strong>Honinbo</strong></a></dt>
+							<dd>3ième titre par ordre d'importance. Ecole fondée par Honinbo Sansa (1559-1623).</dd>
+							<dt><a id="Judan"><strong>Ju-dan</strong></a></dt>
+							<dd>4ième titre par ordre d'importance. Littéralement &quot;10ième Dan&quot;.</dd>
+							<dt><a id="Tengen"><strong>Tengen</strong></a></dt>
+							<dd>5ième titre par ordre d'importance.</dd>
+							<dt><a id="Oza"><strong>Oza</strong></a></dt>
+							<dd>6ième titre par ordre d'importance.</dd>
+							<dt><a id="Gosei"><strong>Gosei</strong></a></dt>
+							<dd>7ième titre par ordre d'importance. D'après le nom d'un des 4 &quot;saints de Go&quot;.</dd>
+							<dt><a id="Godokoro"><strong>Godokoro</strong></a></dt>
+							<dd>Sous le gouvernement Tokugawa, titre donné à vie à l'instructeur officiel du Shogun. Le Godokoro avait seul le droit de décerner brevets et diplômes.
+							</dd>
+						</dl>
+					</div>
+					<div class="separation">&nbsp;</div>
+					<div class="titre_bloc t_b_extra">
+						<h2 id="_rencontres">
+						   <a href="#haut_page">
+						   <img class="img" style="float:left;" src="../ressources/home.gif" alt="Flèche vers le haut">
+						   </a>
+						   &nbsp;
+						   Les rencontres
+						</h2>
+						<img class="no_prt" src="../ressources/ecorne.gif" alt="Marque page" >
+					 </div>
+					<div class="gauffre">
+						<br>
+						<div class="lettrine_kanji">
+							<img style="float:left;" src="756a.gif" alt="BAN">
+							<img style="float:left;" src="7881.gif" alt="GO">
+						</div>
+						<dl>
+							<dt>
+								<strong>-<a id="Bango">Bango</a></strong>
+							</dt>
+							<dd>Match constitué de plusieurs parties. Exemple : <a href="#Ju-bango">Ju-bango</a>.<br><br></dd>
+						</dl>
+						<div class="lettrine_kanji">
+							<img style="float:left;" src="6311.gif" alt="Cho" >
+							<img style="float:left;" src="6226.gif" alt="Sen" >
+							<img style="float:left;" src="8005.gif" alt="Ba" >
+						</div>
+						<dl>
+							<dt>
+								<a id="Chosensha"><strong>Chosensha</strong></a>
+							</dt>
+							<dd>Désigne le challenger dans une rencontre pour un titre.<br><br></dd>
+						</dl>
+						<div class="lettrine_kanji">
+							<img style="float:left;" src="6311.gif" alt="Cho" >
+							<img style="float:left;" src="6226.gif" alt="Sen" >
+							<img style="float:left;" src="624b.gif" alt="Te" >
+							<img style="float:left;" src="5408.gif" alt="Ai" >
+						</div>
+						<dl>
+							<dt>
+								<a id="Chosen-teai"><strong>Chosen teai</strong></a>
+							</dt>
+							<dd>Championnat pour un titre.<br><br></dd>
+							<dt><a id="Goban-shobu"><strong>Goban-shobu</strong></a></dt>
+							<dd>Rencontre en 5 parties maximum où la victoire va au meilleur des 5.</dd>
+							<dt><a id="Ju-bango"><strong>Ju-bango</strong></a></dt>
+							<dd>Rencontre en 10 parties.</dd>
+							<dt><a id="Kado-ban"><strong>Kado-ban</strong></a></dt>
+							<dd>&quot;Jeu d'angle&quot;. Jeu décisif dans un match ou bien qui conduit à un changement de handicap.
+							</dd>
+							<dt><a id="Kuro-ban"><strong>Kuro-ban</strong></a></dt>
+							<dd>Noir joue.</dd>
+							<dt><a id="Nanaban-shobu"><strong>Nanaban shobu</strong></a></dt>
+							<dd>Rencontre en 7 parties maximum où la victoire va au meilleur des 7.</dd>
+							<dt><a id="Saban-shobu"><strong>Saban-shobu</strong></a></dt>
+							<dd>Rencontre en 3 parties maximum où la victoire va au meilleur des 3.</dd>
+							<dt><a id="Shimbun-go"><strong>Shimbun go</strong></a></dt>
+							<dd>Nom générique donné à un tournoi sponsorisé par les journaux japonais.</dd>
+							<dt><a id="Shiro-ban"><strong>Shiro-ban</strong></a></dt>
+							<dd>Blanc joue.</dd>
+							<dt><a id="Shitate"><strong>Shitate</strong></a></dt>
+							<dd>Désigne le joueur le plus faible ou le moins bien classé. Contraire de <a href="#Uwate">Uwate</a>.</dd>
+							<dt><a id="Sogo"><strong>Sogo</strong></a></dt>
+							<dd>&quot;concours de go&quot;. Pendant la période Edo, match de défi.</dd>
+							<dt><a id="Uwate"><strong>Uwate</strong></a></dt>
+							<dd>Désigne le joueur le plus fort ou le mieux classé. Contraire de <a href="#Shitate">Shitate</a>.</dd>
+						</dl>
+					</div>
+					<div class="separation">&nbsp;</div>
+					<div class="titre_bloc t_b_extra">
+						<h2 id="_handicap">
+						   <a href="#haut_page">
+						   <img class="img" style="float:left;" src="../ressources/home.gif" alt="Flèche vers le haut">
+						   </a>
+						   &nbsp;
+						   Les handicaps
+						</h2>
+						<img class="no_prt" src="../ressources/ecorne.gif" alt="Marque page" >
+					 </div>
+					<div class="chiffonne">
+						<dl>
+							<dt><a id="Gyaku-komi"><strong>Gyaku komi</strong></a></dt>
+							<dd>Komi donné à Noir par Blanc</dd>
+							<dt><a id="Josen"><strong>Josen</strong></a></dt>
+							<dd>Handicap constituant à jouer avec noir dans toutes les parties.</dd>
+							<dt>
+								<strong>
+									<a id="komi">Komi</a> </strong>
+								<p class="red">tie mu</p>
+								
+							</dt>
+							<dd>Compensation accordée à blanc dans un jeu à égalité pour le dédommager de jouer en second. Habituellement 5 points et demi.
+							</dd>
+							<dt><a id="Kyushi-kyoku"><strong>Kyushi kyoku</strong></a></dt>
+							<dd>Partie à neuf pierres de handicap.</dd>
+							<dt><a id="Oki-go"><strong>Oki-go</strong></a></dt>
+							<dd>Go à handicap.</dd>
+							<dt><a id="Oki-ishi"><strong>Oki-ishi</strong></a></dt>
+							<dd>Pierres de handicap.</dd>
+							<dt>
+								<strong>
+									<a id="Sei-moku">Sei-moku</a>&nbsp; </strong>
+									<p class="red">rang jiu zi</p>
+							</dt>
+							<dd>Handicap de 9 pierres.</dd>
+							<dt><a id="Sei-moku-furin"><strong>Sei-moku-furin</strong></a></dt>
+							<dd>Partie à 13 pierres de handicap.</dd>
+							<dt>
+								<strong>
+									<a id="Sen-ai-sen">Sen-ai-sen</a>&nbsp; </strong>
+									<p class="red">xian xiang xian</p>
+							</dt>
+							<dd>Handicap pour 1 dan de différence dans un match de professionnel en 3 manches. Le joueur le plus faible prend noir, puis blanc, et enfin noir. A l'époque Edo, l'ordre était noir-noir-blanc
+							</dd>
+							<dt><a id="Senban"><strong>Sen-ban</strong></a></dt>
+							<dd>Handicap pour 2 dans de différence dans un match de professionnel. Le joueur le plus faible prend toujours noir.
+							</dd>
+							<dt><strong><a id="Sen-ni">Sen-ni</a> </strong></dt>
+							<dd>Handicap pour 3 dans de différence dans un match de professionnel. Le joueur le plus faible prend alternativement noir à égalité puis noir avec 2 pierres de handicap.
+							</dd>
+							<dt><a id="Tagai-sen"><strong>Tagai-sen</strong></a></dt>
+							<dd>Partie à égalité.Les deux joueurs alternent entre blanc et noir. Blanc a le <a href="#komi">Komi</a>.</dd>
+						</dl>
+					</div>
+					<div class="separation">&nbsp;</div>
+					<div class="titre_bloc t_b_extra">
+						<h2 id="_philosophie">
+						   <a href="#haut_page">
+						   <img class="img" style="float:left;" src="../ressources/home.gif" alt="Flèche vers le haut">
+						   </a>
+						   &nbsp;
+						   La philosophie
+						</h2>
+						<img class="no_prt" src="../ressources/ecorne.gif" alt="Marque page" >
+					 </div>
+					<div class="gauffre2">
+						<dl>
+							<dt><a id="Kakugen"><strong>Kakugen</strong></a></dt>
+							<dd>Un proverbe de Go.</dd>
+							<dt><a id="Kiai"><strong>Kiai</strong></a></dt>
+							<dd>L'esprit de combat</dd>
+							<dt><a id="Kido"><strong>Kido</strong></a></dt>
+							<dd>La Voie du Go. Expression pour la philosophie du Go.</dd>
+						</dl>
+					</div>
+					<div class="separation">&nbsp;</div>
+					<div class="titre_bloc t_b_extra">
+						<h2 id="_variations">
+						   <a href="#haut_page">
+						   <img class="img" style="float:left;" src="../ressources/home.gif" alt="Flèche vers le haut">
+						   </a>
+						   &nbsp;
+						   Les variantes de jeu
+						</h2>
+						<img class="no_prt" src="../ressources/ecorne.gif" alt="Marque page" >
+					 </div>
+					<div class="chiffonne">
+						<dl>
+							<dt><a id="Haya-go"><strong>Haya-go</strong></a></dt>
+							<dd>Go éclair. Les parties sont jouées rapidement en donnant une minute ou moins par coup.</dd>
+							<dt><a id="Mekura-go"><strong>Mekura-go</strong></a></dt>
+							<dd>Go aveugle. Les deux joueurs utilisent des pierres de même couleur. C'est un arbitre (qui suit la partie avec 2 couleurs) qui signale les ataris et les coups illégaux.
+							</dd>
+							<dt>
+								<strong>
+									<a id="Rengo">Rengo</a>&nbsp; </strong>
+									<p class="red">lian qi</p>
+							</dt>
+							<dd>Go en équipe. Deux joueurs (de préférence de niveaux différents) dans chaque équipe jouent à tour de rôle sans avoir le droit de se consulter.
+							</dd>
+							<dt><a id="Shido-go"><strong>Shido-go</strong></a> </dt>
+							<dd>Partie didactique.</dd>
+						</dl>
+					</div>
+					<div class="separation">&nbsp;</div>
+					<div class="titre_bloc t_b_extra">
+						<h2 id="_problemes">
+						   <a href="#haut_page">
+						   <img class="img" style="float:left;" src="../ressources/home.gif" alt="Flèche vers le haut">
+						   </a>
+						   &nbsp;
+						   Les problèmes
+						</h2>
+						<img class="no_prt" src="../ressources/ecorne.gif" alt="Marque page" >
+					 </div>
+					<div class="gauffre">
+						<dl>
+							<dt><strong><a id="Tsume-go">Tsume-go</a> </strong>
+								ou <a id="Shikatsu"><strong>Shikatsu</strong></a>
+							</dt>
+							<dd>Nom donné aux problèmes de vie et de mort des groupes.</dd>
+							<dt><a id="Tsugi-no-itte"><strong>Tsugi-no-itte</strong></a></dt>
+							<dd>&quot;Le coup suivant&quot;. Nom donné aux problèmes du type 'quel est le meilleur coup'.
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+		</main>
 		<div class="separation"><br><br><br></div>
-		<!-- Bas de page  -->
-		<div id="bas_page">
-			<table border="0" cellpadding="0" cellspacing="0" width="100%">
-				<tr>
-					<td width="12" align="left">
-						<img src="../ressources/coin_vert.gif" width="12" height="22" alt="" >
-					</td>
-					<td align="left">
-						<a href="http://validator.w3.org/check?uri=referer" class="txt">W3C XHTML 1.0</a>
-						<span class="txt">/</span>
-						<a href="http://jigsaw.w3.org/css-validator/check/referer" class="txt">W3C CSS</a>
-					</td>
-					<td width="36" align="right">
-						<a href="#" onclick="mail_webmestre('../');"><img src="../ressources/mail.jpg" class="img" width="36" height="18" alt="" ></a>
-					</td>
-					<td width="18" align="right">
-						<a href="#haut_page"><img class="img" src="../ressources/home.gif" width="18" height="18" alt="" ></a>
-					</td>
-				</tr>
-			</table>
-		</div>
+		<footer id="bas_page">
+			<div>
+				<a href="http://validator.w3.org/check?uri=referer">W3C HTML 5</a>
+				<span>/</span>
+				<a href="http://jigsaw.w3.org/css-validator/check/referer">W3C CSS </a>
+				<span>/</span>
+				<p>
+					WS - 28/05/2025
+				</p>
+			</div>
+			<div>
+				<div>
+					<a href="#" onclick="mail_webmestre('');"><img src="../ressources/mail.jpg" class="img" alt="lettre"></a>
+				</div>
+				<div>
+					<a href="#haut_page"><img src="../ressources/home.gif" class="img" alt="flèche menu"></a>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>

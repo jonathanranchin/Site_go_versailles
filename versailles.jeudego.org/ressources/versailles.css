@@ -118,6 +118,9 @@ td > .no_prt {
 h2 {
 	padding:5px 10px 0px 10px;
 }
+h3 {
+	padding:5px 10px 0px 10px;
+}
 .titre_droit{
 	width:30px;
 }
@@ -316,6 +319,13 @@ h2 {
 .flex_column {
 	display: flex;
 	flex-flow: column nowrap !important;
+	padding: 5px 10px 0px 10px;
+}
+
+.flex_row {
+	display: flex;
+	flex-flow: row nowrap !important; 
+	justify-content: space-between !important;
 	padding: 5px 10px 0px 10px;
 }
 
