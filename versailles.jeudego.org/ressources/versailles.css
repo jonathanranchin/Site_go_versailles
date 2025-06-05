@@ -1,10 +1,11 @@
+/*Charte Graphique #157F1F #4CB963 #A0EADE #5C6784 #1D263B*/
 BODY {
 	margin-right: 10px; 
 	margin-left: 10px;
 	margin-bottom: 5px; 
 	margin-top: 5px; 
 	FONT-FAMILY: verdana, arial, helvetica, sans-serif; 
-	background-color:#8cbb6e;
+	background-color:#4CB963;
 }
 
 h1{
@@ -18,7 +19,7 @@ h1{
 	border-radius: 35px;
 }
 img { 
-/* r�gle le bug d'exploser qui ajoute des marges inutiles... ------------------------------------------------------------------------------------- */
+/* règle le bug d'exploser qui ajoute des marges inutiles... ------------------------------------------------------------------------------------- */
 	display: block; 
 } 
 
@@ -46,12 +47,18 @@ main {
 	border: 2px solid;
 	padding: 3px;
 	margin-bottom: 0.2em;
-	background: #568b47; 
+	background: #157F1F; 
 }
 #flex_menu > div > a {
 	width: 85%;
 	border-radius:35px;
 }
+
+#flex_menu > div > p {
+	padding:5px 10px 0px 10px;
+	color: white;
+}
+
 #flex_menu > div > a:hover,
 #submenu > div > a:hover,
 #submenu > ul > li >a:hover
@@ -79,13 +86,13 @@ main {
 }
 
 img.corps{ 
-/* encadrement des images. Pose visiblement un probl�me � exploser ... ------------------------------------------------------------------------------------- */
+/* encadrement des images. Pose visiblement un problème à exploser ... ------------------------------------------------------------------------------------- */
 	margin: 5px;
 	padding: 2px;
 	border-top:solid 2px #005f00;
 	border-right:solid 2px #005f00;
-	border-left:solid 1px #568b47;
-	border-bottom:solid 1px #568b47;
+	border-left:solid 1px #157F1F;
+	border-bottom:solid 1px #157F1F;
 	background-color:white;
 } 
 
@@ -143,7 +150,7 @@ h3 {
 	border-radius:35px;
 }
 
-/* CSS du pav� Menu ------------------------------------------------------------------------------------- */
+/* CSS du pavé Menu ------------------------------------------------------------------------------------- */
 #menu {
 	margin-bottom: 0px; 
 	margin-left: 0px; 
@@ -157,12 +164,12 @@ h3 {
 }
 
 #menu td.menu_bar{
-	background-color:#568b47; 
+	background-color:#157F1F; 
 	color:white;
 }
 
 #menu A {
-	display: block; /* Pour que le fond affich� en hover soit un rectangle */
+	display: block; /* Pour que le fond affiché en hover soit un rectangle */
 	width:150px;
 	font-size: 13px;
 	font-weight: bold; 
@@ -175,7 +182,7 @@ h3 {
 	color: #d9d8c4; 
 }
 */
-/* Cette classe sert � la fois pour le titre des news et celui des blocs */
+/* Cette classe sert à la fois pour le titre des news et celui des blocs */
 .titre_gauche{
 	border-top:solid 1px #d0d0d0;
 	border-left:solid 2px #909090;
@@ -202,7 +209,7 @@ h3 {
 	color: #FF00FF;
 }
 
-/* CSS du pav� News ------------------------------------------------------------------------------------- */
+/* CSS du pavé News ------------------------------------------------------------------------------------- */
 #news {
 	text-align:left;
 	FONT-SIZE: 90%; 
@@ -264,8 +271,8 @@ h3 {
 	margin: 3px 3px 0px 3px;  
 	border-top:solid 2px #005f00;
 	border-right:solid 2px #005f00;
-	border-left:solid 1px #568b47;
-	border-bottom:solid 1px #568b47;
+	border-left:solid 1px #157F1F;
+	border-bottom:solid 1px #157F1F;
 	background-color:white;
 }
 
@@ -338,28 +345,22 @@ h3 {
 	color: #005f00;
 }
 
-#corps p{
+#corps p,
+#corps dt {
 	margin: 0px 0px 0px 0px ; 
 	padding:0px 10px 0px 10px; 
 	text-align: justify;
 	FONT-SIZE: 90%;
 }
 
-#corps dd{
+#corps dd {
 	margin: 0px 0px 0px 0px ; 
 	padding:0px 10px 20px 30px; 
 	text-align: justify;
 	FONT-SIZE: 90%;
 }
 
-#corps dt{
-	margin: 0px 0px 0px 0px ; 
-	padding:0px 10px 0px 10px; 
-	text-align: justify;
-	FONT-SIZE: 90%;
-}
-
-#corps ul{
+#corps ul {
 	margin: 5px 5px 0px 25px ; 
 	padding:0px 0px 0px 0px; 
 }
@@ -380,7 +381,7 @@ h3 {
 }
 
 #corps th.tableau {
-	background-color:#568b47; 
+	background-color:#157F1F; 
 	color: #fff;
 	font-size: 75%;	
 	text-align: center;
@@ -436,7 +437,7 @@ h3 {
 	color: white;
 }
 
-/* Eviter le cadre disgr�cieux autour des pictogrammes */
+/* Eviter le cadre disgracieux autour des pictogrammes */
 #bas_page .img {
 	color:#005B00;
 }
