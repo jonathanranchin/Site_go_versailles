@@ -207,9 +207,11 @@ h3 {
 }
 .purple {
 	color: #FF00FF;
+}/*
+#protected-container {
+	display: none;
 }
-
-/* CSS du pavé News ------------------------------------------------------------------------------------- */
+ CSS du pavé News ------------------------------------------------------------------------------------- */
 #news {
 	text-align:left;
 	FONT-SIZE: 90%; 
@@ -464,13 +466,22 @@ h3 {
 		flex-flow: row wrap;
 	}
 	#flex_content {
-		width:95%;
+		width:99%;
 	}
 	#flex_menu > div {
 		justify-content: center;
 		justify-content: space-evenly;
 	}
-	.chiffonne > div {
+	.chiffonne > div,
+	.gauffre2 > div {
 		flex-flow: column nowrap;
+	}
+	img {
+		aspect-ratio: 1/1;
+		max-width:100% ;
+		max-height: 100%;
+	}
+	#bas_page > div:nth-child(1) > p {
+		display: none;
 	}
 }

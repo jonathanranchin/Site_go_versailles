@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <title>Go Club de Versailles - Communication</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta content="Go Club de Versailles - Communication" name="description">
+      <meta content="Versailles, jeu de go, go, baduk, weichi, club, breves, goban" name="keywords" >
+      <meta content="index,follow" name="robots" >
+	  <link rel="shortcut icon" href="favicon.ico">
+      <link rel="stylesheet" href="ressources/versailles_prt.css">
+      <link rel="stylesheet" href="ressources/versailles.css">
+   </head>
+   <body>
+		<script src="ressources/email.js"></script>
+		<script src="ressources/security.js"></script>
+		<a id="haut_page"></a>
+		<header id="entete">
+			<div>
+				<h1>Communication</h1>
+			</div>
+			<div>
+				<img src="ressources/entete_logo.gif"  alt="Logo pierre noire" class="no_prt">
+			</div>
+		</header>
+		<!-- Structure globale de la page par tableau -->
+		<main>
+			<div id="flex_menu">
+				<div><img src="ressources/menu_coin.gif" alt="logo_menu" class="no_prt"><a href="index.html">Accueil</a></div>
+				<div><img src="ressources/menu_coin.gif" alt="logo_menu" class="no_prt"><a href="infos.htm">Informations pratiques</a></div>
+				<div><img src="ressources/menu_coin.gif" alt="logo_menu" class="no_prt"><a href="breves.htm">Brèves <br>de goban</a></div>
+				<div><img src="ressources/menu_coin.gif" alt="logo_menu" class="no_prt"><a href="dictionnaire/dictionnaire.htm">Dictionnaire des<br>termes de go</a></div>
+				<!--<div><img src="ressources/menu_coin.gif" alt="logo_menu" class="no_prt"><a href="photos/index_photos.htm">Photos</a></div> -->
+				<div><img src="ressources/menu_coin.gif" alt="logo_menu" class="no_prt"><a href="liens.htm">Liens</a></div>
+                <div><img src="ressources/menu_coin.gif" alt="logo_menu" class="no_prt"><a href="communication.html">Communication</a></div>
+				<!-- <div><img src="../ressources/menu_coin.gif" alt="logo_menu" class="no_prt"><a href="reserve_membres.htm">Pages réservées<br> aux membres</a></div> -->
+				<div>
+					<p>News : Attention, <br> les date des séances  <br> du club  sont susceptible <br> d'évoluer !</p>
+				</div>
+         	</div>
+			<div id="flex_content">
+				<div id="corps">
+					<div class="titre_bloc">
+						<h2>
+							Communication
+						</h2>
+						<div class="titre_droit">
+						<img class="no_prt" src="ressources/ecorne.gif" alt="petit marque page">
+						</div>
+					</div>
+					<div class="chiffonne">
+						<div class="container" id="security-check">
+							<img id="random-image" src="" alt="Security image" />
+							<div id="security-check">
+							<input type="text" id="access-code" placeholder="La description de la position" />
+							<button onclick="runSecurityCheck()">Submit</button>
+							<p id="message"></p>
+							</div>
+						</div>
+				    </div>
+					<div class="chiffonne" id="protected-container" style="display: none;">
+						<iframe name="embed_readwrite" src="https://annuel.framapad.org/p/club-de-go-versailles-aewf?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false" width="100%" height="600" frameborder="0"></iframe>
+				    </div>
+				</div>
+			</div>
+		</main>
+		<div class="separation"><br><br><br></div>
+		<!-- Bas de page  -->
+		<footer id="bas_page">
+			<div>
+				<a href="http://validator.w3.org/check?uri=referer">W3C HTML 5</a>
+				<span>/</span>
+				<a href="http://jigsaw.w3.org/css-validator/check/referer">W3C CSS </a>
+				<span>/</span>
+				<p>
+				WS - 28/05/2025
+				</p>
+			</div>
+			<div>
+				<div>
+				<a href="#" onclick="mail_webmestre('');"><img src="ressources/mail.jpg" class="img" alt="lettre"></a>
+				</div>
+				<div>
+				<a href="#haut_page"><img src="ressources/home.gif" class="img" alt="flèche menu"></a>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
