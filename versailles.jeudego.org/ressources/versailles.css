@@ -25,15 +25,16 @@ img {
 
 main {
 	display: flex;
-	flex-flow: row nowrap;
+	flex-flow: column nowrap;
 	align-items: stretch;
 	justify-content: space-evenly;
 	gap: 3px;
+	width: 100%;
 }
 #flex_menu,
 #submenu {
 	display: flex;
-	flex-flow: column nowrap !important;
+	flex-flow: row nowrap;
 	gap:3px;
 }
 #flex_menu > div,
@@ -42,9 +43,10 @@ main {
 	display: flex;
 	flex-flow: row nowrap;
 	align-items: center;
+	justify-content:center;
 	gap:2px;
 	width: 95%;
-	border: 2px solid;
+	border: 2px solid #1D263B;
 	padding: 3px;
 	margin-bottom: 0.2em;
 	background: #157F1F; 
@@ -82,7 +84,7 @@ main {
 #flex_content {
 	display: flex;
 	flex-flow: column nowrap;
-	width: 75%;
+	width: 100%;
 }
 
 img.corps{ 
@@ -433,6 +435,7 @@ h3 {
 	flex-flow: row nowrap;
 	text-decoration: none;
 	align-items: baseline;
+	gap: 0px 7px;
 }
 #bas_page > div > a {
 	text-decoration: none;
@@ -472,6 +475,9 @@ h3 {
 		justify-content: center;
 		justify-content: space-evenly;
 	}
+	#submenu {
+		flex-flow: row wrap;
+	}
 	.chiffonne > div,
 	.gauffre2 > div {
 		flex-flow: column nowrap;
@@ -483,5 +489,11 @@ h3 {
 	}
 	#bas_page > div:nth-child(1) > p {
 		display: none;
+	}
+	#bas_page .img {
+		color:#005B00;
+		aspect-ratio: inherit; 
+        max-width: inherit; 
+        max-height: inherit;
 	}
 }
