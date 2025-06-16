@@ -1,4 +1,4 @@
-/*Charte Graphique #157F1F #4CB963 #A0EADE #5C6784 #1D263B*/
+/*Charte Graphique #157F1F #4CB963 #A0EADE #5C6784 	*/
 BODY {
 	margin-right: 10px; 
 	margin-left: 10px;
@@ -31,14 +31,12 @@ main {
 	gap: 3px;
 	width: 100%;
 }
-#flex_menu,
-#submenu {
+#flex_menu {
 	display: flex;
 	flex-flow: row nowrap;
 	gap:3px;
 }
-#flex_menu > div,
-#submenu > div {
+#flex_menu > div {
 	border-radius:35px;
 	display: flex;
 	flex-flow: row nowrap;
@@ -51,9 +49,37 @@ main {
 	margin-bottom: 0.2em;
 	background: #157F1F; 
 }
+
 #flex_menu > div > a {
 	width: 85%;
 	border-radius:35px;
+}
+
+.menu-item {
+	display: inline-block;
+	position: relative;
+  }
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 15%;
+	color: white;
+	border: 2px solid #1D263B;
+	background-color: #157F1F;
+	min-width: 150px;
+	z-index: 1;
+}
+
+.dropdown-content > div {
+	border: 1px solid #1D263B;
+	background-color: #4CB963;
+	padding: 4px;
+}
+
+.menu-item:hover .dropdown-content {
+	display: block;
 }
 
 #flex_menu > div > p {
@@ -62,8 +88,7 @@ main {
 }
 
 #flex_menu > div > a:hover,
-#submenu > div > a:hover,
-#submenu > ul > li >a:hover
+.dropdown-content > div > a:hover
 {
 	background-color: #04AA6D; /* Green */
 	box-shadow: 0 0 12px 5px #04AA6D;
@@ -71,16 +96,13 @@ main {
 	-moz-transition: all 0.5s ease-out;
 	transition: all 0.5s ease-out;
 }
-#submenu > ul > li {
-	padding-top: 0.06em;
-	padding-bottom: 0.06em;
-}
+
 #flex_menu > div > a,
-#submenu > div > a,
-#submenu > ul > li a {
+.dropdown-content > div > a {
 	color: white !important; 
 	text-decoration: none !important;
 }
+
 #flex_content {
 	display: flex;
 	flex-flow: column nowrap;
@@ -138,7 +160,7 @@ h3 {
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
-	background: linear-gradient(90deg,rgba(255, 255, 255, 1) 0%, rgba(42, 46, 45, 1) 80%, rgba(0, 0, 0, 1) 100%);
+	background: linear-gradient(111deg,rgba(255, 255, 255, 1) 0%, rgba(179, 187, 199, 0.69) 67%, rgba(0, 0, 0, 1) 77%);
 	border-radius: 35px;
 	margin-right: 0px; 
 	margin-left: 0px;
@@ -245,13 +267,7 @@ h3 {
 	color: black; 
 	text-decoration: none;
 }
-/*
-#news A:hover {
-	background: #008000;
-	color: #d9d8c4; 
-	text-decoration: none;
-}
-*/
+
 .separation {
 	padding: 0px 0px 3px 0px ;  
 	margin: 0px 0px 3px 0px ; 
@@ -463,7 +479,12 @@ h3 {
 		flex-flow: column nowrap;
 	}
 	h1 {
-		font-size: 1.4rem
+		font-size: 1.4rem;
+		max-width: 70%;
+	}
+	#entete {
+		background: linear-gradient(111deg,rgba(255, 255, 255, 1) 0%, rgba(179, 187, 199, 0.69) 55%, rgba(0, 0, 0, 1) 77%);
+		align-items: center;
 	}
 	#flex_menu {
 		flex-flow: row wrap;
@@ -475,8 +496,11 @@ h3 {
 		justify-content: center;
 		justify-content: space-evenly;
 	}
-	#submenu {
-		flex-flow: row wrap;
+	.menu-item:hover .dropdown-content {
+		display: none;
+	}
+	.menu-item.open .dropdown-content {
+		display: block;
 	}
 	.chiffonne > div,
 	.gauffre2 > div {
@@ -486,6 +510,10 @@ h3 {
 		aspect-ratio: 1/1;
 		max-width:100% ;
 		max-height: 100%;
+	}
+	.no_prt {
+		max-width: inherit; 
+        max-height : inherit;
 	}
 	#bas_page > div:nth-child(1) > p {
 		display: none;
